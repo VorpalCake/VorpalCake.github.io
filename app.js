@@ -348,7 +348,7 @@
         continue;
       }
       if (r && typeof r === "object") {
-        const key = String(r.key || "default").toLowerCase();
+        const key = String(r.key || "default");
         const label = String(r.label ?? "");
         const amount = resolveAmount(r);
         if (!label && !amount) continue;
