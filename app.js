@@ -598,7 +598,7 @@
       {},
       {
         get(_, key) {
-          return `data/VectorImages/${key}.svg`;
+          return `data/VectorImages/${key.replace("#", "_")}.svg`;
         },
       },
     );
