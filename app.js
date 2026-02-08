@@ -973,7 +973,7 @@
 
     const iconWrap = document.createElement("span");
     iconWrap.className = "icon";
-    const key = String(stat.key || "default").toLowerCase();
+    const key = String(stat.key || "default");
     const label = String(stat.label ?? "");
     iconWrap.innerHTML = imgIcon(ICONS[key], label || key);
 
