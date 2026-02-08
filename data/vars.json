@@ -1,0 +1,7860 @@
+{
+  "roles": {
+    "Tank": [
+      "D.Va",
+      "Doomfist",
+      "Hazard",
+      "Junker Queen",
+      "Orisa",
+      "Reinhardt",
+      "Sigma",
+      "Winston",
+      "Zarya"
+    ],
+    "Damage": [
+      "Ashe",
+      "Cassidy",
+      "Freja",
+      "Genji",
+      "Junkrat",
+      "Mei",
+      "Pharah",
+      "Reaper",
+      "Sojourn",
+      "Soldier: 76",
+      "Torbjörn",
+      "Tracer"
+    ],
+    "Support": [
+      "Ana",
+      "Brigitte",
+      "Juno",
+      "Kiriko",
+      "Lúcio",
+      "Mercy",
+      "Moira",
+      "Wuyang",
+      "Zenyatta"
+    ]
+  },
+  "abilities": {
+    "D.Va": [
+      "Fusion Cannons",
+      "Micro Missiles",
+      "Defense Matrix",
+      "Boosters",
+      "Self-Destruct"
+    ],
+    "Doomfist": [
+      "Quick Melee",
+      "Seismic Slam",
+      "Rocket Punch",
+      "Meteor Strike",
+      "Power Block",
+      "The Best Defense..."
+    ],
+    "Hazard": [
+      "Bonespur",
+      "Spike Guard",
+      "Violent Leap",
+      "Jagged Wall",
+      "Downpour"
+    ],
+    "Junker Queen": [
+      "Adrenaline Rush",
+      "Scattergun",
+      "Jagged Blade (Gracie)",
+      "Commanding Shout",
+      "Carnage",
+      "Rampage"
+    ],
+    "Orisa": [
+      "Augmented Fusion Driver",
+      "Javelin Spin",
+      "Fortify",
+      "Energy Javelin",
+      "Terra Surge"
+    ],
+    "Reinhardt": ["Barrier Field", "Charge", "Fire Strike", "Rocket Hammer"],
+    "Sigma": [
+      "Hyperspheres",
+      "Kinetic Grasp",
+      "Experimental Barrier",
+      "Accretion",
+      "Gravitic Flux",
+      "Quick Melee"
+    ],
+    "Winston": [
+      "Tesla Cannon",
+      "Jump Pack",
+      "Barrier Projector",
+      "Primal Rage"
+    ],
+    "Zarya": [
+      "Particle Cannon",
+      "Energy",
+      "Particle Barrier",
+      "Graviton Surge"
+    ],
+    "Ashe": ["The Viper", "Coach Gun", "Dynamite", "B.O.B."],
+    "Cassidy": ["Peacekeeper", "Combat Roll", "Deadeye", "Flashbang"],
+    "Freja": ["Take Aim", "Revdraw Crossbow", "Bola Shot", "Updraft"],
+    "Genji": [
+      "Shuriken",
+      "Swift Strike",
+      "Deflect",
+      "Quick Melee",
+      "Dragonblade"
+    ],
+    "Junkrat": [
+      "Frag Launcher",
+      "Steel Trap",
+      "Concussion Mine",
+      "Quick Melee",
+      "Total Mayhem",
+      "Rip Tire"
+    ],
+    "Mei": ["Endothermic Blaster", "Ice Wall", "Cryo-Freeze", "Blizzard"],
+    "Pharah": ["Concussive Blast", "Barrage", "Rocket Launcher", "Jet Dash"],
+    "Reaper": ["Hellfire Shotguns", "Shadow Step", "Wraith Form"],
+    "Sojourn": [
+      "Power Slide",
+      "Disruptor Shot",
+      "Railgun",
+      "Overclock",
+      "Charged Shot"
+    ],
+    "Soldier: 76": [
+      "Tactical Visor",
+      "Heavy Pulse Rifle",
+      "Helix Rockets",
+      "Biotic Field"
+    ],
+    "Torbjörn": [
+      "Deploy Turret",
+      "Molten Core",
+      "Overload",
+      "Forge Hammer",
+      "Rivet Gun"
+    ],
+    "Tracer": ["Quick Melee", "Blink", "Recall", "Pulse Pistols", "Pulse Bomb"],
+    "Ana": ["Biotic Rifle", "Sleep Dart", "Biotic Grenade", "Nano Boost"],
+    "Brigitte": [
+      "Rocket Flail",
+      "Repair Pack",
+      "Whip Shot",
+      "Shield Bash",
+      "Barrier Shield",
+      "Inspire",
+      "Rally"
+    ],
+    "Juno": [
+      "Mediblaster",
+      "Pulsar Torpedoes",
+      "Glide Boost",
+      "Hyper Ring",
+      "Orbital Ray"
+    ],
+    "Kiriko": [
+      "Kunai",
+      "Healing Ofuda",
+      "Swift Step",
+      "Protection Suzu",
+      "Kitsune Rush"
+    ],
+    "Lúcio": [
+      "Sonic Amplifier",
+      "Crossfade",
+      "Amp It Up",
+      "Wall Ride",
+      "Soundwave",
+      "Sound Barrier"
+    ],
+    "Mercy": [
+      "Caduceus Staff",
+      "Caduceus Blaster",
+      "Resurrect",
+      "Guardian Angel"
+    ],
+    "Moira": ["Biotic Grasp", "Biotic Orb", "Fade", "Coalescence"],
+    "Wuyang": [
+      "Xuanwu Staff",
+      "Restorative Stream",
+      "Rushing Torrent",
+      "Guardian Wave"
+    ],
+    "Zenyatta": [
+      "Orb of Destruction",
+      "Orb of Harmony",
+      "Orb of Discord",
+      "Transcendence"
+    ]
+  },
+  "textures": {
+    "<tx0x0C00000000061B04>": "data/VectorImages/AbilityPower.svg",
+    "<tx0x0C00000000061B0B>": "data/VectorImages/WeaponPower.svg",
+    "<tx0x0C0000000005E25E>": "data/VectorImages/WeaponPower.svg",
+    "<tx0x0C00000000061B06>": "data/VectorImages/AttackSpeed.svg",
+    "<tx0x0C00000000061AFD>": "data/VectorImages/MaxAmmo.svg"
+  },
+  "items": [
+    {
+      "Name": "Compensator",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ]
+    },
+    {
+      "Name": "Plasma Converter",
+      "Stats": [
+        {
+          "key": "WeaponLifesteal",
+          "label": "Weapon Lifesteal",
+          "amount": "10%"
+        }
+      ]
+    },
+    {
+      "Name": "Weapon Grease",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        }
+      ]
+    },
+    {
+      "Name": "Ammo Reserves",
+      "Stats": [
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "20%"
+        }
+      ]
+    },
+    {
+      "Name": "Frenzy Amplifier",
+      "vars": ["10%", "15%", "3"]
+    },
+    {
+      "Name": "Stratosphere Beacon",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "vars": ["25%", "15", "3", "3", "", "10"]
+    },
+    {
+      "Name": "Aftermarket Firing Pin",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        },
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "5%"
+        }
+      ]
+    },
+    {
+      "Name": "Advanced Nanobiotics",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "vars": ["10%", "3"]
+    },
+    {
+      "Name": "Emergency Chip",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "vars": ["", "15%", "150", "", "5", "50"]
+    },
+    {
+      "Name": "Shieldbuster",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "vars": ["", "15%", "1"]
+    },
+    {
+      "Name": "Stockpile",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        },
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "25%"
+        }
+      ]
+    },
+    {
+      "Name": "Technoleech",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        },
+        {
+          "key": "WeaponLifesteal",
+          "label": "Weapon Lifesteal",
+          "amount": "10%"
+        }
+      ]
+    },
+    {
+      "Name": "Icy Coolant",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ]
+    },
+    {
+      "Name": "Talon Modification Module",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        }
+      ]
+    },
+    {
+      "Name": "Aerial Distresser",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["3", "25%"]
+    },
+    {
+      "Name": "Salvaged Slugs",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "Increased Damage to Barriers and Deployables",
+          "amount": "50%"
+        }
+      ],
+      "vars": ["", "", "50%"]
+    },
+    {
+      "Name": "Volskaya Ordnance",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["", "5%", "100", "25%"]
+    },
+    {
+      "Name": "Codebreaker",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        }
+      ],
+      "vars": ["", "50%"]
+    },
+    {
+      "Name": "Commander's Clip",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        },
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "40%"
+        }
+      ],
+      "vars": ["", "", "10%"]
+    },
+    {
+      "Name": "Weapon Jammer",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["10%", "2"]
+    },
+    {
+      "Name": "Amari's Antidote",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        }
+      ],
+      "vars": ["", "", "15%"]
+    },
+    {
+      "Name": "Booster Jets",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "20%"
+        }
+      ],
+      "vars": ["", "10%", "2"]
+    },
+    {
+      "Name": "El-Sa'ka Suppressor",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["30%", "2"]
+    },
+    {
+      "Name": "Hardlight Accelerator",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["", "", "5%", "3", "3"]
+    },
+    {
+      "Name": "Eye of the Spider",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "25%"
+        }
+      ],
+      "vars": ["10%"]
+    },
+    {
+      "Name": "The Closer",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "20%"
+        },
+        {
+          "key": "CriticalDamage",
+          "label": "Critical Damage",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["", "3"]
+    },
+    {
+      "Name": "Charged Plating",
+      "vars": ["10%", "25"]
+    },
+    {
+      "Name": "Power Playbook",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ]
+    },
+    {
+      "Name": "Shady Spectacles",
+      "Stats": [
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        }
+      ]
+    },
+    {
+      "Name": "Winning Attitude",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "vars": ["", "15%"]
+    },
+    {
+      "Name": "Custom Stock",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ]
+    },
+    {
+      "Name": "Biolight Overflow",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "vars": ["75", "3"]
+    },
+    {
+      "Name": "Energized Bracers",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        }
+      ]
+    },
+    {
+      "Name": "Junker Whatchamajig",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "Starting Ultimate Charge",
+          "amount": "25%"
+        }
+      ]
+    },
+    {
+      "Name": "Skyline Nanites",
+      "Stats": [
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["2", "20%"]
+    },
+    {
+      "Name": "Wrist Wraps",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ]
+    },
+    {
+      "Name": "Multi-tool",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ]
+    },
+    {
+      "Name": "Vitality Amplifier",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        }
+      ],
+      "vars": ["", "15%", "50%", "10%", "10%"]
+    },
+    {
+      "Name": "Nano Cola",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ]
+    },
+    {
+      "Name": "Sonic Recharger",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["75"]
+    },
+    {
+      "Name": "Three-Tap Tommygun",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["3", "1", "", "", "0.25"]
+    },
+    {
+      "Name": "Biotech Maximizer",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["", "", "5%"]
+    },
+    {
+      "Name": "Catalytic Crystal",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "vars": ["", "20%"]
+    },
+    {
+      "Name": "Superflexor",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["5%", "5", 3]
+    },
+    {
+      "Name": "Cybervenom",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "vars": ["2", "30%"]
+    },
+    {
+      "Name": "Liquid Nitrogen",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["", "", "10%", "3", "", "15%"]
+    },
+    {
+      "Name": "LumériCo Fusion Drive",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "vars": ["", "", "50", "3"]
+    },
+    {
+      "Name": "Mark of the Kitsune",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["", "25"]
+    },
+    {
+      "Name": "Iridescent Iris",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "20%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["", "", "100", "3"]
+    },
+    {
+      "Name": "Champion's Kit",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "35%"
+        }
+      ]
+    },
+    {
+      "Name": "Ballistic Buffer",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        }
+      ],
+      "vars": ["20", "50", "3", "", "15"]
+    },
+    {
+      "Name": "Electrolytes",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        }
+      ],
+      "vars": ["100"]
+    },
+    {
+      "Name": "Field Rations",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        }
+      ],
+      "vars": ["8"]
+    },
+    {
+      "Name": "Running Shoes",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        }
+      ],
+      "vars": ["30%", "10"]
+    },
+    {
+      "Name": "Adrenaline Shot",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "vars": ["", "50", "20%", "5"]
+    },
+    {
+      "Name": "Armored Vest",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ]
+    },
+    {
+      "Name": "First Aid Kit",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        }
+      ],
+      "vars": ["", "33%"]
+    },
+    {
+      "Name": "Reflex Coating",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        }
+      ],
+      "vars": ["", "75", "3"]
+    },
+    {
+      "Name": "Siphon Gloves",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "vars": ["", "25"]
+    },
+    {
+      "Name": "Cushioned Padding",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "Incoming Negative Effect Duration",
+          "amount": "-40%"
+        }
+      ],
+      "vars": ["", "", "10%", "3"]
+    },
+    {
+      "Name": "Iron Eyes",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "5%"
+        }
+      ],
+      "vars": ["", "20%"]
+    },
+    {
+      "Name": "Reinforced Titanium",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        }
+      ],
+      "vars": ["", "15%", "5%"]
+    },
+    {
+      "Name": "Vishkar Condensor",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        }
+      ],
+      "vars": ["", "150"]
+    },
+    {
+      "Name": "Bloodbound",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "vars": ["", "10%", "10%"]
+    },
+    {
+      "Name": "Ironclad Exhaust Ports",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "vars": ["25", "3"]
+    },
+    {
+      "Name": "Vital-E-Tee",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "10"
+        }
+      ],
+      "vars": ["100"]
+    },
+    {
+      "Name": "Crusader Hydraulics",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "vars": ["", "10%", "5%"]
+    },
+    {
+      "Name": "MEKA Z-Series",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health, Armor, Shields",
+          "amount": "8%"
+        }
+      ]
+    },
+    {
+      "Name": "Geneticist's Vial",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "vars": ["", "250", "3"]
+    },
+    {
+      "Name": "Divine Intervention",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "50"
+        }
+      ],
+      "vars": ["", "125", "", "", "20%", "3"]
+    },
+    {
+      "Name": "Overdrive Core",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "vars": ["", "", "30%", "300"]
+    },
+    {
+      "Name": "Gloomgauntlet",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        },
+        {
+          "key": "MeleeDamage",
+          "label": "Melee Damage",
+          "amount": "15%"
+        }
+      ],
+      "vars": ["", "10%", "", "5%", "2"]
+    },
+    {
+      "Name": "Martian Mender",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "vars": ["", "3%"]
+    },
+    {
+      "Name": "Phantasmic Flux",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "WeaponLifesteal",
+          "label": "Weapon Lifesteal",
+          "amount": "15%"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "15%"
+        }
+      ],
+      "vars": ["", "", "", "100"]
+    },
+    {
+      "Name": "Rüstung von Wilhelm",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "15%"
+        }
+      ],
+      "vars": ["", "30%", "10%"]
+    },
+    {
+      "Name": "Vanadium Injection",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "50"
+        },
+        "Description",
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        },
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "10%"
+        }
+      ]
+    },
+    {
+      "Name": "Nebula Conduit",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "vars": ["", "", "15%", "3"]
+    },
+    {
+      "Name": "Ogundimu Reduction Field",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "vars": ["", "0.5%", "", "20", "1"]
+    },
+    {
+      "Name": "Aura Repellant",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Cooldown": "20",
+      "vars": ["", "", "8"]
+    },
+    {
+      "Name": "Barrier Snippet",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Cooldown": "35",
+      "vars": ["50", "3"]
+    },
+    {
+      "Name": "Exo Springs",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Cooldown": "15",
+      "vars": ["250%", "", "", "0.75"]
+    },
+    {
+      "Name": "Feathered Soles",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Cooldown": "20",
+      "vars": ["25%", "5"]
+    },
+    {
+      "Name": "Med Kit",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Cooldown": "15",
+      "vars": ["", "", "20", "10"]
+    },
+    {
+      "Name": "Dashing Skates",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "5%"
+        }
+      ],
+      "Cooldown": "15"
+    },
+    {
+      "Name": "Field Support",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Cooldown": "15",
+      "vars": ["", "50", "5"]
+    },
+    {
+      "Name": "Kitsune Snippet",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Cooldown": "25",
+      "vars": ["", "", "50", "100", "25%", "5"]
+    },
+    {
+      "Name": "Kitsune Charm",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "50"
+        },
+        {
+          "key": "Star",
+          "label": "Incoming Negative Effect Duration",
+          "amount": "-40%"
+        }
+      ],
+      "Cooldown": "20",
+      "vars": ["", "0.65", "75%", "", "", "", "", "75"]
+    },
+    {
+      "Name": "Necrotic Repellant",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Cooldown": "25",
+      "vars": ["", "1", "", "", "", "", "4"]
+    },
+    {
+      "Name": "Colossus Core",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "Knockback Resist",
+          "amount": "40%"
+        },
+        {
+          "key": "Star",
+          "label": "Slow Resist",
+          "amount": "40%"
+        }
+      ],
+      "Cooldown": "25",
+      "vars": ["", "", "25%", "", "25%", "5", "25%"]
+    },
+    {
+      "Name": "Jet Skates",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Cooldown": "8"
+    },
+    {
+      "Name": "Super Serum",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        },
+        {
+          "key": "WeaponLifesteal",
+          "label": "Weapon Lifesteal",
+          "amount": "10%"
+        }
+      ],
+      "Cooldown": "30",
+      "vars": ["", "", "", "", "50%", "15%", "5"]
+    },
+    {
+      "Name": "Refresher",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Cooldown": "60",
+      "vars": ["", "", "8"]
+    },
+    {
+      "Name": "Multi-Task Mod",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "D.Va"
+    },
+    {
+      "Name": "Dae-hyun's Detonator",
+      "Stats": [
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "Mastermind's Mitigator",
+      "Hero": "D.Va",
+      "vars": ["1", "200"]
+    },
+    {
+      "Name": "Vesuvius Protocol",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["80"]
+    },
+    {
+      "Name": "Busan Blaster",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "20%"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["80"]
+    },
+    {
+      "Name": "Macro Missile",
+      "Hero": "D.Va",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Onslaught Ordinance",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Refraction Armor",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Galvanized Core",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Boosters]</fg> Duration",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "D.Va"
+    },
+    {
+      "Name": "Plot Armor",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["65%"]
+    },
+    {
+      "Name": "Solo Spec",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["10%", "100"]
+    },
+    {
+      "Name": "APM AMP",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "50"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["25%", "2", "16"]
+    },
+    {
+      "Name": "Chip-Damage Diverter",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Singijeon's Pulse Plating",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["10%"],
+      "Icon": "data/Talents/Singijeon's_Pulse_Plating.webp"
+    },
+    {
+      "Name": "Nano Cola™ Nitrous",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        }
+      ],
+      "Hero": "D.Va",
+      "vars": ["4"]
+    },
+    {
+      "Name": "Loaded Knuckles",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        },
+        {
+          "key": "MeleeDamage",
+          "label": "Melee Damage",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Doomfist",
+      "vars": ["1", "100%"]
+    },
+    {
+      "Name": "Power Bank",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Doomfist",
+      "vars": ["2.5"]
+    },
+    {
+      "Name": "Wing Clipper",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Doomfist"
+    },
+    {
+      "Name": "Friendly Fissure",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Doomfist",
+      "vars": ["", "", "20%", "5"]
+    },
+    {
+      "Name": "Chasm Crusher",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Seismic Slam]</fg> Leap Distance",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Doomfist"
+    },
+    {
+      "Name": "Quickcharger",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Doomfist",
+      "vars": ["", "10%"]
+    },
+    {
+      "Name": "Dual Layer Dampener",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "Increased <fg#ffffffff>[Power Block]</fg> Damage Reduction",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Doomfist"
+    },
+    {
+      "Name": "Zoomfist",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Doomfist",
+      "vars": ["", "15%", "1", "15%", "3"]
+    },
+    {
+      "Name": "Power Matrix",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Doomfist",
+      "vars": ["1", "1%"]
+    },
+    {
+      "Name": "Calcium Efficiency",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Hazard",
+      "vars": ["15%", "5"]
+    },
+    {
+      "Name": "Sharpsurge",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Hazard",
+      "vars": ["1%", "3", "25"]
+    },
+    {
+      "Name": "Birdseye Blade",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Hazard",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Skewer Bloom",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Spike Guard]</fg> range",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Hazard"
+    },
+    {
+      "Name": "Boomslang's Blaster",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Hazard",
+      "vars": ["", "5", "10"]
+    },
+    {
+      "Name": "Touch-Up's Touch Up",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Hazard",
+      "vars": ["20%", "3"]
+    },
+    {
+      "Name": "Phreak Foil",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "Extra <fg#ffffffff>[Spike Guard]</fg> Resource",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Hazard",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Home Turf",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Hazard",
+      "vars": ["20%", "100%", "9"]
+    },
+    {
+      "Name": "Spine Protector",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "WeaponLifesteal",
+          "label": "Weapon Lifesteal",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Hazard",
+      "vars": ["2%"]
+    },
+    {
+      "Name": "Blood Needle",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Spike Guard]</fg> Max Resource",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Hazard",
+      "vars": ["0.3%"]
+    },
+    {
+      "Name": "Susannah's Support",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Jagged Wall]</fg> Health",
+          "amount": "65%"
+        }
+      ],
+      "Hero": "Hazard",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Gutpunch Gauntlet",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": ["75%"]
+    },
+    {
+      "Name": "Monarch's Decree",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Shred and Lead",
+      "Stats": [
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "33%"
+        },
+        {
+          "key": "WeaponLifesteal",
+          "label": "Weapon Lifesteal",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": ["", "10%", "", "4", "3"]
+    },
+    {
+      "Name": "Bloodhound Mask",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": ["5%", "12"]
+    },
+    {
+      "Name": "Bigger Magnet",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Tinker Tracksuit",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": ["10%", "4"]
+    },
+    {
+      "Name": "Booming Voice",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Commanding Shout]</fg> Radius",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Junker Queen"
+    },
+    {
+      "Name": "Dez's Damage Dampeners",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "Knockback Resist",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": "When knocked back, gain <fg#ffffffff>%1$s</fg> increased Move Speed for <fg#ffffffff>%2$s</fg>s. "
+    },
+    {
+      "Name": "Rebellious Spirit",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": ["10%", "150"]
+    },
+    {
+      "Name": "Slicing Spree",
+      "Stats": [
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": ["5%", "12", "10%"]
+    },
+    {
+      "Name": "Scav Scraps",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": ["40%"]
+    },
+    {
+      "Name": "Thick Skull",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": ["75%"]
+    },
+    {
+      "Name": "Undying Loyalty",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Commanding Shout]</fg> Overhealth",
+          "amount": "30%"
+        }
+      ],
+      "Hero": "Junker Queen",
+      "vars": "Allies affected by <fg#ffffffff>[Commanding Shout]</fg> are healed for <fg#ffffffff>%1$s</fg> of Junker Queen's life every second."
+    },
+    {
+      "Name": "Electro Lights",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Enhanced Target Sensors",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Optimized Energy",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["5%"]
+    },
+    {
+      "Name": "Arcfinder",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Elite Rotator Cuff",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Javelin Spin]</fg> Duration",
+          "amount": "35%"
+        }
+      ],
+      "Hero": "Orisa"
+    },
+    {
+      "Name": "Refraction Tiles",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Efi's Theorem",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "20%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Fortify]</fg> Duration",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Orisa"
+    },
+    {
+      "Name": "Oladele-copter Blades",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "3D-Printed Lance",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["15%", "", "25"]
+    },
+    {
+      "Name": "Charged Chassis",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Siphonic Spear",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["10%", "", "3"]
+    },
+    {
+      "Name": "Solar Regenergy",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["3%"]
+    },
+    {
+      "Name": "HollaGram Helmet",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Orisa",
+      "vars": ["", "2"]
+    },
+    {
+      "Name": "Ironclad Cleats",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "Knockback Resist",
+          "amount": "40%"
+        }
+      ],
+      "Hero": "Reinhardt"
+    },
+    {
+      "Name": "Dampener Grip",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Reinhardt",
+      "vars": ["", "1"]
+    },
+    {
+      "Name": "Plan Z",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Reinhardt",
+      "vars": ["", "30%", "3%"]
+    },
+    {
+      "Name": "Boost Recycler",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Reinhardt",
+      "vars": ["", "50%"]
+    },
+    {
+      "Name": "Chimera's Maw",
+      "Stats": [
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Fire Strike]</fg> Radius",
+          "amount": "50%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Fire Strike]</fg> Projectile Speed",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Reinhardt",
+      "vars": ["", "", "5%"]
+    },
+    {
+      "Name": "Gryphon Glider",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Reinhardt"
+    },
+    {
+      "Name": "Crusader's Cure",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "Knockback Resist",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Reinhardt"
+    },
+    {
+      "Name": "Overclocked Barrier",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Barrier Field]</fg> Health",
+          "amount": "20%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Barrier Field]</fg> Size",
+          "amount": "20%"
+        }
+      ],
+      "Hero": "Reinhardt"
+    },
+    {
+      "Name": "Phoenix Protocol",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Reinhardt",
+      "vars": ["50%", "", "", "", "50%"]
+    },
+    {
+      "Name": "Wilhelmwagen",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Reinhardt",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "Velocity Vector",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Hyperspheres]</fg> Range",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Sigma"
+    },
+    {
+      "Name": "Maglev Multiplier",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Sigma",
+      "vars": ["", "", "20%", "25%"]
+    },
+    {
+      "Name": "Antimatter",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Hyperspheres]</fg> Explosion Radius",
+          "amount": "55%"
+        }
+      ],
+      "Hero": "Sigma"
+    },
+    {
+      "Name": "Volatile Gravel",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Sigma",
+      "vars": ["", "5%", "4"]
+    },
+    {
+      "Name": "Containment Field",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Kinetic Grasp]</fg> Duration",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Sigma"
+    },
+    {
+      "Name": "The Harness",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "25%"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Accretion]</fg> Explosion Radius",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Sigma"
+    },
+    {
+      "Name": "Beam Splitter",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Sigma",
+      "vars": ["", "75%"]
+    },
+    {
+      "Name": "Synced Shielding",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Sigma",
+      "vars": ["", "10%", "10%"]
+    },
+    {
+      "Name": "De Kuiper's Thesis",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Sigma",
+      "vars": ["", "3%"]
+    },
+    {
+      "Name": "Current Convertor",
+      "Stats": [
+        {
+          "key": "WeaponLifesteal",
+          "label": "Weapon Lifesteal",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["15%", "100"]
+    },
+    {
+      "Name": "Deconstructor",
+      "Stats": [
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Gibraltar Generator",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Harold's Glasses",
+      "Stats": [
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Zero-G Suit",
+      "Stats": [
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["50%", "2"]
+    },
+    {
+      "Name": "Horizon Expander",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "20%"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "Unstable Prototype",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["25"]
+    },
+    {
+      "Name": "Lucheng Launchers",
+      "Stats": [
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Primal Rage]</fg> Duration",
+          "amount": "50%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Jump Pack]</fg> Base Damage",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "Winton",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "10"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["2000"]
+    },
+    {
+      "Name": "Premium Peanut Butter",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Winston"
+    },
+    {
+      "Name": "Smart-Armor",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["50%", "25%"]
+    },
+    {
+      "Name": "S. PaceArmor",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["150"]
+    },
+    {
+      "Name": "Fortified Jump Pack",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Simian Supplements",
+      "Stats": [
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Barrier Projector]</fg> Duration",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Winston",
+      "vars": ["300"]
+    },
+    {
+      "Name": "Hybrid Battery",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Zarya",
+      "vars": ["", "20"]
+    },
+    {
+      "Name": "Light Launcher",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Zarya",
+      "vars": ["", "20%", "", "60%"]
+    },
+    {
+      "Name": "Bigger Beam",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Zarya",
+      "vars": ["", "20%"]
+    },
+    {
+      "Name": "Beyond Barrier",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Projected Barrier]</fg> Range",
+          "amount": "20%"
+        }
+      ],
+      "Hero": "Zarya"
+    },
+    {
+      "Name": "Lynx's Datadrive",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Zarya",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "Superconductor",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Zarya",
+      "vars": ["", "", "50%", "3"]
+    },
+    {
+      "Name": "Blastproof Boots",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Zarya",
+      "vars": ["", "100%"]
+    },
+    {
+      "Name": "Jumper Cables",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Zarya"
+    },
+    {
+      "Name": "Protein Shake",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "MeleeDamage",
+          "label": "Melee Damage",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Zarya"
+    },
+    {
+      "Name": "Maxed Mag",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["3%", "50%"]
+    },
+    {
+      "Name": "Tripod",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Greased Loader",
+      "Stats": [
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "25%"
+        },
+        {
+          "key": "ReloadSpeed",
+          "label": "Reload Speed",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Ashe"
+    },
+    {
+      "Name": "Ironsights",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["1%", "10", "", "15%"]
+    },
+    {
+      "Name": "Sidewinder",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["25%", "10"]
+    },
+    {
+      "Name": "Furnace Fuel",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["3%"]
+    },
+    {
+      "Name": "Silver Lighter",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Build-A-Blast Buckshot",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Infrared Lenses",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Stacked Sticks",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Dynamite]</fg> Explosion Radius",
+          "amount": "40%"
+        }
+      ],
+      "Hero": "Ashe"
+    },
+    {
+      "Name": "Silver Spurs",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["20%", "5", "25%"]
+    },
+    {
+      "Name": "B.O.B. Wire Defense",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["300"]
+    },
+    {
+      "Name": "Firestarter",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Quickload Chamber",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "ReloadSpeed",
+          "label": "Reload Speed",
+          "amount": "20%"
+        }
+      ],
+      "Hero": "Cassidy",
+      "vars": ["20%", "6"]
+    },
+    {
+      "Name": "Competitive Analysis",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Cassidy",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Blackwatch Tech",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Cassidy",
+      "vars": ["10%", "40%"]
+    },
+    {
+      "Name": "Streamlined Poncho",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Cassidy",
+      "vars": ["2"]
+    },
+    {
+      "Name": "Snake Bite",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Cassidy",
+      "vars": ["30%", "2.5"]
+    },
+    {
+      "Name": "Improvised Dynamite",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "20%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Cassidy",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Wanted Poster",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Cassidy",
+      "vars": ["500", "", "50%"]
+    },
+    {
+      "Name": "Duck and Roll",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Combat Roll]</fg> Distance",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Cassidy"
+    },
+    {
+      "Name": "Frankie's Fixer",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Cassidy",
+      "vars": ["2.5%", "", "3"]
+    },
+    {
+      "Name": "Eagle Eye",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Cassidy",
+      "vars": ["25%", "12"]
+    },
+    {
+      "Name": "Slipstream Scarf",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Quick Dash]</fg> Distance",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Freja"
+    },
+    {
+      "Name": "Tracker Tag",
+      "Stats": [
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "30%"
+        }
+      ],
+      "Hero": "Freja",
+      "vars": ["", "20%", "3"]
+    },
+    {
+      "Name": "Portable Zipline",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Freja"
+    },
+    {
+      "Name": "Windwalker Boots",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Freja",
+      "vars": ["", "", "1"]
+    },
+    {
+      "Name": "Aeroweave Cloak",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Take Aim]</fg> Slowed Momentum Duration",
+          "amount": "100%"
+        }
+      ],
+      "Hero": "Freja",
+      "vars": ["", "", "5%", "10%"]
+    },
+    {
+      "Name": "Hunter's Mark",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Freja",
+      "vars": ["", "250", "40"]
+    },
+    {
+      "Name": "Tourniquet",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Freja",
+      "vars": ["", "50", "5"]
+    },
+    {
+      "Name": "Toxin Tips",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Freja",
+      "vars": ["1", "30%"]
+    },
+    {
+      "Name": "Spiked Grip",
+      "Stats": [
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "30%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Genji",
+      "vars": ["", "35%"]
+    },
+    {
+      "Name": "Enduring Edge",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "s <fg#ffffffff>[Dragonblade]</fg> Duration",
+          "amount": "4"
+        }
+      ],
+      "Hero": "Genji"
+    },
+    {
+      "Name": "Ambusher Optics",
+      "Stats": [
+        {
+          "key": "MeleeDamage",
+          "label": "Melee Damage",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Genji",
+      "vars": ["", "50%"]
+    },
+    {
+      "Name": "Swift-Loader",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        },
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "30%"
+        }
+      ],
+      "Hero": "Genji",
+      "vars": ["20%", "20%", "2.5"]
+    },
+    {
+      "Name": "Ninja Soles",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "Move Speed during <fg#ffffffff>[Deflect]</fg>",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Genji"
+    },
+    {
+      "Name": "Traversal Kinetics",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Genji",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Clean Sweep",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Swift Strike]</fg> Width",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Genji"
+    },
+    {
+      "Name": "Deflecting Dash",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Genji"
+    },
+    {
+      "Name": "Sparrowhawk Feather",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Genji"
+    },
+    {
+      "Name": "Anti-Beam Coating",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Genji"
+    },
+    {
+      "Name": "Equilibrium Gear",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Genji",
+      "vars": ["", "5%"]
+    },
+    {
+      "Name": "Transference Delta",
+      "Stats": [
+        {
+          "key": "Star",
+          "label": "Ultimate Cost Reduction",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Genji",
+      "vars": ["", "100"]
+    },
+    {
+      "Name": "Slicy Coolant",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "s <fg#ffffffff>[Deflect]</fg> Duration",
+          "amount": "1"
+        }
+      ],
+      "Hero": "Genji"
+    },
+    {
+      "Name": "Spiked Gloves",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Junkrat",
+      "vars": ["", "", "25%", "10%"]
+    },
+    {
+      "Name": "Springier Spring",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Frag Launcher]</fg> Bounce Distance",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Junkrat"
+    },
+    {
+      "Name": "Zip Grease",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Junkrat",
+      "vars": ["", "200%", "2", "", "10%"]
+    },
+    {
+      "Name": "Improvised Explosives",
+      "Stats": [
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "Starting Ultimate Charge",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Junkrat",
+      "vars": ["", "", "0.5"]
+    },
+    {
+      "Name": "Rat Pack",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Steel Trap]</fg> Health",
+          "amount": "100%"
+        }
+      ],
+      "Hero": "Junkrat",
+      "vars": ["", "", "33%0"]
+    },
+    {
+      "Name": "Lithium Alloy",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Steel Trap]</fg> Throw Distance",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Junkrat",
+      "vars": ["", "", "75", "3"]
+    },
+    {
+      "Name": "Charged Chompas",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Junkrat",
+      "vars": ["", "", "3%"]
+    },
+    {
+      "Name": "Fawkes' Funny Fuel™",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Concussion Mine]</fg> Explosion Radius",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Junkrat",
+      "vars": ["", "", "25%", "", "5"]
+    },
+    {
+      "Name": "Thermal Traps",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Junkrat",
+      "vars": ["25%", "3", "", "10%"]
+    },
+    {
+      "Name": "Refreshing Radiation",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Concussion Mine]</fg> Health",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Junkrat",
+      "vars": ["", "", "8%", "5"]
+    },
+    {
+      "Name": "Jamison's Jumpers",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Junkrat",
+      "vars": ["", "", "15%"]
+    },
+    {
+      "Name": "Focused Flurries",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Mei",
+      "vars": ["75%", "50%"]
+    },
+    {
+      "Name": "Himalayan Hat",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Mei",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Snowboot",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Mei",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Ecopoint Cryobed",
+      "Hero": "Mei",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Icy Veins",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Mei",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "Sturdy Snowfort",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Mei",
+      "vars": ["5%"]
+    },
+    {
+      "Name": "Coldspot",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Mei",
+      "vars": ["", "35%", "1.50"]
+    },
+    {
+      "Name": "Meicicle",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Mei",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Ice Sheet",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Mei",
+      "vars": ["1", "100%"]
+    },
+    {
+      "Name": "Blast Enhancer",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Rocket Launcher]</fg> Explosion Radius",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Pharah"
+    },
+    {
+      "Name": "Precision Targeting",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "20%"
+        }
+      ],
+      "Hero": "Pharah",
+      "vars": ["1"]
+    },
+    {
+      "Name": "Cairo Coolant",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Pharah",
+      "vars": ["20%", "3"]
+    },
+    {
+      "Name": "Overcharged Ordnance",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Mini Rocket]</fg> Explosion Radius",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Pharah"
+    },
+    {
+      "Name": "Helix Inhibitor",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "20%"
+        }
+      ],
+      "Hero": "Pharah",
+      "vars": ["20%", "2"]
+    },
+    {
+      "Name": "Flight Plan",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Pharah",
+      "vars": ["25", "3"]
+    },
+    {
+      "Name": "Tuned Turbines",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Pharah",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Forward Shielding",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Pharah",
+      "vars": ["25%", "3"]
+    },
+    {
+      "Name": "Ana's Aim-Assist",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Pharah",
+      "vars": ["15%", "3"]
+    },
+    {
+      "Name": "Nightcreeper",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        },
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Reaper",
+      "vars": ["", "", "", "3"]
+    },
+    {
+      "Name": "Spectral Slugs",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        },
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Reaper"
+    },
+    {
+      "Name": "Onslaught",
+      "Stats": [
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Reaper",
+      "vars": ["", "", "80%"]
+    },
+    {
+      "Name": "Crowd Control",
+      "Stats": [
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Reaper",
+      "vars": ["5%"]
+    },
+    {
+      "Name": "Crimson Cloak",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Reaper",
+      "vars": ["5%"]
+    },
+    {
+      "Name": "Wreath Of Ruin",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "20%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Death Blossom]</fg> Radius",
+          "amount": "25%"
+        },
+        {
+          "key": "Star",
+          "label": "Move Speed during <fg#ffffffff>[Death Blossom]</fg>",
+          "amount": "20%"
+        }
+      ],
+      "Hero": "Reaper"
+    },
+    {
+      "Name": "Devastation",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Reaper",
+      "vars": ["", "25", "75"]
+    },
+    {
+      "Name": "Neverfrost",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Reaper"
+    },
+    {
+      "Name": "Pocket Mist",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Reaper",
+      "vars": ["", "20%"]
+    },
+    {
+      "Name": "Dauntless Draught",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "Star",
+          "label": "Move Speed during <fg#ffffffff>[Wraith Form]</fg>",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Wraith Form]</fg> Duration",
+          "amount": "33%"
+        }
+      ],
+      "Hero": "Reaper"
+    },
+    {
+      "Name": "Wretched Wings",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Reaper",
+      "vars": ["", "20%"]
+    },
+    {
+      "Name": "Espresso Shots",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        },
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Sojourn",
+      "vars": ["2"]
+    },
+    {
+      "Name": "Rocket-Powered Javelin",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Sojourn",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "Shah-Mat Strategem",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Sojourn",
+      "vars": ["", "", "50%", "5"]
+    },
+    {
+      "Name": "Murphy's Motor Module",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Sojourn"
+    },
+    {
+      "Name": "Energy Leech",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Sojourn",
+      "vars": ["", "10%"]
+    },
+    {
+      "Name": "CAF Calibrator",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Disruptor Shot]</fg> Projectile Speed",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Sojourn"
+    },
+    {
+      "Name": "Liao's Logistics Data",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Disruptor Shot]</fg> Duration",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Sojourn"
+    },
+    {
+      "Name": "Afterburners",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Power Slide]</fg> Jump Height",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Sojourn"
+    },
+    {
+      "Name": "Pulse Converter",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Soldier: 76",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Battery Pack",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Biotic Field]</fg> Duration",
+          "amount": "40%"
+        }
+      ],
+      "Hero": "Soldier: 76"
+    },
+    {
+      "Name": "Bomb Diffusal Boots",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "Reduced <fg#ffffffff>[Helix Rocket]</fg> Self-Damage",
+          "amount": "90%"
+        }
+      ],
+      "Hero": "Soldier: 76",
+      "vars": ["", "", "200%"]
+    },
+    {
+      "Name": "Endgame Equalizer",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Soldier: 76",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Rapid Response Radius",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "Biotic Field Radius",
+          "amount": "40%"
+        }
+      ],
+      "Hero": "Soldier: 76",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Compression Fatigues",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Sprint]</fg> Move Speed",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Soldier: 76"
+    },
+    {
+      "Name": "Iron Lung",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Soldier: 76",
+      "vars": ["5%", "25%", "", "5"]
+    },
+    {
+      "Name": "Rivet Refresher",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        },
+        {
+          "key": "ReloadSpeed",
+          "label": "Reload Speed",
+          "amount": "30%"
+        }
+      ],
+      "Hero": "Torbjörn",
+      "vars": ["", "", "25%"]
+    },
+    {
+      "Name": "Speedish Feetfalls",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Torbjörn",
+      "vars": ["", "", "15%"]
+    },
+    {
+      "Name": "Ingrid's Ingenuity",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Torbjörn",
+      "vars": ["2%", "20%"]
+    },
+    {
+      "Name": "Skjutsnabbt System",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "WeaponLifesteal",
+          "label": "Weapon Lifesteal",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Overload]</fg> Duration",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Torbjörn",
+      "vars": "When <fg#ffffffff>[Overload]</fg> expires, gain <fg#ffffffff>%4$s</fg> Attack Speed for <fg#ffffffff>%5$ss</fg>."
+    },
+    {
+      "Name": "Forgewalker",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Torbjörn",
+      "vars": ["", "20%"]
+    },
+    {
+      "Name": "Reclaimer's Rig",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Torbjörn",
+      "vars": ["", "", "1", "25", "3"]
+    },
+    {
+      "Name": "Arturretficial Intelligence",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Torbjörn"
+    },
+    {
+      "Name": "Lindholm Launcher",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Turret]</fg> Targeting Range",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Deploy Turret]</fg> Throw Range",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Torbjörn"
+    },
+    {
+      "Name": "Oververloader",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Torbjörn",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "Ironblood Injectors",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Torbjörn",
+      "vars": ["", "5%", "30%"]
+    },
+    {
+      "Name": "Pulse Detector",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Tracer",
+      "vars": ["", "", "1"]
+    },
+    {
+      "Name": "Underworld Quickloader",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Tracer",
+      "vars": ["", "", "1%", "30"]
+    },
+    {
+      "Name": "Drag Reducers",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Pulse Bomb]</fg> Throw Distance",
+          "amount": "100%"
+        }
+      ],
+      "Hero": "Tracer"
+    },
+    {
+      "Name": "Chrono Bomb",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "20%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Pulse Bomb]</fg> Explosion Radius",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Tracer",
+      "vars": ["30%", "30%", "2"]
+    },
+    {
+      "Name": "Iggy's Ignition",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        },
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Tracer"
+    },
+    {
+      "Name": "Emily's Affection",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "16"
+        }
+      ],
+      "Hero": "Tracer",
+      "vars": ["50", "5"]
+    },
+    {
+      "Name": "Custom Kicks",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "33"
+        }
+      ],
+      "Hero": "Tracer",
+      "vars": ["6", "10%", "1"]
+    },
+    {
+      "Name": "Oxton Overdrive",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "16"
+        }
+      ],
+      "Hero": "Tracer",
+      "vars": ["2"]
+    },
+    {
+      "Name": "Slipstream Salve",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "16"
+        }
+      ],
+      "Hero": "Tracer",
+      "vars": ["70%"]
+    },
+    {
+      "Name": "Potent Projectiles",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "Quick Scope",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "Faster Scope Speed",
+          "amount": "200%"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Tactical Rifle",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Ana"
+    },
+    {
+      "Name": "Unscoped Resources",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "Max Ammo",
+          "amount": "4"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Target Tracker",
+      "Stats": [
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Biotic Grenade]</fg> Duration",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["5%", "25%"]
+    },
+    {
+      "Name": "Sleep Regimen",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["10", "50"]
+    },
+    {
+      "Name": "Cluster Core",
+      "Stats": [
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["1"]
+    },
+    {
+      "Name": "Lethal Dose",
+      "Stats": [
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["100", "60"]
+    },
+    {
+      "Name": "Grenadius Pin",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "20%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Biotic Grenade]</fg> Radius",
+          "amount": "30%"
+        }
+      ],
+      "Hero": "Ana"
+    },
+    {
+      "Name": "Dash Boots",
+      "Stats": [
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["", "3"]
+    },
+    {
+      "Name": "I.V. Drip",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["150"]
+    },
+    {
+      "Name": "Perfected Formula",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Nano Boost]</fg> Duration",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Ana"
+    },
+    {
+      "Name": "Eye of Horus",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["60"]
+    },
+    {
+      "Name": "Time Out",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "75"
+        }
+      ],
+      "Hero": "Ana",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Omni-Boots",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Shield Bash]</fg> Distance",
+          "amount": "40%"
+        }
+      ],
+      "Hero": "Brigitte"
+    },
+    {
+      "Name": "Haste Paste",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Brigitte",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Chain Extender",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Whip Shot]</fg> Range",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Brigitte"
+    },
+    {
+      "Name": "Scavenged Steel",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Brigitte",
+      "vars": ["2%"]
+    },
+    {
+      "Name": "Mitzi's Medicine",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Brigitte",
+      "vars": ["75"]
+    },
+    {
+      "Name": "Squire's Satchel",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Brigitte",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Valkyrian Core",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Brigitte",
+      "vars": ["", "50%"]
+    },
+    {
+      "Name": "Dragons' Incinerator",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Rally]</fg> Duration",
+          "amount": "20%"
+        }
+      ],
+      "Hero": "Brigitte",
+      "vars": ["5%"]
+    },
+    {
+      "Name": "Hardlight Weave",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Brigitte",
+      "vars": ["150%"]
+    },
+    {
+      "Name": "Nullifier Neuroworks",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Brigitte",
+      "vars": ["0.5"]
+    },
+    {
+      "Name": "Vantage Shot",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Juno",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Gravitational Push",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Juno",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Pulse Spike",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Pulsar Torpedoes]</fg> Projectile Speed",
+          "amount": "35%"
+        }
+      ],
+      "Hero": "Juno",
+      "vars": ["25%", "4"]
+    },
+    {
+      "Name": "Long Range Blaster",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "20%"
+        }
+      ],
+      "Hero": "Juno",
+      "vars": ["15%", "12"]
+    },
+    {
+      "Name": "Lux Loop",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Hyper Ring]</fg> Duration",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Juno"
+    },
+    {
+      "Name": "PulStar Destroyers",
+      "Hero": "Juno",
+      "vars": ["35"]
+    },
+    {
+      "Name": "Red Promise Regulator",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "50"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Juno"
+    },
+    {
+      "Name": "Solar Shielding",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Juno",
+      "vars": ["25"]
+    },
+    {
+      "Name": "Lock-On Shield",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Juno",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Sunburst Serum",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "75"
+        }
+      ],
+      "Hero": "Juno",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Boosted Rockets",
+      "Stats": [
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Glide Boost]</fg> Duration",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Juno",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Asa's Armaments",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Kiriko",
+      "vars": ["1"]
+    },
+    {
+      "Name": "Farsight Focus Sash",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Kiriko",
+      "vars": ["200%", "5"]
+    },
+    {
+      "Name": "Teamwork Toolkit",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Kiriko",
+      "vars": ["10%", "3"]
+    },
+    {
+      "Name": "Ryōta's Reloader",
+      "Stats": [
+        {
+          "key": "ReloadSpeed",
+          "label": "Reload Speed",
+          "amount": "35%"
+        }
+      ],
+      "Hero": "Kiriko",
+      "vars": ["", "100%"]
+    },
+    {
+      "Name": "Spirits' Guidance",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Healing Ofuda]</fg> Projectile Speed",
+          "amount": "100%"
+        }
+      ],
+      "Hero": "Kiriko"
+    },
+    {
+      "Name": "Eye Of The Yokai",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Kitsune Rush]</fg> Duration",
+          "amount": "35%"
+        }
+      ],
+      "Hero": "Kiriko"
+    },
+    {
+      "Name": "Cyclist Gloves",
+      "Hero": "Kiriko",
+      "vars": ["20%", "3"]
+    },
+    {
+      "Name": "Donut Delivery",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Kiriko",
+      "vars": ["80", "", "2"]
+    },
+    {
+      "Name": "Our Bikes",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Kiriko",
+      "vars": ["80"]
+    },
+    {
+      "Name": "Talisman of Velocity",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Kiriko",
+      "vars": ["4", "25%", "25%"]
+    },
+    {
+      "Name": "Kitsune Kicks",
+      "Stats": [
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Kiriko"
+    },
+    {
+      "Name": "Goddess's Aura",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Kiriko",
+      "vars": ["100", "4"]
+    },
+    {
+      "Name": "Talisman of Life",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Kiriko",
+      "vars": ["80", "5"]
+    },
+    {
+      "Name": "B-Side Bop",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "MeleeDamage",
+          "label": "Melee Damage",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Lúcio",
+      "vars": ["200%"]
+    },
+    {
+      "Name": "Riff Repeater",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Lúcio",
+      "vars": ["", "3"]
+    },
+    {
+      "Name": "LoFly Beats",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Lúcio"
+    },
+    {
+      "Name": "Nano Boop",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Lúcio",
+      "vars": ["", "5"]
+    },
+    {
+      "Name": "#1 Single",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Lúcio",
+      "vars": ["", "2"]
+    },
+    {
+      "Name": "Airwaves",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Lúcio",
+      "vars": ["", "", "50%"]
+    },
+    {
+      "Name": "All-Out Auditiva",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Amp It Up]</fg> Duration",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Lúcio"
+    },
+    {
+      "Name": "Speed Skates",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Lúcio",
+      "vars": ["", "2"]
+    },
+    {
+      "Name": "Hip Hop",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Lúcio"
+    },
+    {
+      "Name": "Mid-Air Mobilizer",
+      "Hero": "Mercy",
+      "vars": ["10%", "5%"]
+    },
+    {
+      "Name": "Glass Extra Full",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Mercy",
+      "vars": ["25"]
+    },
+    {
+      "Name": "Caduceus EX",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Caduceus Staff]</fg> Range",
+          "amount": "33%"
+        }
+      ],
+      "Hero": "Mercy"
+    },
+    {
+      "Name": "Celestial Clip",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "33%"
+        }
+      ],
+      "Hero": "Mercy",
+      "vars": ["", "", "10%"]
+    },
+    {
+      "Name": "Long Distance Wings",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Guardian Angel]</fg> Range",
+          "amount": "33%"
+        }
+      ],
+      "Hero": "Mercy"
+    },
+    {
+      "Name": "Blessed Boosters",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Mercy",
+      "vars": ["", "25%"]
+    },
+    {
+      "Name": "Resurrection Rangefinder",
+      "Stats": [
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Resurrection]</fg> Range",
+          "amount": "75%"
+        }
+      ],
+      "Hero": "Mercy"
+    },
+    {
+      "Name": "Angelic Acrobatics",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Guardian Angel]</fg> Move Speed",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Mercy"
+    },
+    {
+      "Name": "Aerodynamic Feathers",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Mercy",
+      "vars": ["", "10%", "", "60%"]
+    },
+    {
+      "Name": "Angeleisure Wear",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Mercy",
+      "vars": ["", "3%"]
+    },
+    {
+      "Name": "Chain Evoker",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "50"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Caduceus Staff]</fg> Damage Boost",
+          "amount": "5%"
+        },
+        {
+          "key": "Star",
+          "label": "Ultimate Charge from Damage Boost",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Mercy"
+    },
+    {
+      "Name": "Bio-Needles",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Moira",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "High Capacity Tubing",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "Max <fg#ffffffff>[Biotic Energy]</fg>",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Moira"
+    },
+    {
+      "Name": "Alternative Energy",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Moira"
+    },
+    {
+      "Name": "Subatomic Splitter",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Biotic Grasp]</fg> Secondary Fire Range",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Moira"
+    },
+    {
+      "Name": "Smart Orbs",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Moira",
+      "vars": ["", "50%"]
+    },
+    {
+      "Name": "Levitation Shawl",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Moira"
+    },
+    {
+      "Name": "Coalegion",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Moira",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Extendrils",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Biotic Orb]</fg> Tendril Range",
+          "amount": "30%"
+        }
+      ],
+      "Hero": "Moira"
+    },
+    {
+      "Name": "Abyss Boots",
+      "Stats": [
+        {
+          "key": "Health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Moira",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "Oscillation Orb",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Wuyang"
+    },
+    {
+      "Name": "Tidefill Basin",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "MaxAmmo",
+          "label": "Max Ammo",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Wuyang",
+      "vars": ["3", "5%"]
+    },
+    {
+      "Name": "Oceanic Ointment",
+      "Stats": [
+        {
+          "key": "Star",
+          "label": "Empowered Orb Splash Radius",
+          "amount": "35%"
+        }
+      ],
+      "Hero": "Wuyang",
+      "vars": ["50%", "100"]
+    },
+    {
+      "Name": "Aquajet Amplifier",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>Active [Restorative Stream]</fg> Healing Power",
+          "amount": "25%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Restorative Stream] Healing Range</fg>",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Wuyang"
+    },
+    {
+      "Name": "Metal College Module",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Wuyang",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Water College Hat",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>Passive [Restorative Stream]</fg> Duration",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Wuyang",
+      "vars": ["10", "30"]
+    },
+    {
+      "Name": "Wuxing Waveriders",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Wuyang"
+    },
+    {
+      "Name": "Ye Family Visor",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Guardian Wave]</fg> Increased Healing Effect Duration",
+          "amount": "50%"
+        }
+      ],
+      "Hero": "Wuyang",
+      "vars": ["5"]
+    },
+    {
+      "Name": "Reservoir Refresher",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Wuyang",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Hydrocache",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Restorative Stream]</fg> Max Resource",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Wuyang"
+    },
+    {
+      "Name": "Hydro Mender",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Wuyang",
+      "vars": ["2%", "10%"]
+    },
+    {
+      "Name": "Torrential Transistor",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Wuyang",
+      "vars": ["12", "50", "", "15%"]
+    },
+    {
+      "Name": "Waterfall Wetsuit",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Wuyang",
+      "vars": ["20", "80"]
+    },
+    {
+      "Name": "Haste Subroutine",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["100%", "3"]
+    },
+    {
+      "Name": "Orb of Perception",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "15%"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Zenyatta"
+    },
+    {
+      "Name": "Genji's Galvanic Gloves",
+      "Stats": [
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Breezeborne Blessing",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Satya's Solution",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["1"]
+    },
+    {
+      "Name": "Friendship Bracelet",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Mondatta's Mantra",
+      "Stats": [
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Transcendence]</fg> Duration",
+          "amount": "30%"
+        }
+      ],
+      "Hero": "Zenyatta"
+    },
+    {
+      "Name": "Mind Shaper",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "15%"
+        },
+        {
+          "key": "Star",
+          "label": "Starting Ultimate Charge",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Hiking Hoverboots",
+      "Stats": [
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["3"]
+    },
+    {
+      "Name": "Keepsake of Chaos",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["5", "50"]
+    },
+    {
+      "Name": "Transference Protocol",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["3%"]
+    },
+    {
+      "Name": "Golden Monk",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["50", "5%"]
+    },
+    {
+      "Name": "Meditation Mat",
+      "Stats": [
+        {
+          "key": "Armor",
+          "label": "Armor",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["80", "6"]
+    },
+    {
+      "Name": "Teacher's Totem",
+      "Stats": [
+        {
+          "key": "Shield",
+          "label": "Shields",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Zenyatta",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Focused Fusion",
+      "Hero": "D.Va",
+      "vars": ["20", "50%"]
+    },
+    {
+      "Name": "Legendary Loadout",
+      "Hero": "D.Va",
+      "vars": ["325%", "100%", "6"]
+    },
+    {
+      "Name": "Overstocked",
+      "Hero": "D.Va",
+      "vars": ["1"]
+    },
+    {
+      "Name": "Countermeasures",
+      "Hero": "D.Va",
+      "vars": ["2", "150"]
+    },
+    {
+      "Name": "Facetanking",
+      "Hero": "D.Va",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "Ultrawide Matrix",
+      "Hero": "D.Va",
+      "vars": ["50%", "25%"]
+    },
+    {
+      "Name": "Ignition Burst",
+      "Hero": "D.Va",
+      "vars": ["80"]
+    },
+    {
+      "Name": "MEKA Punch",
+      "Hero": "D.Va",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Stat Boost",
+      "Hero": "D.Va",
+      "vars": ["125%"]
+    },
+    {
+      "Name": "Tokki Slam",
+      "Hero": "D.Va",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Express Detonation",
+      "Hero": "D.Va",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Party Protector",
+      "Hero": "D.Va",
+      "vars": ["250", "8"]
+    },
+    {
+      "Name": "Jab Cross",
+      "Hero": "Doomfist",
+      "vars": ["75%", "1", "3"]
+    },
+    {
+      "Name": "Rising Uppercut",
+      "Hero": "Doomfist",
+      "vars": ["10", "12"]
+    },
+    {
+      "Name": "The Bestest Defense",
+      "Hero": "Doomfist",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Aftershock",
+      "Hero": "Doomfist",
+      "vars": ["1.5", "60%"]
+    },
+    {
+      "Name": "Seismic Rally",
+      "Hero": "Doomfist",
+      "vars": ["", "", "3", "3%"]
+    },
+    {
+      "Name": "Slam Wham",
+      "Hero": "Doomfist",
+      "vars": ["2%", "6%"]
+    },
+    {
+      "Name": "Boomfist",
+      "Hero": "Doomfist",
+      "vars": ["5%", "0.5"]
+    },
+    {
+      "Name": "Jetforce Jab",
+      "Hero": "Doomfist",
+      "vars": ["20%", "3"]
+    },
+    {
+      "Name": "Overpowered",
+      "Hero": "Doomfist",
+      "vars": ["25%", "50%", "", "150%"]
+    },
+    {
+      "Name": "Asteroid Smash",
+      "Hero": "Doomfist",
+      "vars": ["150", "12"]
+    },
+    {
+      "Name": "Helping Hand",
+      "Hero": "Doomfist",
+      "vars": ["8%", "", "", "25%"]
+    },
+    {
+      "Name": "Block Party",
+      "Hero": "Doomfist",
+      "vars": ["15%", "8", "5%"]
+    },
+    {
+      "Name": "Barbed Shot",
+      "Hero": "Hazard",
+      "vars": ["2", "10"]
+    },
+    {
+      "Name": "Bonerot",
+      "Hero": "Hazard",
+      "vars": ["20", "25%"]
+    },
+    {
+      "Name": "Hit Me Again",
+      "Hero": "Hazard",
+      "vars": ["0.1", "90%"]
+    },
+    {
+      "Name": "Bunny Hop",
+      "Hero": "Hazard",
+      "vars": ["2"]
+    },
+    {
+      "Name": "Slasher",
+      "Hero": "Hazard",
+      "vars": ["80", "25%", "10"]
+    },
+    {
+      "Name": "Twin Fang",
+      "Hero": "Hazard",
+      "vars": ["75%"]
+    },
+    {
+      "Name": "Woof Woof!",
+      "Hero": "Hazard",
+      "vars": ["15%", "30%"]
+    },
+    {
+      "Name": "Fortress",
+      "Hero": "Hazard",
+      "vars": ["35%", "25"]
+    },
+    {
+      "Name": "Juiced",
+      "Hero": "Hazard",
+      "vars": ["100", "12", "2"]
+    },
+    {
+      "Name": "Off The Wall",
+      "Hero": "Hazard",
+      "vars": ["60", "8", "1.5"]
+    },
+    {
+      "Name": "Bringin' the Pain",
+      "Hero": "Hazard",
+      "vars": ["20%", "25%", "10"]
+    },
+    {
+      "Name": "Thrill of Battle",
+      "Hero": "Junker Queen",
+      "vars": ["100%", "12"]
+    },
+    {
+      "Name": "Royal Bullets",
+      "Hero": "Junker Queen",
+      "vars": ["40", "2"]
+    },
+    {
+      "Name": "Twist The Knife",
+      "Hero": "Junker Queen",
+      "vars": ["2"]
+    },
+    {
+      "Name": "Let's Go Win",
+      "Hero": "Junker Queen",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Merciless Magnetism",
+      "Hero": "Junker Queen",
+      "vars": ["25"]
+    },
+    {
+      "Name": "Reckoner's Roar",
+      "Hero": "Junker Queen",
+      "vars": ["30", "3", "10"]
+    },
+    {
+      "Name": "Chop Chop",
+      "Hero": "Junker Queen",
+      "vars": ["1"]
+    },
+    {
+      "Name": "Bloodcrazed",
+      "Hero": "Junker Queen",
+      "vars": ["15%", "45%"]
+    },
+    {
+      "Name": "Bow Down",
+      "Hero": "Junker Queen",
+      "vars": ["1.5"]
+    },
+    {
+      "Name": "Blade Parade",
+      "Hero": "Junker Queen",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "Cut 'Em, Gracie!",
+      "Hero": "Junker Queen",
+      "vars": ["2", "35%", "1"]
+    },
+    {
+      "Name": "Advanced Throwbotics",
+      "Hero": "Orisa",
+      "vars": ["75%"]
+    },
+    {
+      "Name": "Hot Rotate-O",
+      "Hero": "Orisa",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Spynstem Update",
+      "Hero": "Orisa",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Factory Reset",
+      "Hero": "Orisa",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Hooves of Steel",
+      "Hero": "Orisa",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Restortify",
+      "Hero": "Orisa",
+      "vars": ["8%"]
+    },
+    {
+      "Name": "Ride With Me",
+      "Hero": "Orisa",
+      "vars": ["10%", "30%"]
+    },
+    {
+      "Name": "Lassoed",
+      "Hero": "Orisa",
+      "vars": ["4"]
+    },
+    {
+      "Name": "Centripetal Charge",
+      "Hero": "Orisa",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Scorched Earth",
+      "Hero": "Orisa",
+      "vars": ["25%", "4", "6"]
+    },
+    {
+      "Name": "Shield Divergence",
+      "Hero": "Orisa",
+      "vars": ["600"]
+    },
+    {
+      "Name": "Amplification Barrier",
+      "Hero": "Reinhardt",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Barrier Reconstruction",
+      "Hero": "Reinhardt",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Infusion Generator",
+      "Hero": "Reinhardt",
+      "vars": ["250%"]
+    },
+    {
+      "Name": "To Me, My Friends!",
+      "Hero": "Reinhardt",
+      "vars": ["5%", "5"]
+    },
+    {
+      "Name": "Shield Stampede",
+      "Hero": "Reinhardt",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Vanguard",
+      "Hero": "Reinhardt",
+      "vars": ["10%", "3", "20%"]
+    },
+    {
+      "Name": "Vroom Boom Boom",
+      "Hero": "Reinhardt",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "Blazing Blitz",
+      "Hero": "Reinhardt",
+      "vars": ["4"]
+    },
+    {
+      "Name": "Impact Burst",
+      "Hero": "Reinhardt",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "Magma Strike",
+      "Hero": "Reinhardt",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Feeling The Burn",
+      "Hero": "Reinhardt",
+      "vars": ["", "30%", "2"]
+    },
+    {
+      "Name": "Smashing!",
+      "Hero": "Reinhardt",
+      "vars": ["1%", "3%", "2", "10"]
+    },
+    {
+      "Name": "Zero Gravity",
+      "Hero": "Sigma",
+      "vars": ["1.5", "10%"]
+    },
+    {
+      "Name": "Hyperloop",
+      "Hero": "Sigma",
+      "vars": ["0.8"]
+    },
+    {
+      "Name": "Trinisphere",
+      "Hero": "Sigma",
+      "vars": ["", "50%"]
+    },
+    {
+      "Name": "Symphonic Syzygy",
+      "Hero": "Sigma",
+      "vars": ["100", "10%", "4", "4"]
+    },
+    {
+      "Name": "Orbital Barrier",
+      "Hero": "Sigma",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Philharmonic Fortitude",
+      "Hero": "Sigma",
+      "vars": ["50%", "25%"]
+    },
+    {
+      "Name": "Mass Driver",
+      "Hero": "Sigma",
+      "vars": ["300%", "20%"]
+    },
+    {
+      "Name": "Singularity",
+      "Hero": "Sigma",
+      "vars": ["75%"]
+    },
+    {
+      "Name": "Maestro",
+      "Hero": "Sigma",
+      "vars": ["50%", "35%", "50%"]
+    },
+    {
+      "Name": "Apogee Alignment",
+      "Hero": "Sigma",
+      "vars": ["2"]
+    },
+    {
+      "Name": "Astrophysical",
+      "Hero": "Sigma",
+      "vars": ["1", "10"]
+    },
+    {
+      "Name": "Circuit Breaker",
+      "Hero": "Winston",
+      "vars": ["2%", "15%", "100"]
+    },
+    {
+      "Name": "Electro Cluster",
+      "Hero": "Winston",
+      "vars": ["2%", "20%"]
+    },
+    {
+      "Name": "Lightning Rod",
+      "Hero": "Winston",
+      "vars": ["50%", "6"]
+    },
+    {
+      "Name": "Volatile Volt",
+      "Hero": "Winston",
+      "vars": ["175%"]
+    },
+    {
+      "Name": "Lunar Leap",
+      "Hero": "Winston",
+      "vars": ["2%", "5%", "100"]
+    },
+    {
+      "Name": "Moon Landing",
+      "Hero": "Winston",
+      "vars": ["7%"]
+    },
+    {
+      "Name": "Primal Punch",
+      "Hero": "Winston",
+      "vars": ["25", "3%"]
+    },
+    {
+      "Name": "Pocket Projector",
+      "Hero": "Winston",
+      "vars": ["5%"]
+    },
+    {
+      "Name": "Surge Protector",
+      "Hero": "Winston",
+      "vars": ["25", "100"]
+    },
+    {
+      "Name": "Tesla Field",
+      "Hero": "Winston",
+      "vars": ["40"]
+    },
+    {
+      "Name": "Primal Slam",
+      "Hero": "Winston",
+      "vars": ["", "50%"]
+    },
+    {
+      "Name": "Thick Skin",
+      "Hero": "Winston",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "No Limits",
+      "Hero": "Zarya",
+      "vars": ["125", "150%"]
+    },
+    {
+      "Name": "Particle Accelerator",
+      "Hero": "Zarya",
+      "vars": ["15%", "", "5"]
+    },
+    {
+      "Name": "Piercing Beam",
+      "Hero": "Zarya",
+      "vars": ["80"]
+    },
+    {
+      "Name": "Pre-Workout",
+      "Hero": "Zarya",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Barrier Benefits",
+      "Hero": "Zarya",
+      "vars": ["100%", "2"]
+    },
+    {
+      "Name": "Containment Shield",
+      "Hero": "Zarya",
+      "vars": ["20%", "5%"]
+    },
+    {
+      "Name": "Fission Field",
+      "Hero": "Zarya",
+      "vars": ["1", "25%", "10", "20%"]
+    },
+    {
+      "Name": "Here To Spot You",
+      "Hero": "Zarya",
+      "vars": ["20%", "3"]
+    },
+    {
+      "Name": "Lifelift",
+      "Hero": "Zarya",
+      "vars": ["50%", "50%"]
+    },
+    {
+      "Name": "Major Flex",
+      "Hero": "Zarya",
+      "vars": ["", "25", "5"]
+    },
+    {
+      "Name": "Volskaya Vortex",
+      "Hero": "Zarya",
+      "vars": ["", "2", "", "", "", "", "80"]
+    },
+    {
+      "Name": "Graviton Anomaly",
+      "Hero": "Zarya",
+      "vars": ["25%", "50%", "30"]
+    },
+    {
+      "Name": "Head Honcho",
+      "Hero": "Ashe",
+      "vars": ["5%", "15%"],
+      "Icon": "Headhunter"
+    },
+    {
+      "Name": "Incendiary Rounds",
+      "Hero": "Ashe",
+      "vars": ["30"]
+    },
+    {
+      "Name": "My Business, My Rules",
+      "Hero": "Ashe",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Reload Therapy",
+      "Hero": "Ashe",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Calamity",
+      "Hero": "Ashe",
+      "vars": ["2", "3", "40"]
+    },
+    {
+      "Name": "Incendiary Blast",
+      "Hero": "Ashe",
+      "vars": ["100", "", "75"]
+    },
+    {
+      "Name": "Early Detonation",
+      "Hero": "Ashe",
+      "vars": ["3", "5"]
+    },
+    {
+      "Name": "Molten Munitions",
+      "Hero": "Ashe",
+      "vars": ["80"]
+    },
+    {
+      "Name": "Out with a Bang",
+      "Hero": "Ashe",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "B.O.B. Jr.",
+      "Hero": "Ashe",
+      "vars": ["20%", "", "", "50%"]
+    },
+    {
+      "Name": "Partners in Crime",
+      "Hero": "Ashe",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "Bang Bang",
+      "Hero": "Cassidy",
+      "vars": ["", "0.5", "2"]
+    },
+    {
+      "Name": "Buck Wild",
+      "Hero": "Cassidy",
+      "vars": ["1%", "5", "15", "10%"]
+    },
+    {
+      "Name": "Dead Man Walkin'",
+      "Hero": "Cassidy",
+      "vars": ["30%", "50%"]
+    },
+    {
+      "Name": "Full House",
+      "Hero": "Cassidy",
+      "vars": ["25%", "2"]
+    },
+    {
+      "Name": "Quick Draw",
+      "Hero": "Cassidy",
+      "vars": ["15"]
+    },
+    {
+      "Name": "Think Flasht",
+      "Hero": "Cassidy",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Barrel Roll",
+      "Hero": "Cassidy",
+      "vars": ["65", "50%"]
+    },
+    {
+      "Name": "Just Roll With It",
+      "Hero": "Cassidy",
+      "vars": ["25%", "3", "25%"]
+    },
+    {
+      "Name": "Easy Rider",
+      "Hero": "Cassidy",
+      "vars": ["100", "25", "20%"]
+    },
+    {
+      "Name": "It's Twelve O'Clock Somewhere...",
+      "Hero": "Cassidy",
+      "vars": ["25%", "33%"]
+    },
+    {
+      "Name": "Hot Potato",
+      "Hero": "Cassidy",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Deep Pockets",
+      "Hero": "Freja",
+      "vars": ["40%"]
+    },
+    {
+      "Name": "Forager",
+      "Hero": "Freja",
+      "vars": ["8%", "2"]
+    },
+    {
+      "Name": "Peak Performance",
+      "Hero": "Freja",
+      "vars": ["80%", "20%"]
+    },
+    {
+      "Name": "Redux",
+      "Hero": "Freja",
+      "vars": ["5%", "1"]
+    },
+    {
+      "Name": "Volley à Deux",
+      "Hero": "Freja",
+      "vars": ["3", "2", "33%"]
+    },
+    {
+      "Name": "Lille Fælde",
+      "Hero": "Freja",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "So Cooked",
+      "Hero": "Freja",
+      "vars": ["3", "30%"]
+    },
+    {
+      "Name": "Mighty Gust",
+      "Hero": "Freja",
+      "vars": ["40"]
+    },
+    {
+      "Name": "Cyclone",
+      "Hero": "Freja",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Seekerpoint",
+      "Hero": "Freja",
+      "vars": ["3", "66%"]
+    },
+    {
+      "Name": "Seismic Shot",
+      "Hero": "Freja",
+      "vars": ["", "50%"]
+    },
+    {
+      "Name": "Thread The Needle",
+      "Hero": "Freja",
+      "vars": ["66%"]
+    },
+    {
+      "Name": "Cybernetic Speed",
+      "Hero": "Genji",
+      "vars": ["2%", "3", "15"]
+    },
+    {
+      "Name": "Hashimoto's Bane",
+      "Hero": "Genji",
+      "vars": ["2", "50%"]
+    },
+    {
+      "Name": "Sacred Shuriken",
+      "Hero": "Genji",
+      "vars": ["2"]
+    },
+    {
+      "Name": "Hanamura Healing",
+      "Hero": "Genji",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Laceration",
+      "Hero": "Genji",
+      "vars": ["35%", "3"]
+    },
+    {
+      "Name": "Wyrm's Maw",
+      "Hero": "Genji",
+      "vars": ["4", "10%", "5"]
+    },
+    {
+      "Name": "Deflect-o-Bot",
+      "Hero": "Genji",
+      "vars": ["50%", "1.5"]
+    },
+    {
+      "Name": "Forged Under Fire",
+      "Hero": "Genji",
+      "vars": ["125%"]
+    },
+    {
+      "Name": "Spirit of Sojiro",
+      "Hero": "Genji",
+      "vars": ["1"]
+    },
+    {
+      "Name": "Hidden Blade",
+      "Hero": "Genji",
+      "vars": ["60%", "15"]
+    },
+    {
+      "Name": "Dragon's Breath",
+      "Hero": "Genji",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Bango!",
+      "Hero": "Junkrat",
+      "vars": ["20%", "2"]
+    },
+    {
+      "Name": "Big Bang",
+      "Hero": "Junkrat",
+      "vars": ["33%"]
+    },
+    {
+      "Name": "Bingo!",
+      "Hero": "Junkrat",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Frags For Days",
+      "Hero": "Junkrat",
+      "vars": ["25%", "66%"]
+    },
+    {
+      "Name": "Soot Shaker",
+      "Hero": "Junkrat",
+      "vars": ["15%", "1.5", "20%"]
+    },
+    {
+      "Name": "Double Trouble",
+      "Hero": "Junkrat",
+      "vars": ["1"]
+    },
+    {
+      "Name": "Trap II, Esquire",
+      "Hero": "Junkrat",
+      "vars": ["", "", "", "", "", "5"]
+    },
+    {
+      "Name": "Hop Boom",
+      "Hero": "Junkrat",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Gachabomb",
+      "Hero": "Junkrat",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Rainin' Lead",
+      "Hero": "Junkrat",
+      "vars": ["25%", "0.25"]
+    },
+    {
+      "Name": "Rip Roll",
+      "Hero": "Junkrat",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Slapnel",
+      "Hero": "Junkrat",
+      "vars": ["100%", "", "", "6"]
+    },
+    {
+      "Name": "Extendothermics",
+      "Hero": "Mei",
+      "vars": ["6"]
+    },
+    {
+      "Name": "Frost Armor",
+      "Hero": "Mei",
+      "vars": ["5%", "100"]
+    },
+    {
+      "Name": "Permafrost",
+      "Hero": "Mei",
+      "vars": ["15%", "50%", "30%"]
+    },
+    {
+      "Name": "Slowball",
+      "Hero": "Mei",
+      "vars": ["15%", "1", "", "", "", "30%"]
+    },
+    {
+      "Name": "Coulder",
+      "Hero": "Mei",
+      "vars": ["20"]
+    },
+    {
+      "Name": "Frost Nova",
+      "Hero": "Mei",
+      "vars": ["60"]
+    },
+    {
+      "Name": "Blizznado",
+      "Hero": "Mei",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Cold Blaster",
+      "Hero": "Mei",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Speed Kills",
+      "Hero": "Pharah",
+      "vars": ["5%", "3%", "3", "6"]
+    },
+    {
+      "Name": "Evasive Maneuvers",
+      "Hero": "Pharah",
+      "vars": ["1.50"]
+    },
+    {
+      "Name": "Extra Charge",
+      "Hero": "Pharah",
+      "vars": ["1"]
+    },
+    {
+      "Name": "Launch Vector",
+      "Hero": "Pharah",
+      "vars": ["3"]
+    },
+    {
+      "Name": "Blitz Barrage",
+      "Hero": "Pharah",
+      "vars": ["40%", "75%"]
+    },
+    {
+      "Name": "Carpet Bomb",
+      "Hero": "Pharah",
+      "vars": ["40%", "50%"]
+    },
+    {
+      "Name": "Recursion Battery",
+      "Hero": "Pharah",
+      "vars": ["", "", "", "25%"]
+    },
+    {
+      "Name": "Cyclic Salvo",
+      "Hero": "Pharah",
+      "vars": ["10", "1"]
+    },
+    {
+      "Name": "Fuel Depot",
+      "Hero": "Pharah",
+      "vars": ["2", "25"]
+    },
+    {
+      "Name": "Triple Volley",
+      "Hero": "Pharah",
+      "vars": ["3", "40%"]
+    },
+    {
+      "Name": "Fuel Conversion",
+      "Hero": "Pharah",
+      "vars": ["50%", "65"]
+    },
+    {
+      "Name": "Death Step",
+      "Hero": "Reaper",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Strangle Step",
+      "Hero": "Reaper",
+      "vars": ["15%", "", "3"]
+    },
+    {
+      "Name": "Ghosted",
+      "Hero": "Reaper",
+      "vars": ["30%", "3"]
+    },
+    {
+      "Name": "Wraith Renewal",
+      "Hero": "Reaper",
+      "vars": ["7%", "50%"]
+    },
+    {
+      "Name": "Backstabber",
+      "Hero": "Reaper",
+      "vars": ["50%", "3"]
+    },
+    {
+      "Name": "Harvest Fest",
+      "Hero": "Reaper",
+      "vars": ["10%", "25%", "25%", "25%", "3"]
+    },
+    {
+      "Name": "Revolving Ruin",
+      "Hero": "Reaper",
+      "vars": ["7", "4%", "10", "1"]
+    },
+    {
+      "Name": "Shared Siphon",
+      "Hero": "Reaper",
+      "vars": ["10", "30%"]
+    },
+    {
+      "Name": "Shrouded Shrapnel",
+      "Hero": "Reaper",
+      "vars": ["25%", "50%"]
+    },
+    {
+      "Name": "Spirited To Slay",
+      "Hero": "Reaper",
+      "vars": ["50%", "100%"]
+    },
+    {
+      "Name": "Vampiric Touch",
+      "Hero": "Reaper",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Fine-Tuned Thrusters",
+      "Hero": "Sojourn",
+      "vars": ["100%", "35%"]
+    },
+    {
+      "Name": "Lock and Load",
+      "Hero": "Sojourn",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "Zoom Zoom Zoom",
+      "Hero": "Sojourn",
+      "vars": ["35%", "100%"]
+    },
+    {
+      "Name": "Commotion Cycle",
+      "Hero": "Sojourn",
+      "vars": ["", "35%"]
+    },
+    {
+      "Name": "Experimental Tech",
+      "Hero": "Sojourn",
+      "vars": ["25%", "50%"]
+    },
+    {
+      "Name": "Hard Stuck",
+      "Hero": "Sojourn",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Conductor Chase",
+      "Hero": "Sojourn",
+      "vars": ["25%", "75%"]
+    },
+    {
+      "Name": "Overcharge",
+      "Hero": "Sojourn",
+      "vars": ["150"]
+    },
+    {
+      "Name": "Reverberation Rounds",
+      "Hero": "Sojourn",
+      "vars": ["25%", "5", "3"]
+    },
+    {
+      "Name": "Aftershock",
+      "Hero": "Sojourn",
+      "vars": ["75%"],
+      "Icon": "data/Talents/Aftershock_Sojourn.webp"
+    },
+    {
+      "Name": "Peripheral Pulse",
+      "Hero": "Soldier: 76",
+      "vars": ["", "", "50%"]
+    },
+    {
+      "Name": "Super Visor",
+      "Hero": "Soldier: 76",
+      "vars": ["0.5"]
+    },
+    {
+      "Name": "Back Off",
+      "Hero": "Soldier: 76",
+      "vars": ["", "", "", "100%"]
+    },
+    {
+      "Name": "Biotic Bullseye",
+      "Hero": "Soldier: 76",
+      "vars": ["0.5", "10%", "", "5"]
+    },
+    {
+      "Name": "Frontliners",
+      "Hero": "Soldier: 76",
+      "vars": ["25%", "3"]
+    },
+    {
+      "Name": "On Me!",
+      "Hero": "Soldier: 76",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Track and Field",
+      "Hero": "Soldier: 76",
+      "vars": ["", "", "150%"]
+    },
+    {
+      "Name": "Chaingun",
+      "Hero": "Soldier: 76",
+      "vars": ["0.4%", "100"]
+    },
+    {
+      "Name": "Cratered",
+      "Hero": "Soldier: 76",
+      "vars": ["40%", "15%"]
+    },
+    {
+      "Name": "Double Helix",
+      "Hero": "Soldier: 76",
+      "vars": ["70%"]
+    },
+    {
+      "Name": "Hunker Down",
+      "Hero": "Soldier: 76",
+      "vars": ["", "50%"]
+    },
+    {
+      "Name": "Man On The Run",
+      "Hero": "Soldier: 76",
+      "vars": ["10%", "", "10"]
+    },
+    {
+      "Name": "Magmini",
+      "Hero": "Torbjörn",
+      "vars": ["2", "66%"]
+    },
+    {
+      "Name": "Swedish Sauna",
+      "Hero": "Torbjörn",
+      "vars": ["50%", "1"]
+    },
+    {
+      "Name": "Come Get Yer Armor",
+      "Hero": "Torbjörn",
+      "vars": ["20%", "2"]
+    },
+    {
+      "Name": "Dwarlord",
+      "Hero": "Torbjörn",
+      "vars": ["5", "50%", "10%"]
+    },
+    {
+      "Name": "Let Off Some Steam",
+      "Hero": "Torbjörn",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Blacksmith",
+      "Hero": "Torbjörn",
+      "vars": ["66%"]
+    },
+    {
+      "Name": "Forged In Fire",
+      "Hero": "Torbjörn",
+      "vars": ["10%", "3"]
+    },
+    {
+      "Name": "Clocked",
+      "Hero": "Torbjörn",
+      "vars": ["8", "25%", "15%"]
+    },
+    {
+      "Name": "Riveting",
+      "Hero": "Torbjörn",
+      "vars": ["5", "10%"]
+    },
+    {
+      "Name": "Positive Reinforcement",
+      "Hero": "Torbjörn",
+      "vars": ["", "200", "50", "3", "5", "10"]
+    },
+    {
+      "Name": "Turriplets",
+      "Hero": "Torbjörn",
+      "vars": ["", "", "", "", "50%", "", "66%", "15"]
+    },
+    {
+      "Name": "Flash Fist",
+      "Hero": "Tracer",
+      "vars": ["1", "10"]
+    },
+    {
+      "Name": "Get Stuffed!",
+      "Hero": "Tracer",
+      "vars": ["5%"]
+    },
+    {
+      "Name": "Blink of an Eye",
+      "Hero": "Tracer",
+      "vars": ["0.04"]
+    },
+    {
+      "Name": "Quantum Clip",
+      "Hero": "Tracer",
+      "vars": ["10%", "", "25%"]
+    },
+    {
+      "Name": "T.RACER",
+      "Hero": "Tracer",
+      "vars": ["3", "10%", "1"]
+    },
+    {
+      "Name": "Alternate Ending",
+      "Hero": "Tracer",
+      "vars": ["6", "100%", "3"]
+    },
+    {
+      "Name": "Auto Recall",
+      "Hero": "Tracer",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Bullet Time",
+      "Hero": "Tracer",
+      "vars": ["25%", "95%", "6", "", "3"]
+    },
+    {
+      "Name": "Temportal",
+      "Hero": "Tracer",
+      "vars": ["3"]
+    },
+    {
+      "Name": "Foresight",
+      "Hero": "Tracer",
+      "vars": ["4", "", "10", "2"]
+    },
+    {
+      "Name": "Timelapse",
+      "Hero": "Tracer",
+      "vars": ["2", "1", "2"]
+    },
+    {
+      "Name": "Impulsive",
+      "Hero": "Tracer",
+      "vars": ["60%"]
+    },
+    {
+      "Name": "Artsy Dartsy",
+      "Hero": "Ana",
+      "vars": ["300%"]
+    },
+    {
+      "Name": "No Scope Needed",
+      "Hero": "Ana",
+      "vars": ["", "10%", "2", "", "3"]
+    },
+    {
+      "Name": "Comfy Cloud",
+      "Hero": "Ana",
+      "vars": ["3", "50%"]
+    },
+    {
+      "Name": "Dreamy",
+      "Hero": "Ana",
+      "vars": ["80%", "4"]
+    },
+    {
+      "Name": "Fountain of Soothe",
+      "Hero": "Ana",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Home Remedy",
+      "Hero": "Ana",
+      "vars": ["200%"]
+    },
+    {
+      "Name": "NanoNade",
+      "Hero": "Ana",
+      "vars": ["1.5", "25%"]
+    },
+    {
+      "Name": "Venomous",
+      "Hero": "Ana",
+      "vars": ["60", "2"]
+    },
+    {
+      "Name": "Falconer",
+      "Hero": "Ana",
+      "vars": ["30%", "25%"]
+    },
+    {
+      "Name": "My Turn",
+      "Hero": "Ana",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "Our Turn",
+      "Hero": "Ana",
+      "vars": ["25%"]
+    },
+    {
+      "Name": "Burst Aid",
+      "Hero": "Brigitte",
+      "vars": ["25%", "10%", "3", "10"]
+    },
+    {
+      "Name": "Righteous Cleave",
+      "Hero": "Brigitte",
+      "vars": ["125%", "10"]
+    },
+    {
+      "Name": "Whirlwhip",
+      "Hero": "Brigitte",
+      "vars": ["25%", "5"]
+    },
+    {
+      "Name": "Optimizer",
+      "Hero": "Brigitte",
+      "vars": ["10%", "5%"]
+    },
+    {
+      "Name": "Packstacker",
+      "Hero": "Brigitte",
+      "vars": ["1", "50%"]
+    },
+    {
+      "Name": "God Ray",
+      "Hero": "Brigitte",
+      "vars": ["4%", "10"]
+    },
+    {
+      "Name": "Maces to Faces",
+      "Hero": "Brigitte",
+      "vars": ["1", "1"]
+    },
+    {
+      "Name": "Mender Bender",
+      "Hero": "Brigitte",
+      "vars": ["33%"]
+    },
+    {
+      "Name": "Sköldkastning",
+      "Hero": "Brigitte",
+      "vars": ["", "40%"]
+    },
+    {
+      "Name": "Aura Farming",
+      "Hero": "Brigitte",
+      "vars": ["5%", "5"]
+    },
+    {
+      "Name": "Consecrated Ground",
+      "Hero": "Brigitte",
+      "vars": ["1.5", "25%", "25%"]
+    },
+    {
+      "Name": "Lindholm Wall",
+      "Hero": "Brigitte",
+      "vars": ["60%", "100%"]
+    },
+    {
+      "Name": "MediMaster",
+      "Hero": "Juno",
+      "vars": ["", "0.2"]
+    },
+    {
+      "Name": "Stinger",
+      "Hero": "Juno",
+      "vars": ["10", "1"]
+    },
+    {
+      "Name": "Cosmic Coolant",
+      "Hero": "Juno",
+      "vars": ["0.5"]
+    },
+    {
+      "Name": "Medicinal Missiles",
+      "Hero": "Juno",
+      "vars": ["3", "30", "50%"]
+    },
+    {
+      "Name": "Pulsar Plus",
+      "Hero": "Juno",
+      "vars": ["1"]
+    },
+    {
+      "Name": "Blink Boosts",
+      "Hero": "Juno",
+      "vars": ["2", "75%", "40%"]
+    },
+    {
+      "Name": "Torpedo Glide",
+      "Hero": "Juno",
+      "vars": ["50", "1"]
+    },
+    {
+      "Name": "Black Hole",
+      "Hero": "Juno",
+      "vars": ["35%", "2"]
+    },
+    {
+      "Name": "Hyper Healer",
+      "Hero": "Juno",
+      "vars": ["85"]
+    },
+    {
+      "Name": "Rally Ring",
+      "Hero": "Juno",
+      "vars": ["1.50"]
+    },
+    {
+      "Name": "Orbital Alignment",
+      "Hero": "Juno",
+      "vars": ["35%", "25%"]
+    },
+    {
+      "Name": "Stellar Focus",
+      "Hero": "Juno",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Foxy Fireworks",
+      "Hero": "Kiriko",
+      "vars": ["3", "20"]
+    },
+    {
+      "Name": "Keen Kunai",
+      "Hero": "Kiriko",
+      "vars": ["15%", "3"]
+    },
+    {
+      "Name": "Triple Threat",
+      "Hero": "Kiriko",
+      "vars": ["2", "", "4", "", "50%"]
+    },
+    {
+      "Name": "Leaf On The Wind",
+      "Hero": "Kiriko",
+      "vars": ["2", "30%"]
+    },
+    {
+      "Name": "Self-Care",
+      "Hero": "Kiriko",
+      "vars": ["3%"]
+    },
+    {
+      "Name": "Supported Shooting",
+      "Hero": "Kiriko",
+      "vars": ["20%", "3"]
+    },
+    {
+      "Name": "Clone Conjuration",
+      "Hero": "Kiriko",
+      "vars": ["4", "65%"]
+    },
+    {
+      "Name": "Fleet Foot",
+      "Hero": "Kiriko",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Cleansing Charge",
+      "Hero": "Kiriko",
+      "vars": ["5%"]
+    },
+    {
+      "Name": "Crossing Guard",
+      "Hero": "Kiriko",
+      "vars": ["50%", "2"]
+    },
+    {
+      "Name": "Spirit Veil",
+      "Hero": "Kiriko",
+      "vars": ["4"],
+      "Icon": "data/Talents/Spirit_Veil.webp"
+    },
+    {
+      "Name": "Fast Forward",
+      "Hero": "Lúcio",
+      "vars": ["30%", "50%"]
+    },
+    {
+      "Name": "Signature Shift",
+      "Hero": "Lúcio",
+      "vars": ["6", "80%"]
+    },
+    {
+      "Name": "Sonic Boom",
+      "Hero": "Lúcio",
+      "vars": ["30%"]
+    },
+    {
+      "Name": "Mixtape",
+      "Hero": "Lúcio",
+      "vars": ["75%"]
+    },
+    {
+      "Name": "Megaphone",
+      "Hero": "Lúcio",
+      "vars": ["15%", "150%"]
+    },
+    {
+      "Name": "Radio Edit",
+      "Hero": "Lúcio",
+      "vars": ["75%"]
+    },
+    {
+      "Name": "Vivace",
+      "Hero": "Lúcio",
+      "vars": ["3%", "1.5%", "10", "5"]
+    },
+    {
+      "Name": "Wallvibing",
+      "Hero": "Lúcio",
+      "vars": ["4%", "40%"]
+    },
+    {
+      "Name": "Crowd Pleaser",
+      "Hero": "Lúcio",
+      "vars": ["33%"]
+    },
+    {
+      "Name": "Let's Bounce",
+      "Hero": "Lúcio",
+      "vars": ["25%", "50%"]
+    },
+    {
+      "Name": "Reverb",
+      "Hero": "Lúcio",
+      "vars": ["2", "75%"]
+    },
+    {
+      "Name": "Beat Drop",
+      "Hero": "Lúcio",
+      "vars": ["20%", "", "", "", "", "", "250"]
+    },
+    {
+      "Name": "Distortion",
+      "Hero": "Mercy",
+      "vars": ["20%"]
+    },
+    {
+      "Name": "Protective Beam",
+      "Hero": "Mercy",
+      "vars": ["10%", "80%", "1"]
+    },
+    {
+      "Name": "Serenity",
+      "Hero": "Mercy",
+      "vars": ["10%"]
+    },
+    {
+      "Name": "Supply Surge",
+      "Hero": "Mercy",
+      "vars": ["50%", "20%", "2", "10", "3"]
+    },
+    {
+      "Name": "Threads of Fate",
+      "Hero": "Mercy",
+      "vars": ["3", "35%"]
+    },
+    {
+      "Name": "Battle Medic",
+      "Hero": "Mercy",
+      "vars": ["1", "3%", "10"]
+    },
+    {
+      "Name": "Tethered Tourniquet",
+      "Hero": "Mercy",
+      "vars": ["", "", "", "", "100%", "10"]
+    },
+    {
+      "Name": "Equivalent Exchange",
+      "Hero": "Mercy",
+      "vars": ["3", "33%"]
+    },
+    {
+      "Name": "First Responder",
+      "Hero": "Mercy",
+      "vars": ["250", "6"]
+    },
+    {
+      "Name": "Renaissance",
+      "Hero": "Mercy",
+      "vars": ["5"]
+    },
+    {
+      "Name": "The Whambulance",
+      "Hero": "Mercy",
+      "vars": ["4", "1"]
+    },
+    {
+      "Name": "Triage Unit",
+      "Hero": "Mercy",
+      "vars": ["50%", "25%", "3"]
+    },
+    {
+      "Name": "Chain Grasp",
+      "Hero": "Moira",
+      "vars": ["2", "3", "10"]
+    },
+    {
+      "Name": "Deconstruction",
+      "Hero": "Moira",
+      "vars": ["50", "20%", "6"]
+    },
+    {
+      "Name": "Empowering You",
+      "Hero": "Moira",
+      "vars": ["15%"]
+    },
+    {
+      "Name": "Ethereal Excision",
+      "Hero": "Moira",
+      "vars": ["30%", "30%", "100%"]
+    },
+    {
+      "Name": "Optimal Overflow",
+      "Hero": "Moira",
+      "vars": ["50", "75%"]
+    },
+    {
+      "Name": "Precarious Potency",
+      "Hero": "Moira",
+      "vars": ["5", "25%"]
+    },
+    {
+      "Name": "Cross-Orbal",
+      "Hero": "Moira",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Multiball",
+      "Hero": "Moira",
+      "vars": ["", "", "2", "", "85%"]
+    },
+    {
+      "Name": "Phantasm",
+      "Hero": "Moira",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Scientific Deathod",
+      "Hero": "Moira",
+      "vars": ["15%", "5%"]
+    },
+    {
+      "Name": "Voidhoppers",
+      "Hero": "Moira",
+      "vars": ["8", "0.3", "20%"]
+    },
+    {
+      "Name": "Destruction's Divide",
+      "Hero": "Moira",
+      "vars": ["30%", "", "25%"]
+    },
+    {
+      "Name": "Paindrops",
+      "Hero": "Wuyang",
+      "vars": ["40%", "8"]
+    },
+    {
+      "Name": "Undertow",
+      "Hero": "Wuyang",
+      "vars": ["5%", "1.0"]
+    },
+    {
+      "Name": "Wave Lance",
+      "Hero": "Wuyang",
+      "vars": ["100%"]
+    },
+    {
+      "Name": "Flow State",
+      "Hero": "Wuyang",
+      "vars": ["50", "2"]
+    },
+    {
+      "Name": "Shore Up",
+      "Hero": "Wuyang",
+      "vars": ["75%"]
+    },
+    {
+      "Name": "Tidekeeper",
+      "Hero": "Wuyang",
+      "vars": ["1.5"]
+    },
+    {
+      "Name": "Puddle Stomp",
+      "Hero": "Wuyang",
+      "vars": ["6", "65"]
+    },
+    {
+      "Name": "Splish Slash",
+      "Hero": "Wuyang",
+      "vars": ["60", "15", "50%"]
+    },
+    {
+      "Name": "Ebb and Flow",
+      "Hero": "Wuyang",
+      "vars": ["50%"]
+    },
+    {
+      "Name": "Storm Surge",
+      "Hero": "Wuyang",
+      "vars": ["6"]
+    },
+    {
+      "Name": "Tidal Save",
+      "Hero": "Wuyang",
+      "vars": ["100%", "4"]
+    },
+    {
+      "Name": "Flying Kick",
+      "Hero": "Zenyatta",
+      "vars": ["5", "", "", "40"]
+    },
+    {
+      "Name": "It's Orbin' Time",
+      "Hero": "Zenyatta",
+      "vars": ["3"]
+    },
+    {
+      "Name": "Seeking Salvation",
+      "Hero": "Zenyatta",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Soul Control",
+      "Hero": "Zenyatta",
+      "vars": ["65%"]
+    },
+    {
+      "Name": "Discord Fever",
+      "Hero": "Zenyatta",
+      "vars": ["50", "5"]
+    },
+    {
+      "Name": "Discord Inferno",
+      "Hero": "Zenyatta",
+      "vars": ["50"]
+    },
+    {
+      "Name": "Dual Harmony",
+      "Hero": "Zenyatta",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Enlightenment",
+      "Hero": "Zenyatta",
+      "vars": ["35%"]
+    },
+    {
+      "Name": "Gotta Have Faith",
+      "Hero": "Zenyatta",
+      "vars": ["10"]
+    },
+    {
+      "Name": "Inner Peace",
+      "Hero": "Zenyatta",
+      "vars": ["75%"]
+    },
+    {
+      "Name": "Instant Karma",
+      "Hero": "Zenyatta",
+      "vars": ["50%", "2"]
+    }
+  ]
+}

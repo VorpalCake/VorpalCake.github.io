@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stadium Tierlist</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+  <header>
+    <h1>Stadium Tierlist</h1>
+    <div class="actions">
+      <div class="toggle" role="tablist" aria-label="Mode">
+        <button id="tabItems" role="tab" aria-selected="true" class="toggle-btn active">Items</button>
+        <button id="tabPowers" role="tab" aria-selected="false" class="toggle-btn">Powers</button>
+      </div>
+      <button id="shareBtn">Share</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  
+<nav id="heroFilter" class="hero-filter" aria-label="Filter by hero">
+  </nav>
+</header>
+
+
+  <main class="page">
+    <aside class="bank" aria-label="Item Bank">
+      <div class="row">
+        <h2 id="bankTitle">
+          <span id="bankModeLabel">Items</span>
+        </h2>
+      </div>
+      <div id="bank" class="list" role="list" aria-label="Unranked items"></div>
+    </aside>
+
+    <section class="tiers" aria-label="Tiers">
+      <div class="tier" data-tier="S">
+        <div class="tier-head"><span class="pill s">S</span><div class="sub"></div></div>
+        <div class="list" role="list" aria-label="S Tier"></div>
+      </div>
+      <div class="tier" data-tier="A">
+        <div class="tier-head"><span class="pill a">A</span><div class="sub"></div></div>
+        <div class="list" role="list" aria-label="A Tier"></div>
+      </div>
+      <div class="tier" data-tier="B">
+        <div class="tier-head"><span class="pill b">B</span><div class="sub"></div></div>
+        <div class="list" role="list" aria-label="B Tier"></div>
+      </div>
+      <div class="tier" data-tier="C">
+        <div class="tier-head"><span class="pill c">C</span><div class="sub"></div></div>
+        <div class="list" role="list" aria-label="C Tier"></div>
+      </div>
+      <div class="tier" data-tier="D">
+        <div class="tier-head"><span class="pill d">D</span><div class="sub"></div></div>
+        <div class="list" role="list" aria-label="D Tier"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true"></div>
+  <div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
