@@ -289,7 +289,7 @@
 
   function resolveIconImages(baseNameFromGame, rarity, spec) {
     const paths = {
-      base: `data/Talents/${encodeURIComponent(baseNameFromGame.replace('#', '_'))}.0.png`,
+      base: `data/Talents/${encodeURIComponent(baseNameFromGame.replace('#', ''))}.0.png`,
       border: `data/VectorImages/${encodeURIComponent(rarity)}.svg`,
       mask: `data/VectorImages/${encodeURIComponent(rarity)}Mask.svg`,
     };
@@ -598,7 +598,7 @@
       {},
       {
         get(_, key) {
-          return `data/VectorImages/${key.replace("#", "_")}.svg`;
+          return `data/VectorImages/${key}.svg`;
         },
       },
     );
