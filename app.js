@@ -289,7 +289,7 @@
 
   function resolveIconImages(baseNameFromGame, rarity, spec) {
     const paths = {
-      base: `data/Talents/${encodeURIComponent(baseNameFromGame.replace('#', ''))}.0.png`,
+      base: `data/Talents/${encodeURIComponent(baseNameFromGame.replace(/\#|\?/, ""))}.0.png`,
       border: `data/VectorImages/${encodeURIComponent(rarity)}.svg`,
       mask: `data/VectorImages/${encodeURIComponent(rarity)}Mask.svg`,
     };
@@ -1326,6 +1326,8 @@
       const ariaChecked =
         tri === "all" ? "true" : tri === "none" ? "false" : "mixed";
       roleToggle.setAttribute("aria-checked", ariaChecked);
+      roleToggle.setAttribute("aria-label", role);
+      roleToggle.title = role;
       roleToggle.dataset.role = role;
 
       const iconSrc = `data/HeroIcons/${rolesObj?.[role][0].replace(":", "_")}/Abilities/Role_ ${role}.png`;
