@@ -37,7 +37,7 @@
       "HeroName": "Reinhardt"
     },
     "MaxCount": 1,
-    "Cost": 10000,
+    "Cost": 9500,
     "Hero": {
       "GUID": "000000000007.075",
       "Value": "Reinhardt"
@@ -54,7 +54,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Chimera's Maw",
-    "Description": "For each additional enemy <fg#ffffffff>[Fire Strike]</fg> damages beyond the initial target, reduce <fg#ffffffff>[Fire Strike]</fg> cooldown by <fg#ffffffff>%3$s</fg>.",
+    "Description": "Hitting an <fg#ffffffff>Airborne</fg> enemy above <fg#ffffffff>%3$sm</fg> with <fg#ffffffff>[Fire Strike]</fg> <fg#ffffffff>Burns</fg> them for <fg#ffffffff>%4$s</fg> of <fg#ffffffff>[Fire Strike]</fg> damage over <fg#ffffffff>%5$ss</fg> .",
     "TextureGUID": "0000000591D0.004"
   },
   "000000000009.134": {
@@ -141,7 +141,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Magma Strike",
-    "Description": "Every second <fg#ffffffff>[Fire Strike]</fg> leaves a trail of lava that <fg#ffffffff>Burns</fg> enemies for <fg#ffffffff>%1$s</fg> of <fg#ffffffff>[Fire Strike]</fg> damage.",
+    "Description": "Every second <fg#ffffffff>[Fire Strike]</fg> leaves a trail of lava for <fg#ffffffff>%2$ss</fg> that <fg#ffffffff>Burns</fg> enemies for <fg#ffffffff>%1$s</fg> of <fg#ffffffff>[Fire Strike]</fg> damage.",
     "TextureGUID": "0000000591E0.004"
   },
   "000000000023.134": {
@@ -1302,90 +1302,8 @@
     "Major": false,
     "GUID": null,
     "Name": "Calamity",
-    "Description": "Using <fg#ffffffff>[Coach Gun]</fg> reloads <fg#ffffffff>%1$s</fg> Ammo. <fg#ffffffff>[The Viper]</fg>'s next <fg#ffffffff>%1$s</fg> hits deal <tx0x0C00000000061B04><fg#ff9274ff>%3$s</fg> additional damage over <fg#ffffffff>%2$ss</fg>.",
+    "Description": "Using <fg#ffffffff>[Coach Gun]</fg> reloads <fg#ffffffff>%1$s</fg> of your Ammo. The restored shots apply <fg#ffffffff>Burning</fg>, dealing <tx0x0C00000000061B0B><fg#fffd3737>%2$s</fg> damage over <fg#ffffffff>%3$ss</fg>.",
     "TextureGUID": "00000005B211.004"
-  },
-  "00000000047A.134": {
-    "TalentType": "Talent",
-    "Loadout": {
-      "GUID": "00000000020A.09E",
-      "Name": "The Viper",
-      "HeroGUID": "000000000200.075",
-      "HeroName": "Ashe"
-    },
-    "MaxCount": 3,
-    "Cost": 0,
-    "Hero": {
-      "GUID": "000000000200.075",
-      "Value": "Ashe"
-    },
-    "Rarity": {
-      "GUID": "00000000644A.01C",
-      "Value": "Legendary"
-    },
-    "Category": {
-      "GUID": "00000000ECC7.01C",
-      "Value": "HeroPower"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Head Honcho",
-    "Description": "Each <fg#ffffffff>unscoped</fg> shot you land increases the damage of the next <fg#ffffffff>scoped</fg> shot you land by <fg#ffffffff>%1$s</fg>, up to <fg#ffffffff>%2$s</fg>.",
-    "TextureGUID": "000000053FE9.004"
-  },
-  "00000000047C.134": {
-    "TalentType": "Talent",
-    "Loadout": null,
-    "MaxCount": 2,
-    "Cost": 4000,
-    "Hero": {
-      "GUID": "000000000200.075",
-      "Value": "Ashe"
-    },
-    "Rarity": {
-      "GUID": "000000003DA0.01C",
-      "Value": "Rare"
-    },
-    "Category": {
-      "GUID": "0000000068D3.01C",
-      "Value": "Weapon"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Tripod",
-    "Description": "<fg#ffffffff>[The Viper]</fg>, <fg#ffffffff>[Coach Gun]</fg>, and <fg#ffffffff>[Dynamite]</fg> deal <fg#ffffffff>%1$s</fg> more damage to enemies that are below you.",
-    "TextureGUID": "000000060DEB.004"
-  },
-  "00000000047D.134": {
-    "TalentType": "Talent",
-    "Loadout": {
-      "GUID": "00000000020A.09E",
-      "Name": "The Viper",
-      "HeroGUID": "000000000200.075",
-      "HeroName": "Ashe"
-    },
-    "MaxCount": 2,
-    "Cost": 0,
-    "Hero": {
-      "GUID": "000000000200.075",
-      "Value": "Ashe"
-    },
-    "Rarity": {
-      "GUID": "00000000644A.01C",
-      "Value": "Legendary"
-    },
-    "Category": {
-      "GUID": "00000000ECC7.01C",
-      "Value": "HeroPower"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Incendiary Rounds",
-    "Description": "While <fg#ffffffff>scoped</fg>, hitting the same target without missing deals <tx0x0C00000000061B0B><fg#fffd3737>%1$s</fg> extra damage.",
-    "TextureGUID": "00000005B21A.004"
   },
   "0000000004AE.134": {
     "TalentType": "Talent",
@@ -2378,7 +2296,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Reload Therapy",
-    "Description": "When you reload a shot, restore <fg#ffffffff>%1$s</fg> of your Life.",
+    "Description": "When you reload or restore ammo, restore <fg#ffffffff>%1$s</fg> of your Life.",
     "TextureGUID": "00000005B219.004"
   },
   "0000000007D3.134": {
@@ -2615,64 +2533,6 @@
     "Name": "Harvest Fest",
     "Description": "<fg#ffffffff>[Hellfire Shotgun]</fg> hits have a <fg#ffffffff>%1$s</fg> chance to spawn a <fg#ffffffff>Soul Globe</fg>. When picked up, restore <fg#ffffffff>%2$s</fg> Life, <fg#ffffffff>%3$s</fg> Ammo, and gain <fg#ffffffff>%4$s</fg> Move Speed for <fg#ffffffff>%5$ss</fg>.",
     "TextureGUID": "00000005B19F.004"
-  },
-  "0000000009EB.134": {
-    "TalentType": "Talent",
-    "Loadout": {
-      "GUID": "00000000020B.09E",
-      "Name": "Dynamite",
-      "HeroGUID": "000000000200.075",
-      "HeroName": "Ashe"
-    },
-    "MaxCount": 1,
-    "Cost": 10000,
-    "Hero": {
-      "GUID": "000000000200.075",
-      "Value": "Ashe"
-    },
-    "Rarity": {
-      "GUID": "0000000061ED.01C",
-      "Value": "Epic"
-    },
-    "Category": {
-      "GUID": "000000005FDC.01C",
-      "Value": "Ability"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Stacked Sticks",
-    "Description": "",
-    "TextureGUID": "000000060DF8.004"
-  },
-  "0000000009EC.134": {
-    "TalentType": "Talent",
-    "Loadout": {
-      "GUID": "00000000020B.09E",
-      "Name": "Dynamite",
-      "HeroGUID": "000000000200.075",
-      "HeroName": "Ashe"
-    },
-    "MaxCount": 1,
-    "Cost": 0,
-    "Hero": {
-      "GUID": "000000000200.075",
-      "Value": "Ashe"
-    },
-    "Rarity": {
-      "GUID": "00000000644A.01C",
-      "Value": "Legendary"
-    },
-    "Category": {
-      "GUID": "00000000ECC7.01C",
-      "Value": "HeroPower"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Early Detonation",
-    "Description": "Shooting <fg#ffffffff>[Dynamite]</fg> reloads <fg#ffffffff>%2$s</fg> Ammo and reduces the cooldown  of <fg#ffffffff>[Dynamite]</fg> by <fg#ffffffff>%1$ss</fg>.",
-    "TextureGUID": "00000005B218.004"
   },
   "000000000A00.134": {
     "TalentType": "Talent",
@@ -3159,7 +3019,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Blazing Blitz",
-    "Description": "After using <fg#ffffffff>[Earthshatter]</fg>,\r\nevery <fg#ffffffff>[Rocket Hammer]</fg> swing launches a <fg#ffffffff>[Fire Strike]</fg> for <fg#ffffffff>%1$ss</fg>.",
+    "Description": "+<fg#ffffffff>%2$s</fg> Starting Ultimate Charge.\r\nAfter using <fg#ffffffff>[Earthshatter]</fg>, every <fg#ffffffff>[Rocket Hammer]</fg> swing launches a <fg#ffffffff>[Fire Strike]</fg> for <fg#ffffffff>%1$ss</fg>.",
     "TextureGUID": "0000000591DD.004"
   },
   "000000000AA5.134": {
@@ -3409,7 +3269,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Centripetal Charge",
-    "Description": "<fg#ffffffff>%1$s</fg> Ultimate Cost Reduction.\r\nAfter using <fg#ffffffff>[Terra Surge]</fg>, reset\r\nyour ability cooldowns.",
+    "Description": "<fg#ffffffff>%1$s</fg> Ultimate Cost Reduction.\r\nAfter using <fg#ffffffff>[Terra Surge]</fg>, reset your ability cooldowns.",
     "TextureGUID": "00000005B1EA.004"
   },
   "000000000AE9.134": {
@@ -4418,35 +4278,6 @@
     "Description": "If <fg#ffffffff>[Charge]</fg> is interrupted by the enemy, refund <fg#ffffffff>%2$s</fg> of <fg#ffffffff>[Charge]</fg> cooldown.",
     "TextureGUID": "0000000591CD.004"
   },
-  "000000000C37.134": {
-    "TalentType": "Talent",
-    "Loadout": {
-      "GUID": "00000000020B.09E",
-      "Name": "Dynamite",
-      "HeroGUID": "000000000200.075",
-      "HeroName": "Ashe"
-    },
-    "MaxCount": 1,
-    "Cost": 0,
-    "Hero": {
-      "GUID": "000000000200.075",
-      "Value": "Ashe"
-    },
-    "Rarity": {
-      "GUID": "00000000644A.01C",
-      "Value": "Legendary"
-    },
-    "Category": {
-      "GUID": "00000000ECC7.01C",
-      "Value": "HeroPower"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Molten Munitions",
-    "Description": "When <fg#ffffffff>[Dynamite]</fg> explodes on the ground, it leaves lava that <fg#ffffffff>Burns</fg> enemies for <tx0x0C00000000061B04><fg#ff9274ff>%1$s</fg> every 1s.",
-    "TextureGUID": "00000005B215.004"
-  },
   "000000000C48.134": {
     "TalentType": "Talent",
     "Loadout": {
@@ -4932,8 +4763,8 @@
       "Value": "Epic"
     },
     "Category": {
-      "GUID": "00000000ECD2.01C",
-      "Value": "Survival"
+      "GUID": "0000000068D3.01C",
+      "Value": "Weapon"
     },
     "Level": 0,
     "Major": false,
@@ -5026,7 +4857,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Ignition Burst",
-    "Description": "<fg#ffffffff>[Boosters]</fg> leave a trail of lava that deals <tx0x0C00000000061B04><fg#ff9274ff>%1$s</fg> damage every <fg#ffffffff>1s</fg>.",
+    "Description": "<fg#ffffffff>[Boosters]</fg> knockback applies <fg#ffffffff>Burn</fg> that deals <tx0x0C00000000061B04><fg#ff9274ff>%1$s</fg> damage for <fg#ffffffff>%2$ss</fg>.",
     "TextureGUID": "00000005B1C9.004"
   },
   "000000000C97.134": {
@@ -5403,7 +5234,7 @@
     "Major": false,
     "GUID": null,
     "Name": "3D-Printed Lance",
-    "Description": "<fg#ffffffff>[Energy Javelin]</fg> cooldown is reduced by <fg#ffffffff>%1$s</fg>, but each use generates <fg#ffffffff>%3$s [Heat]</fg>.",
+    "Description": "<fg#ffffffff>[Energy Javelin]</fg> cooldown is reduced by <fg#ffffffff>%1$s</fg>, but each use generates <fg#ffffffff>%3$s [Heat]</fg>. <fg#ffffffff>[Energy Javelin]</fg> hit also reduces cooldown by <fg#ffffffff>%4$s</fg>.",
     "TextureGUID": "000000060E8E.004"
   },
   "000000000CBF.134": {
@@ -6245,7 +6076,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Iron Eyes",
-    "Description": "You take <fg#ffffffff>%2$s</fg> reduced damage from Critical Hits.",
+    "Description": "",
     "TextureGUID": "00000005A90A.004"
   },
   "000000000D3D.134": {
@@ -6266,7 +6097,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Rüstung von Wilhelm",
-    "Description": "While below <fg#ffffffff>%2$s</fg> Life, gain <fg#ffffffff>%3$s Damage Reduction</fg>.",
+    "Description": "While below <fg#ffffffff>%3$s</fg> Life, gain <fg#ffffffff>%4$s Damage Reduction</fg>.",
     "TextureGUID": "00000005A910.004"
   },
   "000000000D3E.134": {
@@ -6457,27 +6288,6 @@
     "Name": "Amari's Antidote",
     "Description": "While healing an ally below <fg#ffffffff>50%%</fg> Life with your Weapon, deal <fg#ffffffff>%3$s</fg> increased Weapon Healing.",
     "TextureGUID": "00000005A90D.004"
-  },
-  "000000000D48.134": {
-    "TalentType": "Talent",
-    "Loadout": null,
-    "MaxCount": 1,
-    "Cost": 9000,
-    "Hero": null,
-    "Rarity": {
-      "GUID": "0000000061ED.01C",
-      "Value": "Epic"
-    },
-    "Category": {
-      "GUID": "00000000ECD2.01C",
-      "Value": "Survival"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Geneticist's Vial",
-    "Description": "The first time you would die each round, revive instead with <fg#ffffffff>%2$s</fg> Life after <fg#ffffffff>3s</fg>.",
-    "TextureGUID": "00000005A908.004"
   },
   "000000000D49.134": {
     "TalentType": "Talent",
@@ -7802,7 +7612,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Battle Medic",
-    "Description": "Every <fg#ffffffff>%1$ss</fg> your Staff is attached, <fg#ffffffff>[Caduceus Blaster]</fg> gains <fg#ffffffff>%2$s</fg> Attack Speed (stacks <fg#ffffffff>%3$s times</fg>) until you reload or swap to your Staff.",
+    "Description": "After swapping to <fg#ffffffff>[Caduceus Blaster]</fg>, deal <fg#ffffffff>%1$s</fg> increased damage and gain <fg#ffffffff>%3$s</fg> Weapon Lifesteal for <fg#ffffffff>1s</fg> for every <fg#ffffffff>1s</fg> you spent tethered, up to <fg#ffffffff>%2$ss</fg>.",
     "TextureGUID": "00000005B1B3.004"
   },
   "000000000DA0.134": {
@@ -7860,7 +7670,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Equivalent Exchange",
-    "Description": "You have <fg#ffffffff>%1$s charges</fg> of <fg#ffffffff>[Resurrect]</fg> with <fg#ffffffff>%2$s</fg> reduced cast time, but their cooldowns only reset at the start of a round.",
+    "Description": "You have <fg#ffffffff>%1$s charges</fg> of <fg#ffffffff>[Resurrect]</fg> with <fg#ffffffff>%2$s</fg> reduced cast time but their cooldowns no longer refresh. \r\nDealing <fg#ffffffff>%3$s [Caduceus Blaster]</fg> damage restores <fg#ffffffff>1</fg> charge.",
     "TextureGUID": "00000005B1B2.004"
   },
   "000000000DA2.134": {
@@ -8320,7 +8130,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Salvaged Slugs",
-    "Description": "Dealing Weapon Damage to Barriers or Deployables has a <fg#ffffffff>%3$s</fg> chance to restore <fg#ffffffff>1</fg> ammo.",
+    "Description": "Dealing Weapon Damage to Barriers or Deployables has a <fg#ffffffff>%3$s</fg> chance to restore <fg#ffffffff>1</fg> ammo. If ammo cannot be restored, instead restore Life equal to <fg#ffffffff>%4$s</fg> of damage dealt. ",
     "TextureGUID": "00000005A909.004"
   },
   "000000000DB6.134": {
@@ -8374,25 +8184,25 @@
       "HeroName": "Ashe"
     },
     "MaxCount": 1,
-    "Cost": 0,
+    "Cost": 11000,
     "Hero": {
       "GUID": "000000000200.075",
       "Value": "Ashe"
     },
     "Rarity": {
-      "GUID": "00000000644A.01C",
-      "Value": "Legendary"
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
     },
     "Category": {
-      "GUID": "00000000ECC7.01C",
-      "Value": "HeroPower"
+      "GUID": "000000005FDC.01C",
+      "Value": "Ability"
     },
     "Level": 0,
     "Major": false,
     "GUID": null,
-    "Name": "Incendiary Blast",
-    "Description": "<fg#ffffffff>[Coach Gun]</fg> applies <fg#ffffffff>Burning</fg>, dealing <tx0x0C00000000061B04><fg#ff9274ff>%1$s</fg> damage over <fg#ffffffff>5s</fg>. If the target was <fg#ffffffff>Burning</fg>, deal <tx0x0C00000000061B04><fg#ff9274ff>%3$s</fg> additional damage instantly.",
-    "TextureGUID": "00000005B21B.004"
+    "Name": "Incendiary Blastpaper",
+    "Description": "<fg#ffffffff>[Coach Gun]</fg> applies <fg#ffffffff>Burning</fg>, dealing <tx0x0C00000000061B04><fg#ff9274ff>%1$s</fg> damage over <fg#ffffffff>5s</fg>.",
+    "TextureGUID": "00000006F01D.004"
   },
   "000000000DBF.134": {
     "TalentType": "Talent",
@@ -8413,14 +8223,14 @@
       "Value": "Epic"
     },
     "Category": {
-      "GUID": "000000005FDC.01C",
-      "Value": "Ability"
+      "GUID": "00000000ECD2.01C",
+      "Value": "Survival"
     },
     "Level": 0,
     "Major": false,
     "GUID": null,
     "Name": "Build-A-Blast Buckshot",
-    "Description": "<fg#ffffffff>[Coach Gun]</fg> has <fg#ffffffff>%1$s</fg> increased self knockback.",
+    "Description": "After using <fg#ffffffff>Coach Gun</fg>, gain <fg#ffffffff>%3$s</fg> Damage Reduction while airborne.",
     "TextureGUID": "00000005B212.004"
   },
   "000000000DC1.134": {
@@ -8461,14 +8271,14 @@
       "HeroName": "Ashe"
     },
     "MaxCount": 1,
-    "Cost": 4000,
+    "Cost": 10000,
     "Hero": {
       "GUID": "000000000200.075",
       "Value": "Ashe"
     },
     "Rarity": {
-      "GUID": "000000003DA0.01C",
-      "Value": "Rare"
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
     },
     "Category": {
       "GUID": "0000000068D3.01C",
@@ -8480,93 +8290,6 @@
     "Name": "Maxed Mag",
     "Description": "Gain <fg#ffffffff>%1$s</fg> Attack Speed for each remaining Ammo above <fg#ffffffff>%2$s</fg> of your Max Ammo.",
     "TextureGUID": "000000060DEA.004"
-  },
-  "000000000DC3.134": {
-    "TalentType": "Talent",
-    "Loadout": {
-      "GUID": "00000000020A.09E",
-      "Name": "The Viper",
-      "HeroGUID": "000000000200.075",
-      "HeroName": "Ashe"
-    },
-    "MaxCount": 1,
-    "Cost": 11000,
-    "Hero": {
-      "GUID": "000000000200.075",
-      "Value": "Ashe"
-    },
-    "Rarity": {
-      "GUID": "0000000061ED.01C",
-      "Value": "Epic"
-    },
-    "Category": {
-      "GUID": "0000000068D3.01C",
-      "Value": "Weapon"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Ironsights",
-    "Description": "When the target is further than <fg#ffffffff>%2$sm</fg>, scoped shot gains <fg#ffffffff>%1$s</fg> damage for each meter, up to <fg#ffffffff>%4$s</fg>.",
-    "TextureGUID": "000000060DEE.004"
-  },
-  "000000000DC4.134": {
-    "TalentType": "Talent",
-    "Loadout": {
-      "GUID": "00000000020A.09E",
-      "Name": "The Viper",
-      "HeroGUID": "000000000200.075",
-      "HeroName": "Ashe"
-    },
-    "MaxCount": 1,
-    "Cost": 11000,
-    "Hero": {
-      "GUID": "000000000200.075",
-      "Value": "Ashe"
-    },
-    "Rarity": {
-      "GUID": "0000000061ED.01C",
-      "Value": "Epic"
-    },
-    "Category": {
-      "GUID": "0000000068D3.01C",
-      "Value": "Weapon"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Sidewinder",
-    "Description": "When the target is within <fg#ffffffff>%2$sm</fg>, unscoped shot gains <fg#ffffffff>%1$s</fg> increased damage.",
-    "TextureGUID": "000000060DED.004"
-  },
-  "000000000DC5.134": {
-    "TalentType": "Talent",
-    "Loadout": {
-      "GUID": "00000000020C.09E",
-      "Name": "B.O.B.",
-      "HeroGUID": "000000000200.075",
-      "HeroName": "Ashe"
-    },
-    "MaxCount": 2,
-    "Cost": 0,
-    "Hero": {
-      "GUID": "000000000200.075",
-      "Value": "Ashe"
-    },
-    "Rarity": {
-      "GUID": "00000000644A.01C",
-      "Value": "Legendary"
-    },
-    "Category": {
-      "GUID": "00000000ECC7.01C",
-      "Value": "HeroPower"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Partners in Crime",
-    "Description": "You are healed for <fg#ffffffff>%1$s</fg> of <fg#ffffffff>[B.O.B.]</fg>'s damage dealt and <fg#ffffffff>[B.O.B.]</fg> is healed for <fg#ffffffff>%1$s</fg> of your damage dealt.",
-    "TextureGUID": "00000005B214.004"
   },
   "000000000DC6.134": {
     "TalentType": "Talent",
@@ -8594,7 +8317,7 @@
     "Major": false,
     "GUID": null,
     "Name": "B.O.B. Wire Defense",
-    "Description": "When <fg#ffffffff>[B.O.B.]</fg> finishes charging, <fg#ffffffff>[B.O.B.]</fg> gains <fg#ffffffff>%1$s</fg> Armor.",
+    "Description": "When <fg#ffffffff>[B.O.B.]</fg> finishes charging, <fg#ffffffff>[B.O.B.]</fg> gains <fg#ffffffff>%1$s</fg> Overhealth.",
     "TextureGUID": "000000060DF9.004"
   },
   "000000000DC7.134": {
@@ -10706,7 +10429,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Hidden Blade",
-    "Description": "Gain <fg#ffffffff>%1$s</fg> Melee Lifesteal and increase <fg#ffffffff>[Quick Melee]</fg> damage\r\nby <fg#ffffffff>%2$s</fg>.",
+    "Description": "Gain <fg#ffffffff>%1$s</fg> Melee Lifesteal and increase <fg#ffffffff>[Quick Melee]</fg> damage by <fg#ffffffff>%2$s</fg>.",
     "TextureGUID": "00000005B1D7.004"
   },
   "000000000E4F.134": {
@@ -10735,7 +10458,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Sacred Shuriken",
-    "Description": "<fg#ffffffff>[Shuriken]</fg>'s primary fire throws\r\n<fg#ffffffff>%1$s</fg> additional <fg#ffffffff>[Shuriken]</fg> that don't consume any ammo.",
+    "Description": "<fg#ffffffff>+%2$s [Shuriken]</fg> Primary Fire Projectile Speed\r\n<fg#ffffffff>[Shuriken]</fg>'s primary fire throws <fg#ffffffff>%1$s</fg> additional <fg#ffffffff>[Shuriken]</fg> that don't consume any ammo.",
     "TextureGUID": "00000005B1D6.004"
   },
   "000000000E50.134": {
@@ -13434,11 +13157,11 @@
     "TalentType": "Talent",
     "Loadout": null,
     "MaxCount": 1,
-    "Cost": 4500,
+    "Cost": 10500,
     "Hero": null,
     "Rarity": {
-      "GUID": "000000003DA0.01C",
-      "Value": "Rare"
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
     },
     "Category": {
       "GUID": "00000000ECD2.01C",
@@ -13448,18 +13171,18 @@
     "Major": false,
     "GUID": null,
     "Name": "Crusader Hydraulics",
-    "Description": "While you have Armor, take <fg#ffffffff>%2$s</fg> reduced Weapon Damage and gain <fg#ffffffff>%3$s</fg> Attack Speed.",
+    "Description": "When an enemy deals Weapon Damage to your Armor, reduce their Attack Speed by <fg#ffffffff>%3$s</fg> for <fg#ffffffff>%5$ss</fg>.",
     "TextureGUID": "00000005A8F7.004"
   },
   "000000000EDE.134": {
     "TalentType": "Talent",
     "Loadout": null,
     "MaxCount": 1,
-    "Cost": 3750,
+    "Cost": 9500,
     "Hero": null,
     "Rarity": {
-      "GUID": "000000003DA0.01C",
-      "Value": "Rare"
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
     },
     "Category": {
       "GUID": "00000000ECD2.01C",
@@ -13469,7 +13192,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Reinforced Titanium",
-    "Description": "While you have Shields, take <fg#ffffffff>%2$s</fg> reduced Ability Damage and gain <fg#ffffffff>%3$s</fg> Ability Power.",
+    "Description": "While you have Shields, gain <fg#ffffffff>%2$s</fg> <fg#ffffffff>Ability Damage Reduction</fg>.\r\nReduce the time before your Shields begins regenerating by <fg#ffffffff>%5$s</fg>.",
     "TextureGUID": "00000005A8EE.004"
   },
   "000000000EDF.134": {
@@ -13547,7 +13270,7 @@
     "TalentType": "Talent",
     "Loadout": null,
     "MaxCount": 1,
-    "Cost": 9500,
+    "Cost": 9000,
     "Hero": null,
     "Rarity": {
       "GUID": "0000000061ED.01C",
@@ -14210,7 +13933,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Anti-Beam Coating",
-    "Description": "<fg#ffffffff>[Deflect]</fg> now blocks <fg#ffffffff>Beam</fg> attacks.",
+    "Description": "While using <fg#ffffffff>[Deflect]</fg>, Genji becomes immune to <fg#ffffffff>Beam</fg> attacks from front.",
     "TextureGUID": "000000060E0C.004"
   },
   "000000000F02.134": {
@@ -14355,7 +14078,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Signature Shift",
-    "Description": "After using an ability, your next <fg#ffffffff>[Sonic Amplifier]</fg> shot shoots a volley of <fg#ffffffff>%1$s</fg> ammo with <fg#ffffffff>%2$s</fg> increased projectile size.",
+    "Description": "After using an ability or <fg#ffffffff>Gadget</fg>, restore <fg#ffffffff>%3$s</fg> Max Ammo and your next <fg#ffffffff>[Sonic Amplifier]</fg> shot shoots a volley of <fg#ffffffff>%1$s</fg> ammo with <fg#ffffffff>%2$s</fg> increased projectile size.",
     "TextureGUID": "00000005B242.004"
   },
   "000000000F07.134": {
@@ -14647,7 +14370,7 @@
     "TalentType": "Talent",
     "Loadout": null,
     "MaxCount": 1,
-    "Cost": 9500,
+    "Cost": 9000,
     "Hero": {
       "GUID": "000000000079.075",
       "Value": "Lúcio"
@@ -15244,7 +14967,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Hot Rotate-O",
-    "Description": "<fg#ffffffff>[Javelin Spin]</fg> gains <fg#ffffffff>%1$s</fg> Cooldown Reduction but now generates <fg#ffffffff>[Heat]</fg>.",
+    "Description": "When you <fg#ffffffff>[Overheat]</fg>, <fg#ffffffff>[Javelin Spin]</fg> cooldown is reduced by <fg#ffffffff>%1$s</fg>.",
     "TextureGUID": "00000005B1E6.004"
   },
   "000000000F28.134": {
@@ -15546,7 +15269,7 @@
       "HeroName": "Mercy"
     },
     "MaxCount": 1,
-    "Cost": 10000,
+    "Cost": 9000,
     "Hero": {
       "GUID": "000000000004.075",
       "Value": "Mercy"
@@ -16333,7 +16056,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Electrolytes",
-    "Description": "At the start of the round and everytime you respawn, gain <fg#ffffffff>%1$s</fg> unrecoverable <fg#ffffffff>Overhealth</fg>.",
+    "Description": "At the start of the round and everytime you respawn, gain <fg#ffffffff>%3$s</fg> Move Speed for <fg#ffffffff>%4$ss</fg> while out of combat and <fg#ffffffff>%1$s</fg> <fg#ffffffff>Overhealth</fg>.",
     "TextureGUID": "0000000610D5.004"
   },
   "000000000F72.134": {
@@ -16377,27 +16100,6 @@
     "Name": "Charged Plating",
     "Description": "After you spend your Ultimate Charge, gain <fg#ffffffff>%2$s</fg> Armor and <fg#ffffffff>%1$s</fg> Ability Power for the rest of the round.",
     "TextureGUID": "0000000610D4.004"
-  },
-  "000000000F74.134": {
-    "TalentType": "Talent",
-    "Loadout": null,
-    "MaxCount": 1,
-    "Cost": 1000,
-    "Hero": null,
-    "Rarity": {
-      "GUID": "000000000297.01C",
-      "Value": "Common"
-    },
-    "Category": {
-      "GUID": "00000000ECD2.01C",
-      "Value": "Survival"
-    },
-    "Level": 0,
-    "Major": false,
-    "GUID": null,
-    "Name": "Running Shoes",
-    "Description": "At the start of the round and when you respawn while not in Overtime, gain <fg#ffffffff>%1$s</fg> Move Speed for <fg#ffffffff>%2$ss</fg> while out of combat.",
-    "TextureGUID": "0000000610D7.004"
   },
   "000000000F78.134": {
     "TalentType": "Talent",
@@ -16530,7 +16232,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Bullseye",
-    "Description": "<fg#ffffffff>[Flashbang]</fg> hits and Critical hits reduces <fg#ffffffff>[Combat Roll]</fg>'s cooldown by <fg#ffffffff>2</fg>s.",
+    "Description": "<fg#ffffffff>[Flashbang]</fg> hits and Critical hits reduces <fg#ffffffff>[Combat Roll]</fg>'s cooldown by <fg#ffffffff>2s</fg>.",
     "TextureGUID": "000000061BB8.004"
   },
   "000000000F7E.134": {
@@ -17297,26 +16999,6 @@
     "Description": null,
     "TextureGUID": null
   },
-  "0000000024F6.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000BBE.09E",
-      "Name": "Flashback",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 2,
-    "Major": true,
-    "GUID": null,
-    "Name": "Flashback",
-    "Description": null,
-    "TextureGUID": null
-  },
   "0000000024F9.134": {
     "TalentType": "Perk",
     "Loadout": {
@@ -17377,26 +17059,6 @@
     "Description": null,
     "TextureGUID": null
   },
-  "000000002500.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000B94.09E",
-      "Name": "Fully Loaded",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Fully Loaded",
-    "Description": null,
-    "TextureGUID": null
-  },
   "000000002501.134": {
     "TalentType": "Perk",
     "Loadout": {
@@ -17434,6 +17096,26 @@
     "Major": true,
     "GUID": null,
     "Name": "Anchor Bolts",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002503.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000B95.09E",
+      "Name": "Crusader's Resolve",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Crusader's Resolve",
     "Description": null,
     "TextureGUID": null
   },
@@ -17577,26 +17259,6 @@
     "Description": null,
     "TextureGUID": null
   },
-  "000000002510.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000B69.09E",
-      "Name": "Escape Plan",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 2,
-    "Major": true,
-    "GUID": null,
-    "Name": "Escape Plan",
-    "Description": null,
-    "TextureGUID": null
-  },
   "000000002513.134": {
     "TalentType": "Perk",
     "Loadout": {
@@ -17717,26 +17379,6 @@
     "Description": null,
     "TextureGUID": null
   },
-  "000000002528.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000B41.09E",
-      "Name": "Gun Slingin'",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 2,
-    "Major": true,
-    "GUID": null,
-    "Name": "Gun Slingin'",
-    "Description": null,
-    "TextureGUID": null
-  },
   "00000000252C.134": {
     "TalentType": "Perk",
     "Loadout": {
@@ -17810,30 +17452,10 @@
     "Hero": null,
     "Rarity": null,
     "Category": null,
-    "Level": 2,
-    "Major": true,
-    "GUID": null,
-    "Name": "Spotter",
-    "Description": null,
-    "TextureGUID": null
-  },
-  "000000002534.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000BA2.09E",
-      "Name": "Recycled Pulse Munitions",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
     "Level": 1,
     "Major": false,
     "GUID": null,
-    "Name": "Recycled Pulse Munitions",
+    "Name": "Spotter",
     "Description": null,
     "TextureGUID": null
   },
@@ -18157,26 +17779,6 @@
     "Description": null,
     "TextureGUID": null
   },
-  "000000002563.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000B88.09E",
-      "Name": "Sidewinder",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Sidewinder",
-    "Description": null,
-    "TextureGUID": null
-  },
   "000000002565.134": {
     "TalentType": "Perk",
     "Loadout": {
@@ -18290,8 +17892,8 @@
     "Hero": null,
     "Rarity": null,
     "Category": null,
-    "Level": 2,
-    "Major": true,
+    "Level": 1,
+    "Major": false,
     "GUID": null,
     "Name": "Assault Burst",
     "Description": null,
@@ -18310,8 +17912,8 @@
     "Hero": null,
     "Rarity": null,
     "Category": null,
-    "Level": 1,
-    "Major": false,
+    "Level": 2,
+    "Major": true,
     "GUID": null,
     "Name": "Automated Healing",
     "Description": null,
@@ -18750,8 +18352,8 @@
     "Hero": null,
     "Rarity": null,
     "Category": null,
-    "Level": 1,
-    "Major": false,
+    "Level": 2,
+    "Major": true,
     "GUID": null,
     "Name": "Blink Packs",
     "Description": null,
@@ -18814,46 +18416,6 @@
     "Major": true,
     "GUID": null,
     "Name": "Scatter Arrows",
-    "Description": null,
-    "TextureGUID": null
-  },
-  "0000000025A3.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000C13.09E",
-      "Name": "Lifeweaving",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Lifeweaving",
-    "Description": null,
-    "TextureGUID": null
-  },
-  "0000000025A4.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000C14.09E",
-      "Name": "Cleansing Grasp",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Cleansing Grasp",
     "Description": null,
     "TextureGUID": null
   },
@@ -19070,8 +18632,8 @@
     "Hero": null,
     "Rarity": null,
     "Category": null,
-    "Level": 2,
-    "Major": true,
+    "Level": 1,
+    "Major": false,
     "GUID": null,
     "Name": "Dragon Fury",
     "Description": null,
@@ -19217,26 +18779,6 @@
     "Description": null,
     "TextureGUID": null
   },
-  "0000000025C9.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000C3C.09E",
-      "Name": "Pack Rat",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Pack Rat",
-    "Description": null,
-    "TextureGUID": null
-  },
   "0000000025CA.134": {
     "TalentType": "Perk",
     "Loadout": {
@@ -19297,26 +18839,6 @@
     "Description": null,
     "TextureGUID": null
   },
-  "0000000025CE.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000C48.09E",
-      "Name": "Hunters Instinct",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Hunters Instinct",
-    "Description": null,
-    "TextureGUID": null
-  },
   "0000000025D1.134": {
     "TalentType": "Perk",
     "Loadout": {
@@ -19330,8 +18852,8 @@
     "Hero": null,
     "Rarity": null,
     "Category": null,
-    "Level": 2,
-    "Major": true,
+    "Level": 1,
+    "Major": false,
     "GUID": null,
     "Name": "Relentless Barrage",
     "Description": null,
@@ -19474,26 +18996,6 @@
     "Major": false,
     "GUID": null,
     "Name": "Siphoning Strike",
-    "Description": null,
-    "TextureGUID": null
-  },
-  "0000000025E0.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000C78.09E",
-      "Name": "Swift Vengeance",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 2,
-    "Major": true,
-    "GUID": null,
-    "Name": "Swift Vengeance",
     "Description": null,
     "TextureGUID": null
   },
@@ -19823,8 +19325,8 @@
   "0000000025F0.134": {
     "TalentType": "Talent",
     "Loadout": {
-      "GUID": "000000000031.09E",
-      "Name": "Orb of Harmony",
+      "GUID": "000000000032.09E",
+      "Name": "Orb of Discord",
       "HeroGUID": "000000000020.075",
       "HeroName": "Zenyatta"
     },
@@ -19846,7 +19348,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Orb of Perception",
-    "Description": "Targets affected by <fg#ffffffff>[Discord Orb]</fg> are <fg#ffffffff>Revealed</fg>.",
+    "Description": "Targets affected by <fg#ffffffff>[Discord Orb]</fg> are <fg#ffffffff>Revealed</fg>. Gain 15%% Ability Power for each enemy discorded.",
     "TextureGUID": "000000063932.004"
   },
   "0000000025F1.134": {
@@ -19991,7 +19493,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Singularity",
-    "Description": "<fg#ffffffff>[Accretion]</fg> splash damage is increased by <fg#ffffffff>%1$s</fg> and enemies are pulled towards its explosion.",
+    "Description": "<fg#ffffffff>[Accretion]</fg> splash damage is increased by <fg#ffffffff>%1$s</fg> and enemies are pulled towards its explosion.\r\n<fg#ffffffff>[Accretion]</fg>'s cooldown is reduced by <fg#ffffffff>%2$s</fg> on direct hit.",
     "TextureGUID": "00000006394A.004"
   },
   "0000000025F7.134": {
@@ -20049,7 +19551,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Event Horizon",
-    "Description": "Damage absorbed by <fg#ffffffff>[Kinetic Grasp]</fg> also restores <fg#ffffffff>[Experimental Barrier]</fg>'s health. Excess is converted to <fg#ffffffff>Overhealth</fg>.",
+    "Description": "Damage absorbed by <fg#ffffffff>[Kinetic Grasp]</fg> grants <fg#ffffffff>Overhealth</fg> to visible allies and restores <fg#ffffffff>[Experimental Barrier]</fg>'s health. Excess is converted to <fg#ffffffff>Overhealth</fg>.",
     "TextureGUID": "000000063950.004"
   },
   "0000000025F9.134": {
@@ -20160,7 +19662,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Apogee Alignment",
-    "Description": "When you use an ability, create <fg#ffffffff>%1$s</fg> <fg#ffffffff>[Hyperspheres]</fg> that orbit around you.",
+    "Description": "When you use an ability, create <fg#ffffffff>%1$s</fg> <fg#ffffffff>[Hyperspheres]</fg> that orbit around you that deals <fg#ffffffff>%2$s</fg> damage.",
     "TextureGUID": "000000063954.004"
   },
   "0000000025FE.134": {
@@ -20172,7 +19674,7 @@
       "HeroName": "Sigma"
     },
     "MaxCount": 1,
-    "Cost": 11000,
+    "Cost": 10000,
     "Hero": {
       "GUID": "00000000023B.075",
       "Value": "Sigma"
@@ -20346,7 +19848,7 @@
       "HeroName": "Sigma"
     },
     "MaxCount": 1,
-    "Cost": 10000,
+    "Cost": 12000,
     "Hero": {
       "GUID": "00000000023B.075",
       "Value": "Sigma"
@@ -20375,7 +19877,7 @@
       "HeroName": "Sigma"
     },
     "MaxCount": 1,
-    "Cost": 4500,
+    "Cost": 6000,
     "Hero": {
       "GUID": "00000000023B.075",
       "Value": "Sigma"
@@ -20711,7 +20213,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Aeroweave Cloak",
-    "Description": " While momentum is slowed by \r\n<fg#ffffffff>[Take Aim]</fg>, restore <fg#ffffffff>%3$s</fg> Max Life and <fg#ffffffff>%4$s</fg> Max Ammo every 1s.",
+    "Description": "While momentum is slowed by \r\n<fg#ffffffff>[Take Aim]</fg>, restore <fg#ffffffff>%3$s</fg> Max Life and <fg#ffffffff>%4$s</fg> Max Ammo every 1s.",
     "TextureGUID": "0000000625F0.004"
   },
   "000000002612.134": {
@@ -21742,7 +21244,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Mass Driver",
-    "Description": "<fg#ffffffff>[Accretion]</fg> projectiles that pass through <fg#ffffffff>[Experimental Barrier]</fg> gain <fg#ffffffff>%1$s</fg> Projectile Speed and deal <fg#ffffffff>%2$s</fg> increased damage.",
+    "Description": "<fg#ffffffff>[Accretion]</fg> projectiles that pass through <fg#ffffffff>[Experimental Barrier]</fg> gain <fg#ffffffff>%1$s</fg> Projectile Speed, deal <fg#ffffffff>%2$s</fg> increased damage and restore <tx0x0C00000000061B04><fg#ff9274ff>%3$s</fg> <fg#ffffffff>[Experimental Barrier]</fg> health.",
     "TextureGUID": "000000063952.004"
   },
   "000000002659.134": {
@@ -22046,26 +21548,6 @@
     "Description": "Gain <fg#ffffffff>%2$s</fg> Damage Reduction during <fg#ffffffff>[Power Slide]</fg>. <fg#ffffffff>[Power Slide]</fg> has <fg#ffffffff>%1$s</fg> increased Duration.",
     "TextureGUID": "000000069B47.004"
   },
-  "000000002668.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000CBB.09E",
-      "Name": "Energy Converter",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Energy Converter",
-    "Description": null,
-    "TextureGUID": null
-  },
   "000000002669.134": {
     "TalentType": "Perk",
     "Loadout": {
@@ -22240,7 +21722,7 @@
       "HeroName": "Sojourn"
     },
     "MaxCount": 1,
-    "Cost": 4500,
+    "Cost": 4000,
     "Hero": {
       "GUID": "0000000001EC.075",
       "Value": "Sojourn"
@@ -22269,7 +21751,7 @@
       "HeroName": "Sojourn"
     },
     "MaxCount": 1,
-    "Cost": 4500,
+    "Cost": 3750,
     "Hero": {
       "GUID": "0000000001EC.075",
       "Value": "Sojourn"
@@ -22298,7 +21780,7 @@
       "HeroName": "Sojourn"
     },
     "MaxCount": 1,
-    "Cost": 5000,
+    "Cost": 4000,
     "Hero": {
       "GUID": "0000000001EC.075",
       "Value": "Sojourn"
@@ -22327,7 +21809,7 @@
       "HeroName": "Sojourn"
     },
     "MaxCount": 1,
-    "Cost": 12000,
+    "Cost": 10000,
     "Hero": {
       "GUID": "0000000001EC.075",
       "Value": "Sojourn"
@@ -22424,26 +21906,6 @@
     "Major": true,
     "GUID": null,
     "Name": "Ready Step",
-    "Description": null,
-    "TextureGUID": null
-  },
-  "00000000267C.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000CC9.09E",
-      "Name": "Transcendent Condemnation",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Transcendent Condemnation",
     "Description": null,
     "TextureGUID": null
   },
@@ -22600,26 +22062,6 @@
     "Major": false,
     "GUID": null,
     "Name": "Remote Detonator",
-    "Description": null,
-    "TextureGUID": null
-  },
-  "00000000268A.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000CD3.09E",
-      "Name": "Petal Power",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 2,
-    "Major": true,
-    "GUID": null,
-    "Name": "Petal Power",
     "Description": null,
     "TextureGUID": null
   },
@@ -22917,8 +22359,8 @@
     "Hero": null,
     "Rarity": null,
     "Category": null,
-    "Level": 1,
-    "Major": false,
+    "Level": 2,
+    "Major": true,
     "GUID": null,
     "Name": "Relentless",
     "Description": null,
@@ -22952,6 +22394,86 @@
     "Name": "Thick Skin",
     "Description": "When activating <fg#ffffffff>[Primal Rage]</fg>, Winston gains additional Armor equal to <fg#ffffffff>%1$s</fg> of Max Armor.",
     "TextureGUID": "000000067457.004"
+  },
+  "00000000269E.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000CE2.09E",
+      "Name": "Efficient Design",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Efficient Design",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "00000000269F.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000CE3.09E",
+      "Name": "Disruptive Detonation",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Disruptive Detonation",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000026A0.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000CE4.09E",
+      "Name": "Power Move",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Power Move",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000026A1.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000CE5.09E",
+      "Name": "Extended Power",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Extended Power",
+    "Description": null,
+    "TextureGUID": null
   },
   "0000000026A3.134": {
     "TalentType": "Talent",
@@ -23049,14 +22571,14 @@
       "HeroName": "Winston"
     },
     "MaxCount": 1,
-    "Cost": 4000,
+    "Cost": 10000,
     "Hero": {
       "GUID": "000000000009.075",
       "Value": "Winston"
     },
     "Rarity": {
-      "GUID": "000000003DA0.01C",
-      "Value": "Rare"
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
     },
     "Category": {
       "GUID": "00000000ECD2.01C",
@@ -23078,7 +22600,7 @@
       "HeroName": "Winston"
     },
     "MaxCount": 1,
-    "Cost": 4000,
+    "Cost": 6000,
     "Hero": {
       "GUID": "000000000009.075",
       "Value": "Winston"
@@ -23107,7 +22629,7 @@
       "HeroName": "Winston"
     },
     "MaxCount": 1,
-    "Cost": 11000,
+    "Cost": 12500,
     "Hero": {
       "GUID": "000000000009.075",
       "Value": "Winston"
@@ -23165,7 +22687,7 @@
       "HeroName": "Winston"
     },
     "MaxCount": 1,
-    "Cost": 10000,
+    "Cost": 12500,
     "Hero": {
       "GUID": "000000000009.075",
       "Value": "Winston"
@@ -23266,7 +22788,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Aerial Distresser",
-    "Description": "Weapon damage to airborne enemies deal <fg#ffffffff>%2$s</fg> bonus damage over <fg#ffffffff>%1$ss</fg>.",
+    "Description": "Weapon damage to <fg#ffffffff>Airborne</fg> enemies deal <fg#ffffffff>%2$s</fg> bonus damage over <fg#ffffffff>%1$ss</fg>.",
     "TextureGUID": "000000064AB7.004"
   },
   "0000000026B0.134": {
@@ -23381,14 +22903,14 @@
       "HeroName": "Winston"
     },
     "MaxCount": 1,
-    "Cost": 9000,
+    "Cost": 4000,
     "Hero": {
       "GUID": "000000000009.075",
       "Value": "Winston"
     },
     "Rarity": {
-      "GUID": "0000000061ED.01C",
-      "Value": "Epic"
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
     },
     "Category": {
       "GUID": "00000000ECD2.01C",
@@ -23591,26 +23113,6 @@
     "Major": true,
     "GUID": null,
     "Name": "Aerial Recovery",
-    "Description": null,
-    "TextureGUID": null
-  },
-  "0000000026C3.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000D02.09E",
-      "Name": "Barrier Re-Charge",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Barrier Re-Charge",
     "Description": null,
     "TextureGUID": null
   },
@@ -24870,26 +24372,6 @@
     "Description": "While you have Armor, gain <fg#ffffffff>%1$s</fg> damage reduction against beams.",
     "TextureGUID": "000000065A44.004"
   },
-  "000000002701.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000D1B.09E",
-      "Name": "Sky Spy",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 2,
-    "Major": true,
-    "GUID": null,
-    "Name": "Sky Spy",
-    "Description": null,
-    "TextureGUID": null
-  },
   "000000002704.134": {
     "TalentType": "Perk",
     "Loadout": {
@@ -24928,7 +24410,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Barrier Snippet",
-    "Description": "<fg#ffffc800>On Use:</fg> Gain <fg#ffffffff>%1$s</fg> Overhealth for <fg#ffffffff>%2$ss</fg>.",
+    "Description": "<fg#ffffc800>On Use:</fg> Gain <fg#ffffffff>%1$s Overhealth</fg> for <fg#ffffffff>%2$ss</fg>.",
     "TextureGUID": "000000069AD4.004"
   },
   "000000002709.134": {
@@ -25410,26 +24892,6 @@
     "Major": true,
     "GUID": null,
     "Name": "Silver Bullet",
-    "Description": null,
-    "TextureGUID": null
-  },
-  "000000002724.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000D2C.09E",
-      "Name": "Barrier Toss",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Barrier Toss",
     "Description": null,
     "TextureGUID": null
   },
@@ -25939,28 +25401,8 @@
     "Major": false,
     "GUID": null,
     "Name": "Stratosphere Beacon",
-    "Description": "Damage to airborne targets above <fg#ffffffff>%3$sm</fg> deals <fg#ffffffff>%6$s</fg> bonus damage and slows the enemy by <fg#ffffffff>%1$s</fg> for <fg#ffffffff>%4$ss</fg>.\r\n<fg#ffffffff>(%2$ss Cooldown)</fg>.",
+    "Description": "Damage to <fg#ffffffff>Airborne</fg> targets above <fg#ffffffff>%3$sm</fg> deals <fg#ffffffff>%6$s</fg> bonus damage and slows the enemy by <fg#ffffffff>%1$s</fg> for <fg#ffffffff>%4$ss</fg>.\r\n<fg#ffffffff>(%2$ss Cooldown)</fg>.",
     "TextureGUID": "000000067416.004"
-  },
-  "000000002741.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000D43.09E",
-      "Name": "Swift Lunge",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Swift Lunge",
-    "Description": null,
-    "TextureGUID": null
   },
   "000000002742.134": {
     "TalentType": "Talent",
@@ -25980,18 +25422,18 @@
     "Major": false,
     "GUID": null,
     "Name": "Skyline Nanites",
-    "Description": "Ability damage to airborne enemies deal <fg#ffffffff>%2$s</fg> bonus damage over <fg#ffffffff>%1$ss</fg>.",
+    "Description": "Ability damage to <fg#ffffffff>Airborne</fg> enemies deal <fg#ffffffff>%2$s</fg> bonus damage over <fg#ffffffff>%1$ss</fg>.",
     "TextureGUID": "000000067415.004"
   },
   "000000002743.134": {
     "TalentType": "Talent",
     "Loadout": null,
     "MaxCount": 1,
-    "Cost": 1000,
+    "Cost": 3750,
     "Hero": null,
     "Rarity": {
-      "GUID": "000000000297.01C",
-      "Value": "Common"
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
     },
     "Category": {
       "GUID": "00000000ECD2.01C",
@@ -26001,7 +25443,7 @@
     "Major": false,
     "GUID": null,
     "Name": "Ballistic Buffer",
-    "Description": "After taking damage beyond <fg#ffffffff>%1$sm</fg>, gain <fg#ffffffff>%2$s</fg> Overhealth for <fg#ffffffff>%3$ss</fg>.\r\n<fg#ffffffff>(%5$ss Cooldown)</fg>.",
+    "Description": "After taking damage from an <fg#ffffffff>Airborne</fg> target above <fg#ffffffff>%1$sm</fg>, gain <fg#ffffffff>%2$s Overhealth</fg> for <fg#ffffffff>%3$ss</fg>.\r\n<fg#ffffffff>(%5$ss Cooldown)</fg>.",
     "TextureGUID": "000000067414.004"
   },
   "000000002744.134": {
@@ -26093,26 +25535,6 @@
     "Name": "Sojourn Mask",
     "Description": "Dealing critical damage generates 50%% additional ultimate charge.",
     "TextureGUID": "000000069800.004"
-  },
-  "00000000274A.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000D44.09E",
-      "Name": "Healthy Hacker",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 2,
-    "Major": true,
-    "GUID": null,
-    "Name": "Healthy Hacker",
-    "Description": null,
-    "TextureGUID": null
   },
   "00000000274C.134": {
     "TalentType": "Perk",
@@ -26272,7 +25694,7 @@
       "HeroName": "Sojourn"
     },
     "MaxCount": 1,
-    "Cost": 11000,
+    "Cost": 10000,
     "Hero": {
       "GUID": "0000000001EC.075",
       "Value": "Sojourn"
@@ -26378,26 +25800,6 @@
     "Name": "Aftershock",
     "Description": "<fg#ffffffff>[Charged Shot]</fg> final blows trigger an explosion equal to <fg#ffffffff>%1$s</fg> of the shot's damage.",
     "TextureGUID": "000000069B42.004"
-  },
-  "000000002762.134": {
-    "TalentType": "Perk",
-    "Loadout": {
-      "GUID": "000000000D52.09E",
-      "Name": "Biotic Reloader",
-      "HeroGUID": null,
-      "HeroName": null
-    },
-    "MaxCount": 0,
-    "Cost": 0,
-    "Hero": null,
-    "Rarity": null,
-    "Category": null,
-    "Level": 1,
-    "Major": false,
-    "GUID": null,
-    "Name": "Biotic Reloader",
-    "Description": null,
-    "TextureGUID": null
   },
   "000000002767.134": {
     "TalentType": "Perk",
@@ -26593,7 +25995,7 @@
       "HeroName": "Sojourn"
     },
     "MaxCount": 1,
-    "Cost": 5500,
+    "Cost": 4000,
     "Hero": {
       "GUID": "0000000001EC.075",
       "Value": "Sojourn"
@@ -27961,6 +27363,26 @@
     "Name": "Turriplets",
     "Description": "You can have <fg#ffffffff>3 [Turrets]</fg> active. They start at <fg#ffffffff>Level 1</fg>, have <fg#ffffffff>%5$s</fg> Health and <fg#ffffffff>%7$s</fg> Attack Speed, and can be upgraded temporarily with <fg#ffffffff>[Forge Hammer]</fg> hits for up to <fg#ffffffff>%8$ss</fg>.",
     "TextureGUID": "000000069B5C.004"
+  },
+  "0000000027C4.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000D71.09E",
+      "Name": "Hungering Blaze",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Hungering Blaze",
+    "Description": null,
+    "TextureGUID": null
   },
   "0000000027C5.134": {
     "TalentType": "Talent",
@@ -29472,6 +28894,26 @@
     "Description": "Increase <fg#ffffffff>[Seismic Slam]</fg>'s damage by <fg#ffffffff>%1$s</fg> and range by <fg#ffffffff>%2$s</fg> for every <fg#ffffffff>1m</fg> traveled downward.",
     "TextureGUID": "00000006CB0C.004"
   },
+  "00000000281D.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000DEE.09E",
+      "Name": "Smoulder",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Smoulder",
+    "Description": null,
+    "TextureGUID": null
+  },
   "00000000281E.134": {
     "TalentType": "Talent",
     "Loadout": {
@@ -29735,7 +29177,12 @@
   },
   "000000002827.134": {
     "TalentType": "Talent",
-    "Loadout": null,
+    "Loadout": {
+      "GUID": "00000000049D.09E",
+      "Name": "Rushing Torrent",
+      "HeroGUID": "0000000003C3.075",
+      "HeroName": "Wuyang"
+    },
     "MaxCount": 1,
     "Cost": 9000,
     "Hero": {
@@ -29814,6 +29261,26 @@
     "Name": "Duck and Roll",
     "Description": "",
     "TextureGUID": "00000006D215.004"
+  },
+  "00000000282E.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000DF1.09E",
+      "Name": "Cyber Adhesion",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Cyber Adhesion",
+    "Description": null,
+    "TextureGUID": null
   },
   "00000000282F.134": {
     "TalentType": "Talent",
@@ -29922,6 +29389,66 @@
     "Description": "<fg#ffffffff>Ability:</fg> Crouching while airborne will trigger a mini <fg#ffffffff>[Meteor Strike]</fg>, dealing up to <tx0x0C00000000061B04><fg#ff9274ff>%1$s</fg> direct hit damage based on distance traveled downward.\r\n<fg#ffffffff>(%2$ss Cooldown)</fg>.",
     "TextureGUID": "00000006CB08.004"
   },
+  "000000002833.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000DF8.09E",
+      "Name": "Transport Shielding",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Transport Shielding",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002834.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000DF9.09E",
+      "Name": "Headbutt",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Headbutt",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002835.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000DFA.09E",
+      "Name": "Territorial",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Territorial",
+    "Description": null,
+    "TextureGUID": null
+  },
   "000000002836.134": {
     "TalentType": "Talent",
     "Loadout": {
@@ -30009,6 +29536,26 @@
     "Description": "",
     "TextureGUID": "00000006CB10.004"
   },
+  "000000002841.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E05.09E",
+      "Name": "Resonant Return",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Resonant Return",
+    "Description": null,
+    "TextureGUID": null
+  },
   "000000002842.134": {
     "TalentType": "Talent",
     "Loadout": {
@@ -30066,6 +29613,122 @@
     "Name": "Power Matrix",
     "Description": "<fg#ffffffff>[Power Block]</fg> absorbs projectiles for the first <fg#ffffffff>%1$ss</fg>, gaining <fg#ffffffff>Overhealth</fg> equal to <fg#ffffffff>%2$s</fg> of your max Life for each projectile absorbed.",
     "TextureGUID": "00000006CB0E.004"
+  },
+  "000000002845.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "00000000020A.09E",
+      "Name": "The Viper",
+      "HeroGUID": "000000000200.075",
+      "HeroName": "Ashe"
+    },
+    "MaxCount": 2,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000200.075",
+      "Value": "Ashe"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Slow Burn",
+    "Description": "While <fg#ffffffff>scoped</fg>, Critical Damage burns enemies for <fg#ffffffff>%1$s</fg> extra damage over <fg#ffffffff>%2$ss</fg>.",
+    "TextureGUID": "00000006F01B.004"
+  },
+  "000000002846.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "00000000020A.09E",
+      "Name": "The Viper",
+      "HeroGUID": "000000000200.075",
+      "HeroName": "Ashe"
+    },
+    "MaxCount": 2,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000200.075",
+      "Value": "Ashe"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Fire at My Fingertips",
+    "Description": "Dealing weapon damage to burning enemies restores <fg#ffffffff>%1$s</fg> ammo.",
+    "TextureGUID": "00000005B21A.004"
+  },
+  "000000002847.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "00000000020B.09E",
+      "Name": "Dynamite",
+      "HeroGUID": "000000000200.075",
+      "HeroName": "Ashe"
+    },
+    "MaxCount": 2,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000200.075",
+      "Value": "Ashe"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Controlled Boom",
+    "Description": "After throwing <fg#ffffffff>[Dynamite]</fg>, reactivating the ability causes it to explode after a <fg#ffffffff>%1$ss</fg> delay. <fg#ffffffff>[Dynamites]</fg> that explode mid-air burn for <fg#ffffffff>%2$ss</fg> longer.",
+    "TextureGUID": "00000006F08A.004"
+  },
+  "000000002848.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "00000000020B.09E",
+      "Name": "Dynamite",
+      "HeroGUID": "000000000200.075",
+      "HeroName": "Ashe"
+    },
+    "MaxCount": 2,
+    "Cost": 4500,
+    "Hero": {
+      "GUID": "000000000200.075",
+      "Value": "Ashe"
+    },
+    "Rarity": {
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
+    },
+    "Category": {
+      "GUID": "0000000068D3.01C",
+      "Value": "Weapon"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Aero-Dynam-ite",
+    "Description": "When your <fg#ffffffff>[Dynamite]</fg> explodes, gain <fg#ffffffff>%1$s</fg> Attack Speed and <fg#ffffffff>%2$s</fg> Move Speed for <fg#ffffffff>%3$ss</fg>.",
+    "TextureGUID": "00000006F01C.004"
   },
   "00000000284B.134": {
     "TalentType": "Talent",
@@ -30221,7 +29884,7 @@
       "HeroName": "Doomfist"
     },
     "MaxCount": 1,
-    "Cost": 12000,
+    "Cost": 10000,
     "Hero": {
       "GUID": "00000000012F.075",
       "Value": "Doomfist"
@@ -30293,5 +29956,1438 @@
     "Name": "Zoomfist",
     "Description": "Whenever you gain <fg#ffffffff>Overhealth</fg> from yourself, heal for <fg#ffffffff>%3$s</fg> of <fg#ffffffff>Overhealth</fg> gained over <fg#ffffffff>%4$ss</fg> and gain <fg#ffffffff>%2$s</fg> Move Speed for <fg#ffffffff>%5$ss</fg>.",
     "TextureGUID": "00000006CB11.004"
+  },
+  "000000002854.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E14.09E",
+      "Name": "Heat Sink",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Heat Sink",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002855.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "00000000020B.09E",
+      "Name": "Dynamite",
+      "HeroGUID": "000000000200.075",
+      "HeroName": "Ashe"
+    },
+    "MaxCount": 2,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000200.075",
+      "Value": "Ashe"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Stacked Sticks",
+    "Description": "<fg#ffffffff>[Dynamite]</fg> has <fg#ffffffff>%1$s</fg> increased Blast Radius and burns <fg#ffffffff>%2$s</fg> faster.",
+    "TextureGUID": "00000005B215.004"
+  },
+  "000000002856.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E1A.09E",
+      "Name": "Exposed Soul",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Exposed Soul",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002858.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E1E.09E",
+      "Name": "Suppressive Security",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Suppressive Security",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002859.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "00000000020D.09E",
+      "Name": "Coach Gun",
+      "HeroGUID": "000000000200.075",
+      "HeroName": "Ashe"
+    },
+    "MaxCount": 2,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000200.075",
+      "Value": "Ashe"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "What in Tarnation!?",
+    "Description": "For <fg#ffffffff>%1$ss</fg> after <fg#ffffffff>[Coach Gun]</fg> knocks you airborne, aiming with <fg#ffffffff>[The Viper]</fg> grants <fg#ffffffff>%2$s</fg> increased Attack Speed and slower fall speed.",
+    "TextureGUID": "00000006F01A.004"
+  },
+  "00000000285D.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000853.09E",
+      "Name": "Onslaught",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Rising Rampage",
+    "Description": "<fg#ffffffff>[Onslaught]</fg>'s maximum stacks increases by <fg#ffffffff>%1$s</fg> after earning <fg#ffffffff>%2$s</fg> Eliminations, up to <fg#ffffffff>%3$s</fg>.",
+    "TextureGUID": "0000000708CF.004"
+  },
+  "00000000285E.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000853.09E",
+      "Name": "Onslaught",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Continuum",
+    "Description": "Before dying, temporarily come back to life with <fg#ffffffff>%1$s</fg> Max Life per each <fg#ffffffff>[Onslaught]</fg> stack and become <fg#ffffffff>hindered</fg>. (<fg#ffffffff>%2$ss</fg> Cooldown)",
+    "TextureGUID": "0000000708D4.004"
+  },
+  "00000000285F.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000851.09E",
+      "Name": "Palatine Fang",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Skycut",
+    "Description": "After blocking ranged damage, the next Overhead swing shoots a <fg#ffffffff>[Projected Edge]</fg> with <fg#ffffffff>%1$s</fg> damage.",
+    "TextureGUID": "0000000708D2.004"
+  },
+  "000000002860.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E2A.09E",
+      "Name": "Rising Winds",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Rising Winds",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002862.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E2C.09E",
+      "Name": "Helix Propulsion",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Helix Propulsion",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002863.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000851.09E",
+      "Name": "Palatine Fang",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Overloaded Strike",
+    "Description": "After using <fg#ffffffff>[Soaring Slice]</fg>, holding Overhead swing in air can channel level 1 <fg#ffffffff>[Sundering Blade]</fg> with <fg#ffffffff>%1$s</fg> increased damage.",
+    "TextureGUID": "0000000708CE.004"
+  },
+  "000000002864.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000855.09E",
+      "Name": "Warding Stance",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Defiance Core",
+    "Description": "<fg#ffffffff>[Warding Stance]</fg> energy regenerates now even while blocking at <fg#ffffffff>%1$s</fg> rate.\nFor every <fg#ffffffff>[Projected Edge]</fg> fired, reduce <fg#ffffffff>[Whirlwind Dash]</fg> and <fg#ffffffff>[Soaring Slice]</fg> cooldown by <fg#ffffffff>%2$ss</fg>.",
+    "TextureGUID": "0000000708CB.004"
+  },
+  "000000002865.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000855.09E",
+      "Name": "Warding Stance",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Riposte",
+    "Description": "After blocking ranged damage, remove <fg#ffffffff>[Warding Stance]</fg> move speed penalty. Vendetta's next swing becomes an overhead swing.",
+    "TextureGUID": "0000000708D0.004"
+  },
+  "000000002866.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000854.09E",
+      "Name": "Whirlwind Dash",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Cyclone Charge",
+    "Description": "<fg#ffffffff>[Whirlwind Dash]</fg> can spin up to <fg#ffffffff>3s</fg> for <fg#ffffffff>50%%</fg> damage.",
+    "TextureGUID": "0000000708D5.004"
+  },
+  "000000002867.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E2E.09E",
+      "Name": "Multi-Ball",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Multi-Ball",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "00000000286A.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E31.09E",
+      "Name": "Rollin' Round-Up",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Rollin' Round-Up",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "00000000286C.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000854.09E",
+      "Name": "Whirlwind Dash",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Double Dash",
+    "Description": "After <fg#ffffffff>[Whirlwind Dash]</fg> is finished, it can be reactivated within <fg#ffffffff>%1$ss</fg> for <fg#ffffffff>%2$s</fg> damage.",
+    "TextureGUID": "0000000708D6.004"
+  },
+  "00000000286D.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E34.09E",
+      "Name": "Frost Arrow",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Frost Arrow",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "00000000286F.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E36.09E",
+      "Name": "Wellspring",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Wellspring",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002870.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E37.09E",
+      "Name": "Quickstep",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Quickstep",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002871.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000852.09E",
+      "Name": "Soaring Slice",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Up and Over",
+    "Description": "Using <fg#ffffffff>[Soaring Slice]</fg> gives <fg#ffffffff>%1$s</fg> of missing life as <fg#ffffffff>Overhealth</fg> for <fg#ffffffff>%2$ss</fg>.",
+    "TextureGUID": "0000000708D3.004"
+  },
+  "000000002873.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E39.09E",
+      "Name": "Widow's Bite",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Widow's Bite",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002874.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E3A.09E",
+      "Name": "Dashing Escape",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Dashing Escape",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002875.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000852.09E",
+      "Name": "Soaring Slice",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Exalted Empress",
+    "Description": "After using <fg#ffffffff>[Soaring Slice]</fg>, Overhead strike and <fg#ffffffff>[Sundering Blade]</fg> give <fg#ffffffff>%1$s</fg> of damage as temporary <fg#ffffffff>Overhealth</fg>, up to <fg#ffffffff>%2$s</fg>.",
+    "TextureGUID": "0000000708CD.004"
+  },
+  "000000002877.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000856.09E",
+      "Name": "Projected Edge",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Cataclisma",
+    "Description": "<fg#ffffffff>[Projected Edge]</fg> explodes on enemy hit, dealing <tx0x0C00000000061B04><fg#ff9274ff>%1$s</fg> damage to enemies within <fg#ffffffff>%2$sm</fg>.",
+    "TextureGUID": "0000000708D1.004"
+  },
+  "000000002879.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E3D.09E",
+      "Name": "Heat Shield",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Heat Shield",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "00000000287A.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E3E.09E",
+      "Name": "Sow the Seed",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Sow the Seed",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "00000000287B.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E3F.09E",
+      "Name": "Short Fuse",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Short Fuse",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "000000002889.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000855.09E",
+      "Name": "Warding Stance",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Furious Friction",
+    "Description": "<fg#ffffffff>[Warding Stance]</fg> has <fg#ffffffff>%1$s</fg> increased energy regeneration rate.",
+    "TextureGUID": "0000000708CC.004"
+  },
+  "00000000288F.134": {
+    "TalentType": "Talent",
+    "Loadout": null,
+    "MaxCount": 1,
+    "Cost": 4000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
+    },
+    "Category": {
+      "GUID": "00000000ECD2.01C",
+      "Value": "Survival"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Colosseo Coin",
+    "Description": "The last player to land a killing blow on you becomes a target. Eliminate the target to gain <fg#ffffffff>%1$s</fg> extra Stadium Cash and reset cooldowns.",
+    "TextureGUID": "0000000708C9.004"
+  },
+  "000000002890.134": {
+    "TalentType": "Talent",
+    "Loadout": null,
+    "MaxCount": 1,
+    "Cost": 9000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
+    },
+    "Category": {
+      "GUID": "00000000ECD2.01C",
+      "Value": "Survival"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Duelist's Draught",
+    "Description": "Gain <fg#ffffffff>%1$s</fg> damage reduction while there is only 1 enemy within <fg#ffffffff>%2$sm</fg>.",
+    "TextureGUID": "0000000708BF.004"
+  },
+  "000000002892.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000853.09E",
+      "Name": "Onslaught",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 4000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
+    },
+    "Category": {
+      "GUID": "00000000ECD2.01C",
+      "Value": "Survival"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Braced Blade",
+    "Description": "Gain <fg#ffffffff>%1$s</fg> <fg#ffffffff>[Onslaught]</fg> stack for every <fg#ffffffff>%2$s</fg> damage absorbed with <fg#ffffffff>[Warding Stance]</fg>.",
+    "TextureGUID": "0000000708C4.004"
+  },
+  "000000002893.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000853.09E",
+      "Name": "Onslaught",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 12000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
+    },
+    "Category": {
+      "GUID": "000000005FDC.01C",
+      "Value": "Ability"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Onslaught Amplifier",
+    "Description": "Gain <fg#ffffffff>%1$s</fg> Ability Power for every <fg#ffffffff>[Onslaught]</fg> stack.",
+    "TextureGUID": "0000000708C3.004"
+  },
+  "000000002894.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000851.09E",
+      "Name": "Palatine Fang",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 4000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
+    },
+    "Category": {
+      "GUID": "0000000068D3.01C",
+      "Value": "Weapon"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Crater Creator",
+    "Description": "Performing an Overhead swing mid-air drags the hit enemy down to the ground along with Vendetta, dealing <tx0x0C00000000061B0B><fg#fffd3737>%1$s</fg> damage on land. ",
+    "TextureGUID": "0000000708C8.004"
+  },
+  "000000002895.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000851.09E",
+      "Name": "Palatine Fang",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 10000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
+    },
+    "Category": {
+      "GUID": "0000000068D3.01C",
+      "Value": "Weapon"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Scaled Steel",
+    "Description": "",
+    "TextureGUID": "0000000708C0.004"
+  },
+  "000000002898.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000855.09E",
+      "Name": "Warding Stance",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 4000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
+    },
+    "Category": {
+      "GUID": "00000000ECD2.01C",
+      "Value": "Survival"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Chargeguard",
+    "Description": "After deflecting a melee attack, gain <fg#ffffffff>%1$s</fg> Ultimate Charge.",
+    "TextureGUID": "0000000708C1.004"
+  },
+  "000000002899.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000855.09E",
+      "Name": "Warding Stance",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 5000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
+    },
+    "Category": {
+      "GUID": "000000005FDC.01C",
+      "Value": "Ability"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Chimera Cross",
+    "Description": "After blocking damage, gain <fg#ffffffff>%1$s</fg> Ability Power for <fg#ffffffff>%2$ss</fg>.",
+    "TextureGUID": "0000000708C5.004"
+  },
+  "00000000289A.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000854.09E",
+      "Name": "Whirlwind Dash",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 6000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
+    },
+    "Category": {
+      "GUID": "000000005FDC.01C",
+      "Value": "Ability"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Warrior's Shout",
+    "Description": "Using <fg#ffffffff>[Whirlwind Dash]</fg> gives <fg#ffffffff>%1$s</fg> of max life as <fg#ffffffff>Overhealth</fg> to all allies within <fg#ffffffff>%2$sm</fg>.",
+    "TextureGUID": "0000000708CA.004"
+  },
+  "00000000289B.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E44.09E",
+      "Name": "Discordant Repair",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Discordant Repair",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "00000000289C.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000854.09E",
+      "Name": "Whirlwind Dash",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 9000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
+    },
+    "Category": {
+      "GUID": "00000000ECD2.01C",
+      "Value": "Survival"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Antonio's Lesson",
+    "Description": "Gain <fg#ffffffff>%1$s</fg> damage reduction when dashing during <fg#ffffffff>[Whirlwind Dash]</fg> or <fg#ffffffff>[Soaring Slice]</fg>.",
+    "TextureGUID": "0000000708BD.004"
+  },
+  "00000000289D.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000852.09E",
+      "Name": "Soaring Slice",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 9500,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
+    },
+    "Category": {
+      "GUID": "000000005FDC.01C",
+      "Value": "Ability"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Marzia's Mastery",
+    "Description": "<fg#ffffffff>[Soaring Slice]</fg> heals all allies within line of sight for <fg#ffffffff>%1$s</fg> of the damage dealt over <fg#ffffffff>%2$ss</fg>.",
+    "TextureGUID": "0000000708BE.004"
+  },
+  "00000000289E.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000852.09E",
+      "Name": "Soaring Slice",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 10000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
+    },
+    "Category": {
+      "GUID": "000000005FDC.01C",
+      "Value": "Ability"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Ricochet Razor",
+    "Description": "<fg#ffffffff>[Projected Edge]</fg> bounces off surfaces <fg#ffffffff>%1$s</fg> time.",
+    "TextureGUID": "0000000708C6.004"
+  },
+  "00000000289F.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000859.09E",
+      "Name": "Sundering Blade",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 4500,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
+    },
+    "Category": {
+      "GUID": "000000005FDC.01C",
+      "Value": "Ability"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Talon Trinket",
+    "Description": "For each enemy hit by <fg#ffffffff>[Sundering Blade]</fg>, reduce <fg#ffffffff>[Whirlwind Dash]</fg>'s Cooldown by <fg#ffffffff>%1$ss</fg>.",
+    "TextureGUID": "0000000708C7.004"
+  },
+  "0000000028A0.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "000000000859.09E",
+      "Name": "Sundering Blade",
+      "HeroGUID": "000000000472.075",
+      "HeroName": "Vendetta"
+    },
+    "MaxCount": 1,
+    "Cost": 9000,
+    "Hero": {
+      "GUID": "000000000472.075",
+      "Value": "Vendetta"
+    },
+    "Rarity": {
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
+    },
+    "Category": {
+      "GUID": "00000000ECD2.01C",
+      "Value": "Survival"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Vicious Vow",
+    "Description": "While channeling <fg#ffffffff>[Sundering Blade]</fg>, gain <tx0x0C00000000061B04><fg#ff9274ff>%1$s</fg> <fg#ffffffff>Overhealth</fg> every second, up to <tx0x0C00000000061B04><fg#ff9274ff>%2$s</fg>.",
+    "TextureGUID": "0000000708C2.004"
+  },
+  "0000000028A1.134": {
+    "TalentType": "Talent",
+    "Loadout": {
+      "GUID": "00000000020C.09E",
+      "Name": "B.O.B.",
+      "HeroGUID": "000000000200.075",
+      "HeroName": "Ashe"
+    },
+    "MaxCount": 2,
+    "Cost": 0,
+    "Hero": {
+      "GUID": "000000000200.075",
+      "Value": "Ashe"
+    },
+    "Rarity": {
+      "GUID": "00000000644A.01C",
+      "Value": "Legendary"
+    },
+    "Category": {
+      "GUID": "00000000ECC7.01C",
+      "Value": "HeroPower"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "PinB.O.B.",
+    "Description": "After <fg#ffffffff>[B.O.B.]</fg> charges, reactivate Ultimate to charge again. Eliminations reset the charge and add <fg#ffffffff>%1$ss</fg> duration.",
+    "TextureGUID": "00000007014A.004"
+  },
+  "0000000028A6.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E45.09E",
+      "Name": "Expanded Field",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Expanded Field",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028AA.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E46.09E",
+      "Name": "Enhanced Agility",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Enhanced Agility",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028B0.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E49.09E",
+      "Name": "Claws Out",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Claws Out",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028B2.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E4D.09E",
+      "Name": "High-Speed Bandwidth",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "High-Speed Bandwidth",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028B4.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E4F.09E",
+      "Name": "Double-Barreled",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Double-Barreled",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028B6.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E53.09E",
+      "Name": "Petal Protection",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Petal Protection",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028B7.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E54.09E",
+      "Name": "Electric Charge",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Electric Charge",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028B8.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E55.09E",
+      "Name": "Chronal Dash",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Chronal Dash",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028BC.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E59.09E",
+      "Name": "Pre-Heated",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Pre-Heated",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028C3.134": {
+    "TalentType": "Talent",
+    "Loadout": null,
+    "MaxCount": 1,
+    "Cost": 9000,
+    "Hero": null,
+    "Rarity": {
+      "GUID": "0000000061ED.01C",
+      "Value": "Epic"
+    },
+    "Category": {
+      "GUID": "00000000ECD2.01C",
+      "Value": "Survival"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Sundering Vial",
+    "Description": "Damage reduces the enemy's existing <fg#ffffffff>Overhealth</fg> by <fg#ffffffff>%4$s</fg> and applies <fg#ffffffff>%2$s Overhealth Reduction</fg> for <fg#ffffffff>%3$ss</fg>.\r\n<fg#ffffffff>(%5$ss Cooldown)</fg>.",
+    "TextureGUID": "00000005A908.004"
+  },
+  "0000000028C4.134": {
+    "TalentType": "Talent",
+    "Loadout": null,
+    "MaxCount": 1,
+    "Cost": 4000,
+    "Hero": null,
+    "Rarity": {
+      "GUID": "000000003DA0.01C",
+      "Value": "Rare"
+    },
+    "Category": {
+      "GUID": "00000000ECD2.01C",
+      "Value": "Survival"
+    },
+    "Level": 0,
+    "Major": false,
+    "GUID": null,
+    "Name": "Repulsion Greaves",
+    "Description": "After taking damage from an enemy within <fg#ffffffff>%8$sm</fg>, knockback all enemies within <fg#ffffffff>%4$sm</fg> and gain <fg#ffffffff>%6$s Overhealth</fg> for <fg#ffffffff>%7$ss</fg>.\r\n<fg#ffffffff>(%3$ss Cooldown)</fg>.",
+    "TextureGUID": "0000000610D7.004"
+  },
+  "0000000028C5.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E65.09E",
+      "Name": "Extra Oomph",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Extra Oomph",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028C6.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E66.09E",
+      "Name": "Rocket Salvo",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 2,
+    "Major": true,
+    "GUID": null,
+    "Name": "Rocket Salvo",
+    "Description": null,
+    "TextureGUID": null
+  },
+  "0000000028C9.134": {
+    "TalentType": "Perk",
+    "Loadout": {
+      "GUID": "000000000E6D.09E",
+      "Name": "Extra Edge",
+      "HeroGUID": null,
+      "HeroName": null
+    },
+    "MaxCount": 0,
+    "Cost": 0,
+    "Hero": null,
+    "Rarity": null,
+    "Category": null,
+    "Level": 1,
+    "Major": false,
+    "GUID": null,
+    "Name": "Extra Edge",
+    "Description": null,
+    "TextureGUID": null
   }
 }

@@ -23,7 +23,8 @@
       "Sojourn",
       "Soldier: 76",
       "Torbjörn",
-      "Tracer"
+      "Tracer",
+      "Vendetta"
     ],
     "Support": [
       "Ana",
@@ -75,7 +76,12 @@
       "Energy Javelin",
       "Terra Surge"
     ],
-    "Reinhardt": ["Barrier Field", "Charge", "Fire Strike", "Rocket Hammer"],
+    "Reinhardt": [
+      "Barrier Field",
+      "Charge",
+      "Fire Strike",
+      "Rocket Hammer"
+    ],
     "Sigma": [
       "Hyperspheres",
       "Kinetic Grasp",
@@ -96,9 +102,24 @@
       "Particle Barrier",
       "Graviton Surge"
     ],
-    "Ashe": ["The Viper", "Coach Gun", "Dynamite", "B.O.B."],
-    "Cassidy": ["Peacekeeper", "Combat Roll", "Deadeye", "Flashbang"],
-    "Freja": ["Take Aim", "Revdraw Crossbow", "Bola Shot", "Updraft"],
+    "Ashe": [
+      "The Viper",
+      "Coach Gun",
+      "Dynamite",
+      "B.O.B."
+    ],
+    "Cassidy": [
+      "Peacekeeper",
+      "Combat Roll",
+      "Deadeye",
+      "Flashbang"
+    ],
+    "Freja": [
+      "Take Aim",
+      "Revdraw Crossbow",
+      "Bola Shot",
+      "Updraft"
+    ],
     "Genji": [
       "Shuriken",
       "Swift Strike",
@@ -114,9 +135,23 @@
       "Total Mayhem",
       "Rip Tire"
     ],
-    "Mei": ["Endothermic Blaster", "Ice Wall", "Cryo-Freeze", "Blizzard"],
-    "Pharah": ["Concussive Blast", "Barrage", "Rocket Launcher", "Jet Dash"],
-    "Reaper": ["Hellfire Shotguns", "Shadow Step", "Wraith Form"],
+    "Mei": [
+      "Endothermic Blaster",
+      "Ice Wall",
+      "Cryo-Freeze",
+      "Blizzard"
+    ],
+    "Pharah": [
+      "Concussive Blast",
+      "Barrage",
+      "Rocket Launcher",
+      "Jet Dash"
+    ],
+    "Reaper": [
+      "Hellfire Shotguns",
+      "Shadow Step",
+      "Wraith Form"
+    ],
     "Sojourn": [
       "Power Slide",
       "Disruptor Shot",
@@ -137,8 +172,27 @@
       "Forge Hammer",
       "Rivet Gun"
     ],
-    "Tracer": ["Quick Melee", "Blink", "Recall", "Pulse Pistols", "Pulse Bomb"],
-    "Ana": ["Biotic Rifle", "Sleep Dart", "Biotic Grenade", "Nano Boost"],
+    "Tracer": [
+      "Quick Melee",
+      "Blink",
+      "Recall",
+      "Pulse Pistols",
+      "Pulse Bomb"
+    ],
+    "Vendetta": [
+      "Onslaught",
+      "Palatine Fang",
+      "Warding Stance",
+      "Whirlwind Dash",
+      "Soaring Slice",
+      "Projected Edge"
+    ],
+    "Ana": [
+      "Biotic Rifle",
+      "Sleep Dart",
+      "Biotic Grenade",
+      "Nano Boost"
+    ],
     "Brigitte": [
       "Rocket Flail",
       "Repair Pack",
@@ -176,7 +230,12 @@
       "Resurrect",
       "Guardian Angel"
     ],
-    "Moira": ["Biotic Grasp", "Biotic Orb", "Fade", "Coalescence"],
+    "Moira": [
+      "Biotic Grasp",
+      "Biotic Orb",
+      "Fade",
+      "Coalescence"
+    ],
     "Wuyang": [
       "Xuanwu Staff",
       "Restorative Stream",
@@ -240,7 +299,11 @@
     },
     {
       "Name": "Frenzy Amplifier",
-      "vars": ["10%", "15%", "3"]
+      "vars": [
+        "10%",
+        "15%",
+        "3"
+      ]
     },
     {
       "Name": "Stratosphere Beacon",
@@ -251,7 +314,14 @@
           "amount": "25"
         }
       ],
-      "vars": ["25%", "15", "3", "3", "", "10"]
+      "vars": [
+        "25%",
+        "15",
+        "3",
+        "3",
+        "",
+        "10"
+      ]
     },
     {
       "Name": "Aftermarket Firing Pin",
@@ -277,7 +347,10 @@
           "amount": "5%"
         }
       ],
-      "vars": ["10%", "3"]
+      "vars": [
+        "10%",
+        "3"
+      ]
     },
     {
       "Name": "Emergency Chip",
@@ -293,7 +366,14 @@
           "amount": "5%"
         }
       ],
-      "vars": ["", "15%", "150", "", "5", "50"]
+      "vars": [
+        "",
+        "15%",
+        "150",
+        "",
+        "5",
+        "50"
+      ]
     },
     {
       "Name": "Shieldbuster",
@@ -304,7 +384,11 @@
           "amount": "5%"
         }
       ],
-      "vars": ["", "15%", "1"]
+      "vars": [
+        "",
+        "15%",
+        "1"
+      ]
     },
     {
       "Name": "Stockpile",
@@ -385,7 +469,10 @@
           "amount": "10%"
         }
       ],
-      "vars": ["3", "25%"]
+      "vars": [
+        "3",
+        "25%"
+      ]
     },
     {
       "Name": "Salvaged Slugs",
@@ -406,7 +493,11 @@
           "amount": "50%"
         }
       ],
-      "vars": ["", "", "50%"]
+      "vars": [
+        "",
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Volskaya Ordnance",
@@ -417,7 +508,12 @@
           "amount": "10%"
         }
       ],
-      "vars": ["", "5%", "100", "25%"]
+      "vars": [
+        "",
+        "5%",
+        "100",
+        "25%"
+      ]
     },
     {
       "Name": "Codebreaker",
@@ -428,7 +524,10 @@
           "amount": "15%"
         }
       ],
-      "vars": ["", "50%"]
+      "vars": [
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Commander's Clip",
@@ -444,7 +543,11 @@
           "amount": "40%"
         }
       ],
-      "vars": ["", "", "10%"]
+      "vars": [
+        "",
+        "",
+        "10%"
+      ]
     },
     {
       "Name": "Weapon Jammer",
@@ -460,7 +563,10 @@
           "amount": "10%"
         }
       ],
-      "vars": ["10%", "2"]
+      "vars": [
+        "10%",
+        "2"
+      ]
     },
     {
       "Name": "Amari's Antidote",
@@ -476,7 +582,11 @@
           "amount": "15%"
         }
       ],
-      "vars": ["", "", "15%"]
+      "vars": [
+        "",
+        "",
+        "15%"
+      ]
     },
     {
       "Name": "Booster Jets",
@@ -487,7 +597,11 @@
           "amount": "20%"
         }
       ],
-      "vars": ["", "10%", "2"]
+      "vars": [
+        "",
+        "10%",
+        "2"
+      ]
     },
     {
       "Name": "El-Sa'ka Suppressor",
@@ -498,7 +612,10 @@
           "amount": "10%"
         }
       ],
-      "vars": ["30%", "2"]
+      "vars": [
+        "30%",
+        "2"
+      ]
     },
     {
       "Name": "Hardlight Accelerator",
@@ -514,7 +631,13 @@
           "amount": "10%"
         }
       ],
-      "vars": ["", "", "5%", "3", "3"]
+      "vars": [
+        "",
+        "",
+        "5%",
+        "3",
+        "3"
+      ]
     },
     {
       "Name": "Eye of the Spider",
@@ -525,7 +648,9 @@
           "amount": "25%"
         }
       ],
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "The Closer",
@@ -541,11 +666,17 @@
           "amount": "10%"
         }
       ],
-      "vars": ["", "3"]
+      "vars": [
+        "",
+        "3"
+      ]
     },
     {
       "Name": "Charged Plating",
-      "vars": ["10%", "25"]
+      "vars": [
+        "10%",
+        "25"
+      ]
     },
     {
       "Name": "Power Playbook",
@@ -576,7 +707,10 @@
           "amount": "25"
         }
       ],
-      "vars": ["", "15%"]
+      "vars": [
+        "",
+        "15%"
+      ]
     },
     {
       "Name": "Custom Stock",
@@ -612,7 +746,10 @@
           "amount": "5%"
         }
       ],
-      "vars": ["75", "3"]
+      "vars": [
+        "75",
+        "3"
+      ]
     },
     {
       "Name": "Energized Bracers",
@@ -658,7 +795,10 @@
           "amount": "10%"
         }
       ],
-      "vars": ["2", "20%"]
+      "vars": [
+        "2",
+        "20%"
+      ]
     },
     {
       "Name": "Wrist Wraps",
@@ -704,7 +844,13 @@
           "amount": "25"
         }
       ],
-      "vars": ["", "15%", "50%", "10%", "10%"]
+      "vars": [
+        "",
+        "15%",
+        "50%",
+        "10%",
+        "10%"
+      ]
     },
     {
       "Name": "Nano Cola",
@@ -730,7 +876,9 @@
           "amount": "10%"
         }
       ],
-      "vars": ["75"]
+      "vars": [
+        "75"
+      ]
     },
     {
       "Name": "Three-Tap Tommygun",
@@ -746,7 +894,13 @@
           "amount": "10%"
         }
       ],
-      "vars": ["3", "1", "", "", "0.25"]
+      "vars": [
+        "3",
+        "1",
+        "",
+        "",
+        "0.25"
+      ]
     },
     {
       "Name": "Biotech Maximizer",
@@ -762,7 +916,11 @@
           "amount": "10%"
         }
       ],
-      "vars": ["", "", "5%"]
+      "vars": [
+        "",
+        "",
+        "5%"
+      ]
     },
     {
       "Name": "Catalytic Crystal",
@@ -773,7 +931,10 @@
           "amount": "15%"
         }
       ],
-      "vars": ["", "20%"]
+      "vars": [
+        "",
+        "20%"
+      ]
     },
     {
       "Name": "Superflexor",
@@ -789,7 +950,11 @@
           "amount": "10%"
         }
       ],
-      "vars": ["5%", "5", 3]
+      "vars": [
+        "5%",
+        "5",
+        3
+      ]
     },
     {
       "Name": "Cybervenom",
@@ -805,7 +970,10 @@
           "amount": "5%"
         }
       ],
-      "vars": ["2", "30%"]
+      "vars": [
+        "2",
+        "30%"
+      ]
     },
     {
       "Name": "Liquid Nitrogen",
@@ -821,7 +989,14 @@
           "amount": "10%"
         }
       ],
-      "vars": ["", "", "10%", "3", "", "15%"]
+      "vars": [
+        "",
+        "",
+        "10%",
+        "3",
+        "",
+        "15%"
+      ]
     },
     {
       "Name": "LumériCo Fusion Drive",
@@ -837,7 +1012,12 @@
           "amount": "15%"
         }
       ],
-      "vars": ["", "", "50", "3"]
+      "vars": [
+        "",
+        "",
+        "50",
+        "3"
+      ]
     },
     {
       "Name": "Mark of the Kitsune",
@@ -848,7 +1028,10 @@
           "amount": "10%"
         }
       ],
-      "vars": ["", "25"]
+      "vars": [
+        "",
+        "25"
+      ]
     },
     {
       "Name": "Iridescent Iris",
@@ -864,7 +1047,12 @@
           "amount": "10%"
         }
       ],
-      "vars": ["", "", "100", "3"]
+      "vars": [
+        "",
+        "",
+        "100",
+        "3"
+      ]
     },
     {
       "Name": "Champion's Kit",
@@ -885,7 +1073,13 @@
           "amount": "10"
         }
       ],
-      "vars": ["20", "50", "3", "", "15"]
+      "vars": [
+        "20",
+        "50",
+        "3",
+        "",
+        "15"
+      ]
     },
     {
       "Name": "Electrolytes",
@@ -896,7 +1090,9 @@
           "amount": "10"
         }
       ],
-      "vars": ["100"]
+      "vars": [
+        "100"
+      ]
     },
     {
       "Name": "Field Rations",
@@ -907,7 +1103,9 @@
           "amount": "10"
         }
       ],
-      "vars": ["8"]
+      "vars": [
+        "8"
+      ]
     },
     {
       "Name": "Running Shoes",
@@ -918,7 +1116,10 @@
           "amount": "10"
         }
       ],
-      "vars": ["30%", "10"]
+      "vars": [
+        "30%",
+        "10"
+      ]
     },
     {
       "Name": "Adrenaline Shot",
@@ -929,7 +1130,12 @@
           "amount": "25"
         }
       ],
-      "vars": ["", "50", "20%", "5"]
+      "vars": [
+        "",
+        "50",
+        "20%",
+        "5"
+      ]
     },
     {
       "Name": "Armored Vest",
@@ -950,7 +1156,10 @@
           "amount": "25"
         }
       ],
-      "vars": ["", "33%"]
+      "vars": [
+        "",
+        "33%"
+      ]
     },
     {
       "Name": "Reflex Coating",
@@ -961,7 +1170,11 @@
           "amount": "10"
         }
       ],
-      "vars": ["", "75", "3"]
+      "vars": [
+        "",
+        "75",
+        "3"
+      ]
     },
     {
       "Name": "Siphon Gloves",
@@ -972,7 +1185,10 @@
           "amount": "25"
         }
       ],
-      "vars": ["", "25"]
+      "vars": [
+        "",
+        "25"
+      ]
     },
     {
       "Name": "Cushioned Padding",
@@ -988,7 +1204,12 @@
           "amount": "-40%"
         }
       ],
-      "vars": ["", "", "10%", "3"]
+      "vars": [
+        "",
+        "",
+        "10%",
+        "3"
+      ]
     },
     {
       "Name": "Iron Eyes",
@@ -1004,7 +1225,10 @@
           "amount": "5%"
         }
       ],
-      "vars": ["", "20%"]
+      "vars": [
+        "",
+        "20%"
+      ]
     },
     {
       "Name": "Reinforced Titanium",
@@ -1015,7 +1239,11 @@
           "amount": "25"
         }
       ],
-      "vars": ["", "15%", "5%"]
+      "vars": [
+        "",
+        "15%",
+        "5%"
+      ]
     },
     {
       "Name": "Vishkar Condensor",
@@ -1026,7 +1254,10 @@
           "amount": "25"
         }
       ],
-      "vars": ["", "150"]
+      "vars": [
+        "",
+        "150"
+      ]
     },
     {
       "Name": "Bloodbound",
@@ -1037,7 +1268,11 @@
           "amount": "25"
         }
       ],
-      "vars": ["", "10%", "10%"]
+      "vars": [
+        "",
+        "10%",
+        "10%"
+      ]
     },
     {
       "Name": "Ironclad Exhaust Ports",
@@ -1053,7 +1288,10 @@
           "amount": "5%"
         }
       ],
-      "vars": ["25", "3"]
+      "vars": [
+        "25",
+        "3"
+      ]
     },
     {
       "Name": "Vital-E-Tee",
@@ -1064,7 +1302,9 @@
           "amount": "10"
         }
       ],
-      "vars": ["100"]
+      "vars": [
+        "100"
+      ]
     },
     {
       "Name": "Crusader Hydraulics",
@@ -1075,7 +1315,11 @@
           "amount": "25"
         }
       ],
-      "vars": ["", "10%", "5%"]
+      "vars": [
+        "",
+        "10%",
+        "5%"
+      ]
     },
     {
       "Name": "MEKA Z-Series",
@@ -1096,7 +1340,11 @@
           "amount": "25"
         }
       ],
-      "vars": ["", "250", "3"]
+      "vars": [
+        "",
+        "250",
+        "3"
+      ]
     },
     {
       "Name": "Divine Intervention",
@@ -1107,7 +1355,14 @@
           "amount": "50"
         }
       ],
-      "vars": ["", "125", "", "", "20%", "3"]
+      "vars": [
+        "",
+        "125",
+        "",
+        "",
+        "20%",
+        "3"
+      ]
     },
     {
       "Name": "Overdrive Core",
@@ -1123,7 +1378,12 @@
           "amount": "10%"
         }
       ],
-      "vars": ["", "", "30%", "300"]
+      "vars": [
+        "",
+        "",
+        "30%",
+        "300"
+      ]
     },
     {
       "Name": "Gloomgauntlet",
@@ -1139,7 +1399,13 @@
           "amount": "15%"
         }
       ],
-      "vars": ["", "10%", "", "5%", "2"]
+      "vars": [
+        "",
+        "10%",
+        "",
+        "5%",
+        "2"
+      ]
     },
     {
       "Name": "Martian Mender",
@@ -1155,7 +1421,10 @@
           "amount": "5%"
         }
       ],
-      "vars": ["", "3%"]
+      "vars": [
+        "",
+        "3%"
+      ]
     },
     {
       "Name": "Phantasmic Flux",
@@ -1181,7 +1450,12 @@
           "amount": "15%"
         }
       ],
-      "vars": ["", "", "", "100"]
+      "vars": [
+        "",
+        "",
+        "",
+        "100"
+      ]
     },
     {
       "Name": "Rüstung von Wilhelm",
@@ -1192,7 +1466,11 @@
           "amount": "15%"
         }
       ],
-      "vars": ["", "30%", "10%"]
+      "vars": [
+        "",
+        "30%",
+        "10%"
+      ]
     },
     {
       "Name": "Vanadium Injection",
@@ -1249,7 +1527,12 @@
           "amount": "5%"
         }
       ],
-      "vars": ["", "", "15%", "3"]
+      "vars": [
+        "",
+        "",
+        "15%",
+        "3"
+      ]
     },
     {
       "Name": "Ogundimu Reduction Field",
@@ -1260,7 +1543,13 @@
           "amount": "50"
         }
       ],
-      "vars": ["", "0.5%", "", "20", "1"]
+      "vars": [
+        "",
+        "0.5%",
+        "",
+        "20",
+        "1"
+      ]
     },
     {
       "Name": "Aura Repellant",
@@ -1272,7 +1561,11 @@
         }
       ],
       "Cooldown": "20",
-      "vars": ["", "", "8"]
+      "vars": [
+        "",
+        "",
+        "8"
+      ]
     },
     {
       "Name": "Barrier Snippet",
@@ -1284,7 +1577,10 @@
         }
       ],
       "Cooldown": "35",
-      "vars": ["50", "3"]
+      "vars": [
+        "50",
+        "3"
+      ]
     },
     {
       "Name": "Exo Springs",
@@ -1296,7 +1592,12 @@
         }
       ],
       "Cooldown": "15",
-      "vars": ["250%", "", "", "0.75"]
+      "vars": [
+        "250%",
+        "",
+        "",
+        "0.75"
+      ]
     },
     {
       "Name": "Feathered Soles",
@@ -1308,7 +1609,10 @@
         }
       ],
       "Cooldown": "20",
-      "vars": ["25%", "5"]
+      "vars": [
+        "25%",
+        "5"
+      ]
     },
     {
       "Name": "Med Kit",
@@ -1320,7 +1624,12 @@
         }
       ],
       "Cooldown": "15",
-      "vars": ["", "", "20", "10"]
+      "vars": [
+        "",
+        "",
+        "20",
+        "10"
+      ]
     },
     {
       "Name": "Dashing Skates",
@@ -1353,7 +1662,11 @@
         }
       ],
       "Cooldown": "15",
-      "vars": ["", "50", "5"]
+      "vars": [
+        "",
+        "50",
+        "5"
+      ]
     },
     {
       "Name": "Kitsune Snippet",
@@ -1370,7 +1683,14 @@
         }
       ],
       "Cooldown": "25",
-      "vars": ["", "", "50", "100", "25%", "5"]
+      "vars": [
+        "",
+        "",
+        "50",
+        "100",
+        "25%",
+        "5"
+      ]
     },
     {
       "Name": "Kitsune Charm",
@@ -1387,7 +1707,16 @@
         }
       ],
       "Cooldown": "20",
-      "vars": ["", "0.65", "75%", "", "", "", "", "75"]
+      "vars": [
+        "",
+        "0.65",
+        "75%",
+        "",
+        "",
+        "",
+        "",
+        "75"
+      ]
     },
     {
       "Name": "Necrotic Repellant",
@@ -1404,7 +1733,15 @@
         }
       ],
       "Cooldown": "25",
-      "vars": ["", "1", "", "", "", "", "4"]
+      "vars": [
+        "",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "4"
+      ]
     },
     {
       "Name": "Colossus Core",
@@ -1426,7 +1763,15 @@
         }
       ],
       "Cooldown": "25",
-      "vars": ["", "", "25%", "", "25%", "5", "25%"]
+      "vars": [
+        "",
+        "",
+        "25%",
+        "",
+        "25%",
+        "5",
+        "25%"
+      ]
     },
     {
       "Name": "Jet Skates",
@@ -1469,7 +1814,15 @@
         }
       ],
       "Cooldown": "30",
-      "vars": ["", "", "", "", "50%", "15%", "5"]
+      "vars": [
+        "",
+        "",
+        "",
+        "",
+        "50%",
+        "15%",
+        "5"
+      ]
     },
     {
       "Name": "Refresher",
@@ -1481,7 +1834,11 @@
         }
       ],
       "Cooldown": "60",
-      "vars": ["", "", "8"]
+      "vars": [
+        "",
+        "",
+        "8"
+      ]
     },
     {
       "Name": "Multi-Task Mod",
@@ -1504,12 +1861,17 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Mastermind's Mitigator",
       "Hero": "D.Va",
-      "vars": ["1", "200"]
+      "vars": [
+        "1",
+        "200"
+      ]
     },
     {
       "Name": "Vesuvius Protocol",
@@ -1521,7 +1883,9 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["80"]
+      "vars": [
+        "80"
+      ]
     },
     {
       "Name": "Busan Blaster",
@@ -1533,12 +1897,16 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["80"]
+      "vars": [
+        "80"
+      ]
     },
     {
       "Name": "Macro Missile",
       "Hero": "D.Va",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Onslaught Ordinance",
@@ -1550,7 +1918,9 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Refraction Armor",
@@ -1562,7 +1932,9 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Galvanized Core",
@@ -1590,7 +1962,9 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["65%"]
+      "vars": [
+        "65%"
+      ]
     },
     {
       "Name": "Solo Spec",
@@ -1602,7 +1976,10 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["10%", "100"]
+      "vars": [
+        "10%",
+        "100"
+      ]
     },
     {
       "Name": "APM AMP",
@@ -1614,7 +1991,11 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["25%", "2", "16"]
+      "vars": [
+        "25%",
+        "2",
+        "16"
+      ]
     },
     {
       "Name": "Chip-Damage Diverter",
@@ -1626,7 +2007,9 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Singijeon's Pulse Plating",
@@ -1638,7 +2021,9 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["10%"],
+      "vars": [
+        "10%"
+      ],
       "Icon": "data/Talents/Singijeon's_Pulse_Plating.webp"
     },
     {
@@ -1651,7 +2036,9 @@
         }
       ],
       "Hero": "D.Va",
-      "vars": ["4"]
+      "vars": [
+        "4"
+      ]
     },
     {
       "Name": "Loaded Knuckles",
@@ -1668,7 +2055,10 @@
         }
       ],
       "Hero": "Doomfist",
-      "vars": ["1", "100%"]
+      "vars": [
+        "1",
+        "100%"
+      ]
     },
     {
       "Name": "Power Bank",
@@ -1685,7 +2075,9 @@
         }
       ],
       "Hero": "Doomfist",
-      "vars": ["2.5"]
+      "vars": [
+        "2.5"
+      ]
     },
     {
       "Name": "Wing Clipper",
@@ -1713,7 +2105,12 @@
         }
       ],
       "Hero": "Doomfist",
-      "vars": ["", "", "20%", "5"]
+      "vars": [
+        "",
+        "",
+        "20%",
+        "5"
+      ]
     },
     {
       "Name": "Chasm Crusher",
@@ -1741,7 +2138,10 @@
         }
       ],
       "Hero": "Doomfist",
-      "vars": ["", "10%"]
+      "vars": [
+        "",
+        "10%"
+      ]
     },
     {
       "Name": "Dual Layer Dampener",
@@ -1769,7 +2169,13 @@
         }
       ],
       "Hero": "Doomfist",
-      "vars": ["", "15%", "1", "15%", "3"]
+      "vars": [
+        "",
+        "15%",
+        "1",
+        "15%",
+        "3"
+      ]
     },
     {
       "Name": "Power Matrix",
@@ -1781,7 +2187,10 @@
         }
       ],
       "Hero": "Doomfist",
-      "vars": ["1", "1%"]
+      "vars": [
+        "1",
+        "1%"
+      ]
     },
     {
       "Name": "Calcium Efficiency",
@@ -1793,7 +2202,10 @@
         }
       ],
       "Hero": "Hazard",
-      "vars": ["15%", "5"]
+      "vars": [
+        "15%",
+        "5"
+      ]
     },
     {
       "Name": "Sharpsurge",
@@ -1805,7 +2217,11 @@
         }
       ],
       "Hero": "Hazard",
-      "vars": ["1%", "3", "25"]
+      "vars": [
+        "1%",
+        "3",
+        "25"
+      ]
     },
     {
       "Name": "Birdseye Blade",
@@ -1822,7 +2238,9 @@
         }
       ],
       "Hero": "Hazard",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Skewer Bloom",
@@ -1855,7 +2273,11 @@
         }
       ],
       "Hero": "Hazard",
-      "vars": ["", "5", "10"]
+      "vars": [
+        "",
+        "5",
+        "10"
+      ]
     },
     {
       "Name": "Touch-Up's Touch Up",
@@ -1872,7 +2294,10 @@
         }
       ],
       "Hero": "Hazard",
-      "vars": ["20%", "3"]
+      "vars": [
+        "20%",
+        "3"
+      ]
     },
     {
       "Name": "Phreak Foil",
@@ -1894,7 +2319,9 @@
         }
       ],
       "Hero": "Hazard",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Home Turf",
@@ -1906,7 +2333,11 @@
         }
       ],
       "Hero": "Hazard",
-      "vars": ["20%", "100%", "9"]
+      "vars": [
+        "20%",
+        "100%",
+        "9"
+      ]
     },
     {
       "Name": "Spine Protector",
@@ -1923,7 +2354,9 @@
         }
       ],
       "Hero": "Hazard",
-      "vars": ["2%"]
+      "vars": [
+        "2%"
+      ]
     },
     {
       "Name": "Blood Needle",
@@ -1940,7 +2373,9 @@
         }
       ],
       "Hero": "Hazard",
-      "vars": ["0.3%"]
+      "vars": [
+        "0.3%"
+      ]
     },
     {
       "Name": "Susannah's Support",
@@ -1957,7 +2392,9 @@
         }
       ],
       "Hero": "Hazard",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Gutpunch Gauntlet",
@@ -1969,7 +2406,9 @@
         }
       ],
       "Hero": "Junker Queen",
-      "vars": ["75%"]
+      "vars": [
+        "75%"
+      ]
     },
     {
       "Name": "Monarch's Decree",
@@ -1981,7 +2420,9 @@
         }
       ],
       "Hero": "Junker Queen",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Shred and Lead",
@@ -1998,7 +2439,13 @@
         }
       ],
       "Hero": "Junker Queen",
-      "vars": ["", "10%", "", "4", "3"]
+      "vars": [
+        "",
+        "10%",
+        "",
+        "4",
+        "3"
+      ]
     },
     {
       "Name": "Bloodhound Mask",
@@ -2010,7 +2457,10 @@
         }
       ],
       "Hero": "Junker Queen",
-      "vars": ["5%", "12"]
+      "vars": [
+        "5%",
+        "12"
+      ]
     },
     {
       "Name": "Bigger Magnet",
@@ -2022,7 +2472,9 @@
         }
       ],
       "Hero": "Junker Queen",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Tinker Tracksuit",
@@ -2039,7 +2491,10 @@
         }
       ],
       "Hero": "Junker Queen",
-      "vars": ["10%", "4"]
+      "vars": [
+        "10%",
+        "4"
+      ]
     },
     {
       "Name": "Booming Voice",
@@ -2084,7 +2539,10 @@
         }
       ],
       "Hero": "Junker Queen",
-      "vars": ["10%", "150"]
+      "vars": [
+        "10%",
+        "150"
+      ]
     },
     {
       "Name": "Slicing Spree",
@@ -2096,7 +2554,11 @@
         }
       ],
       "Hero": "Junker Queen",
-      "vars": ["5%", "12", "10%"]
+      "vars": [
+        "5%",
+        "12",
+        "10%"
+      ]
     },
     {
       "Name": "Scav Scraps",
@@ -2113,7 +2575,9 @@
         }
       ],
       "Hero": "Junker Queen",
-      "vars": ["40%"]
+      "vars": [
+        "40%"
+      ]
     },
     {
       "Name": "Thick Skull",
@@ -2125,7 +2589,9 @@
         }
       ],
       "Hero": "Junker Queen",
-      "vars": ["75%"]
+      "vars": [
+        "75%"
+      ]
     },
     {
       "Name": "Undying Loyalty",
@@ -2154,7 +2620,9 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Enhanced Target Sensors",
@@ -2171,7 +2639,9 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Optimized Energy",
@@ -2183,7 +2653,9 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["5%"]
+      "vars": [
+        "5%"
+      ]
     },
     {
       "Name": "Arcfinder",
@@ -2195,7 +2667,9 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Elite Rotator Cuff",
@@ -2223,7 +2697,9 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Efi's Theorem",
@@ -2261,7 +2737,9 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "3D-Printed Lance",
@@ -2273,7 +2751,11 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["15%", "", "25"]
+      "vars": [
+        "15%",
+        "25",
+        "15%"
+      ]
     },
     {
       "Name": "Charged Chassis",
@@ -2285,7 +2767,9 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Siphonic Spear",
@@ -2297,7 +2781,11 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["10%", "", "3"]
+      "vars": [
+        "10%",
+        "",
+        "3"
+      ]
     },
     {
       "Name": "Solar Regenergy",
@@ -2309,7 +2797,9 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["3%"]
+      "vars": [
+        "3%"
+      ]
     },
     {
       "Name": "HollaGram Helmet",
@@ -2321,7 +2811,10 @@
         }
       ],
       "Hero": "Orisa",
-      "vars": ["", "2"]
+      "vars": [
+        "",
+        "2"
+      ]
     },
     {
       "Name": "Ironclad Cleats",
@@ -2359,7 +2852,10 @@
         }
       ],
       "Hero": "Reinhardt",
-      "vars": ["", "1"]
+      "vars": [
+        "",
+        "1"
+      ]
     },
     {
       "Name": "Plan Z",
@@ -2371,7 +2867,11 @@
         }
       ],
       "Hero": "Reinhardt",
-      "vars": ["", "30%", "3%"]
+      "vars": [
+        "",
+        "30%",
+        "3%"
+      ]
     },
     {
       "Name": "Boost Recycler",
@@ -2383,11 +2883,19 @@
         }
       ],
       "Hero": "Reinhardt",
-      "vars": ["", "50%"]
+      "vars": [
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Chimera's Maw",
       "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "5%"
+        },
         {
           "key": "Star",
           "label": "<fg#ffffffff>[Fire Strike]</fg> Radius",
@@ -2400,7 +2908,11 @@
         }
       ],
       "Hero": "Reinhardt",
-      "vars": ["", "", "5%"]
+      "vars": [
+        "3",
+        "20%",
+        "3"
+      ]
     },
     {
       "Name": "Gryphon Glider",
@@ -2465,7 +2977,13 @@
         }
       ],
       "Hero": "Reinhardt",
-      "vars": ["50%", "", "", "", "50%"]
+      "vars": [
+        "50%",
+        "",
+        "",
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Wilhelmwagen",
@@ -2477,7 +2995,9 @@
         }
       ],
       "Hero": "Reinhardt",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "Velocity Vector",
@@ -2510,7 +3030,12 @@
         }
       ],
       "Hero": "Sigma",
-      "vars": ["", "", "20%", "25%"]
+      "vars": [
+        "",
+        "",
+        "20%",
+        "25%"
+      ]
     },
     {
       "Name": "Antimatter",
@@ -2538,7 +3063,11 @@
         }
       ],
       "Hero": "Sigma",
-      "vars": ["", "5%", "4"]
+      "vars": [
+        "",
+        "5%",
+        "4"
+      ]
     },
     {
       "Name": "Containment Field",
@@ -2592,7 +3121,10 @@
         }
       ],
       "Hero": "Sigma",
-      "vars": ["", "75%"]
+      "vars": [
+        "",
+        "75%"
+      ]
     },
     {
       "Name": "Synced Shielding",
@@ -2604,7 +3136,11 @@
         }
       ],
       "Hero": "Sigma",
-      "vars": ["", "10%", "10%"]
+      "vars": [
+        "",
+        "10%",
+        "10%"
+      ]
     },
     {
       "Name": "De Kuiper's Thesis",
@@ -2616,7 +3152,10 @@
         }
       ],
       "Hero": "Sigma",
-      "vars": ["", "3%"]
+      "vars": [
+        "",
+        "3%"
+      ]
     },
     {
       "Name": "Current Convertor",
@@ -2628,7 +3167,10 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["15%", "100"]
+      "vars": [
+        "15%",
+        "100"
+      ]
     },
     {
       "Name": "Deconstructor",
@@ -2640,7 +3182,9 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Gibraltar Generator",
@@ -2652,7 +3196,9 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Harold's Glasses",
@@ -2664,7 +3210,9 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Zero-G Suit",
@@ -2676,7 +3224,10 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["50%", "2"]
+      "vars": [
+        "50%",
+        "2"
+      ]
     },
     {
       "Name": "Horizon Expander",
@@ -2688,7 +3239,9 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Unstable Prototype",
@@ -2700,7 +3253,9 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["25"]
+      "vars": [
+        "25"
+      ]
     },
     {
       "Name": "Lucheng Launchers",
@@ -2717,7 +3272,9 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Winton",
@@ -2729,7 +3286,9 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["2000"]
+      "vars": [
+        "2000"
+      ]
     },
     {
       "Name": "Premium Peanut Butter",
@@ -2752,7 +3311,10 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["50%", "25%"]
+      "vars": [
+        "50%",
+        "25%"
+      ]
     },
     {
       "Name": "S. PaceArmor",
@@ -2764,7 +3326,9 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["150"]
+      "vars": [
+        "150"
+      ]
     },
     {
       "Name": "Fortified Jump Pack",
@@ -2776,7 +3340,9 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Simian Supplements",
@@ -2788,7 +3354,9 @@
         }
       ],
       "Hero": "Winston",
-      "vars": ["300"]
+      "vars": [
+        "300"
+      ]
     },
     {
       "Name": "Hybrid Battery",
@@ -2800,7 +3368,10 @@
         }
       ],
       "Hero": "Zarya",
-      "vars": ["", "20"]
+      "vars": [
+        "",
+        "20"
+      ]
     },
     {
       "Name": "Light Launcher",
@@ -2812,7 +3383,12 @@
         }
       ],
       "Hero": "Zarya",
-      "vars": ["", "20%", "", "60%"]
+      "vars": [
+        "",
+        "20%",
+        "",
+        "60%"
+      ]
     },
     {
       "Name": "Bigger Beam",
@@ -2824,7 +3400,10 @@
         }
       ],
       "Hero": "Zarya",
-      "vars": ["", "20%"]
+      "vars": [
+        "",
+        "20%"
+      ]
     },
     {
       "Name": "Beyond Barrier",
@@ -2857,7 +3436,9 @@
         }
       ],
       "Hero": "Zarya",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "Superconductor",
@@ -2874,7 +3455,12 @@
         }
       ],
       "Hero": "Zarya",
-      "vars": ["", "", "50%", "3"]
+      "vars": [
+        "",
+        "",
+        "50%",
+        "3"
+      ]
     },
     {
       "Name": "Blastproof Boots",
@@ -2891,7 +3477,10 @@
         }
       ],
       "Hero": "Zarya",
-      "vars": ["", "100%"]
+      "vars": [
+        "",
+        "100%"
+      ]
     },
     {
       "Name": "Jumper Cables",
@@ -2935,7 +3524,10 @@
         }
       ],
       "Hero": "Ashe",
-      "vars": ["3%", "50%"]
+      "vars": [
+        "3%",
+        "50%"
+      ]
     },
     {
       "Name": "Tripod",
@@ -2947,7 +3539,9 @@
         }
       ],
       "Hero": "Ashe",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Greased Loader",
@@ -2975,7 +3569,12 @@
         }
       ],
       "Hero": "Ashe",
-      "vars": ["1%", "10", "", "15%"]
+      "vars": [
+        "1%",
+        "10",
+        "",
+        "15%"
+      ]
     },
     {
       "Name": "Sidewinder",
@@ -2987,7 +3586,10 @@
         }
       ],
       "Hero": "Ashe",
-      "vars": ["25%", "10"]
+      "vars": [
+        "25%",
+        "10"
+      ]
     },
     {
       "Name": "Furnace Fuel",
@@ -3004,7 +3606,9 @@
         }
       ],
       "Hero": "Ashe",
-      "vars": ["3%"]
+      "vars": [
+        "3%"
+      ]
     },
     {
       "Name": "Silver Lighter",
@@ -3016,19 +3620,23 @@
         }
       ],
       "Hero": "Ashe",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Build-A-Blast Buckshot",
       "Stats": [
         {
-          "key": "CooldownReduction",
-          "label": "Cooldown Reduction",
-          "amount": "10%"
+          "key": "health",
+          "label": "Health",
+          "amount": "50"
         }
       ],
       "Hero": "Ashe",
-      "vars": ["50%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Infrared Lenses",
@@ -3040,7 +3648,9 @@
         }
       ],
       "Hero": "Ashe",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Stacked Sticks",
@@ -3056,7 +3666,11 @@
           "amount": "40%"
         }
       ],
-      "Hero": "Ashe"
+      "Hero": "Ashe",
+      "vars": [
+        "40%",
+        "25%"
+      ]
     },
     {
       "Name": "Silver Spurs",
@@ -3068,24 +3682,30 @@
         }
       ],
       "Hero": "Ashe",
-      "vars": ["20%", "5", "25%"]
+      "vars": [
+        "20%",
+        "5",
+        "25%"
+      ]
     },
     {
       "Name": "B.O.B. Wire Defense",
       "Stats": [
         {
-          "key": "Health",
-          "label": "Health",
-          "amount": "50"
-        },
-        {
           "key": "Armor",
           "label": "Armor",
           "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
         }
       ],
       "Hero": "Ashe",
-      "vars": ["300"]
+      "vars": [
+        "300"
+      ]
     },
     {
       "Name": "Firestarter",
@@ -3097,7 +3717,9 @@
         }
       ],
       "Hero": "Ashe",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Quickload Chamber",
@@ -3114,7 +3736,10 @@
         }
       ],
       "Hero": "Cassidy",
-      "vars": ["20%", "6"]
+      "vars": [
+        "20%",
+        "6"
+      ]
     },
     {
       "Name": "Competitive Analysis",
@@ -3126,7 +3751,9 @@
         }
       ],
       "Hero": "Cassidy",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Blackwatch Tech",
@@ -3138,7 +3765,10 @@
         }
       ],
       "Hero": "Cassidy",
-      "vars": ["10%", "40%"]
+      "vars": [
+        "10%",
+        "40%"
+      ]
     },
     {
       "Name": "Streamlined Poncho",
@@ -3150,7 +3780,9 @@
         }
       ],
       "Hero": "Cassidy",
-      "vars": ["2"]
+      "vars": [
+        "2"
+      ]
     },
     {
       "Name": "Snake Bite",
@@ -3167,7 +3799,10 @@
         }
       ],
       "Hero": "Cassidy",
-      "vars": ["30%", "2.5"]
+      "vars": [
+        "30%",
+        "2.5"
+      ]
     },
     {
       "Name": "Improvised Dynamite",
@@ -3184,7 +3819,9 @@
         }
       ],
       "Hero": "Cassidy",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Wanted Poster",
@@ -3196,7 +3833,11 @@
         }
       ],
       "Hero": "Cassidy",
-      "vars": ["500", "", "50%"]
+      "vars": [
+        "500",
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Duck and Roll",
@@ -3229,7 +3870,11 @@
         }
       ],
       "Hero": "Cassidy",
-      "vars": ["2.5%", "", "3"]
+      "vars": [
+        "2.5%",
+        "",
+        "3"
+      ]
     },
     {
       "Name": "Eagle Eye",
@@ -3241,7 +3886,10 @@
         }
       ],
       "Hero": "Cassidy",
-      "vars": ["25%", "12"]
+      "vars": [
+        "25%",
+        "12"
+      ]
     },
     {
       "Name": "Slipstream Scarf",
@@ -3274,7 +3922,11 @@
         }
       ],
       "Hero": "Freja",
-      "vars": ["", "20%", "3"]
+      "vars": [
+        "",
+        "20%",
+        "3"
+      ]
     },
     {
       "Name": "Portable Zipline",
@@ -3302,7 +3954,11 @@
         }
       ],
       "Hero": "Freja",
-      "vars": ["", "", "1"]
+      "vars": [
+        "",
+        "",
+        "1"
+      ]
     },
     {
       "Name": "Aeroweave Cloak",
@@ -3319,7 +3975,12 @@
         }
       ],
       "Hero": "Freja",
-      "vars": ["", "", "5%", "10%"]
+      "vars": [
+        "",
+        "",
+        "5%",
+        "10%"
+      ]
     },
     {
       "Name": "Hunter's Mark",
@@ -3331,7 +3992,11 @@
         }
       ],
       "Hero": "Freja",
-      "vars": ["", "250", "40"]
+      "vars": [
+        "",
+        "250",
+        "40"
+      ]
     },
     {
       "Name": "Tourniquet",
@@ -3343,7 +4008,11 @@
         }
       ],
       "Hero": "Freja",
-      "vars": ["", "50", "5"]
+      "vars": [
+        "",
+        "50",
+        "5"
+      ]
     },
     {
       "Name": "Toxin Tips",
@@ -3355,7 +4024,10 @@
         }
       ],
       "Hero": "Freja",
-      "vars": ["1", "30%"]
+      "vars": [
+        "1",
+        "30%"
+      ]
     },
     {
       "Name": "Spiked Grip",
@@ -3372,7 +4044,10 @@
         }
       ],
       "Hero": "Genji",
-      "vars": ["", "35%"]
+      "vars": [
+        "",
+        "35%"
+      ]
     },
     {
       "Name": "Enduring Edge",
@@ -3400,7 +4075,10 @@
         }
       ],
       "Hero": "Genji",
-      "vars": ["", "50%"]
+      "vars": [
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Swift-Loader",
@@ -3417,7 +4095,11 @@
         }
       ],
       "Hero": "Genji",
-      "vars": ["20%", "20%", "2.5"]
+      "vars": [
+        "20%",
+        "20%",
+        "2.5"
+      ]
     },
     {
       "Name": "Ninja Soles",
@@ -3450,7 +4132,9 @@
         }
       ],
       "Hero": "Genji",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Clean Sweep",
@@ -3509,7 +4193,8 @@
           "amount": "5%"
         }
       ],
-      "Hero": "Genji"
+      "Hero": "Genji",
+      "vars": []
     },
     {
       "Name": "Equilibrium Gear",
@@ -3526,7 +4211,10 @@
         }
       ],
       "Hero": "Genji",
-      "vars": ["", "5%"]
+      "vars": [
+        "",
+        "5%"
+      ]
     },
     {
       "Name": "Transference Delta",
@@ -3538,7 +4226,10 @@
         }
       ],
       "Hero": "Genji",
-      "vars": ["", "100"]
+      "vars": [
+        "",
+        "100"
+      ]
     },
     {
       "Name": "Slicy Coolant",
@@ -3576,7 +4267,12 @@
         }
       ],
       "Hero": "Junkrat",
-      "vars": ["", "", "25%", "10%"]
+      "vars": [
+        "",
+        "",
+        "25%",
+        "10%"
+      ]
     },
     {
       "Name": "Springier Spring",
@@ -3614,7 +4310,13 @@
         }
       ],
       "Hero": "Junkrat",
-      "vars": ["", "200%", "2", "", "10%"]
+      "vars": [
+        "",
+        "200%",
+        "2",
+        "",
+        "10%"
+      ]
     },
     {
       "Name": "Improvised Explosives",
@@ -3631,7 +4333,11 @@
         }
       ],
       "Hero": "Junkrat",
-      "vars": ["", "", "0.5"]
+      "vars": [
+        "",
+        "",
+        "0.5"
+      ]
     },
     {
       "Name": "Rat Pack",
@@ -3648,7 +4354,11 @@
         }
       ],
       "Hero": "Junkrat",
-      "vars": ["", "", "33%0"]
+      "vars": [
+        "",
+        "",
+        "33%0"
+      ]
     },
     {
       "Name": "Lithium Alloy",
@@ -3670,7 +4380,12 @@
         }
       ],
       "Hero": "Junkrat",
-      "vars": ["", "", "75", "3"]
+      "vars": [
+        "",
+        "",
+        "75",
+        "3"
+      ]
     },
     {
       "Name": "Charged Chompas",
@@ -3687,7 +4402,11 @@
         }
       ],
       "Hero": "Junkrat",
-      "vars": ["", "", "3%"]
+      "vars": [
+        "",
+        "",
+        "3%"
+      ]
     },
     {
       "Name": "Fawkes' Funny Fuel™",
@@ -3709,7 +4428,13 @@
         }
       ],
       "Hero": "Junkrat",
-      "vars": ["", "", "25%", "", "5"]
+      "vars": [
+        "",
+        "",
+        "25%",
+        "",
+        "5"
+      ]
     },
     {
       "Name": "Thermal Traps",
@@ -3721,7 +4446,12 @@
         }
       ],
       "Hero": "Junkrat",
-      "vars": ["25%", "3", "", "10%"]
+      "vars": [
+        "25%",
+        "3",
+        "",
+        "10%"
+      ]
     },
     {
       "Name": "Refreshing Radiation",
@@ -3738,7 +4468,12 @@
         }
       ],
       "Hero": "Junkrat",
-      "vars": ["", "", "8%", "5"]
+      "vars": [
+        "",
+        "",
+        "8%",
+        "5"
+      ]
     },
     {
       "Name": "Jamison's Jumpers",
@@ -3760,7 +4495,11 @@
         }
       ],
       "Hero": "Junkrat",
-      "vars": ["", "", "15%"]
+      "vars": [
+        "",
+        "",
+        "15%"
+      ]
     },
     {
       "Name": "Focused Flurries",
@@ -3772,7 +4511,10 @@
         }
       ],
       "Hero": "Mei",
-      "vars": ["75%", "50%"]
+      "vars": [
+        "75%",
+        "50%"
+      ]
     },
     {
       "Name": "Himalayan Hat",
@@ -3784,7 +4526,9 @@
         }
       ],
       "Hero": "Mei",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Snowboot",
@@ -3796,12 +4540,16 @@
         }
       ],
       "Hero": "Mei",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Ecopoint Cryobed",
       "Hero": "Mei",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Icy Veins",
@@ -3813,7 +4561,9 @@
         }
       ],
       "Hero": "Mei",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Sturdy Snowfort",
@@ -3825,7 +4575,9 @@
         }
       ],
       "Hero": "Mei",
-      "vars": ["5%"]
+      "vars": [
+        "5%"
+      ]
     },
     {
       "Name": "Coldspot",
@@ -3837,7 +4589,11 @@
         }
       ],
       "Hero": "Mei",
-      "vars": ["", "35%", "1.50"]
+      "vars": [
+        "",
+        "35%",
+        "1.50"
+      ]
     },
     {
       "Name": "Meicicle",
@@ -3849,7 +4605,9 @@
         }
       ],
       "Hero": "Mei",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Ice Sheet",
@@ -3861,7 +4619,10 @@
         }
       ],
       "Hero": "Mei",
-      "vars": ["1", "100%"]
+      "vars": [
+        "1",
+        "100%"
+      ]
     },
     {
       "Name": "Blast Enhancer",
@@ -3889,7 +4650,9 @@
         }
       ],
       "Hero": "Pharah",
-      "vars": ["1"]
+      "vars": [
+        "1"
+      ]
     },
     {
       "Name": "Cairo Coolant",
@@ -3906,7 +4669,10 @@
         }
       ],
       "Hero": "Pharah",
-      "vars": ["20%", "3"]
+      "vars": [
+        "20%",
+        "3"
+      ]
     },
     {
       "Name": "Overcharged Ordnance",
@@ -3934,7 +4700,10 @@
         }
       ],
       "Hero": "Pharah",
-      "vars": ["20%", "2"]
+      "vars": [
+        "20%",
+        "2"
+      ]
     },
     {
       "Name": "Flight Plan",
@@ -3946,7 +4715,10 @@
         }
       ],
       "Hero": "Pharah",
-      "vars": ["25", "3"]
+      "vars": [
+        "25",
+        "3"
+      ]
     },
     {
       "Name": "Tuned Turbines",
@@ -3958,7 +4730,9 @@
         }
       ],
       "Hero": "Pharah",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Forward Shielding",
@@ -3975,7 +4749,10 @@
         }
       ],
       "Hero": "Pharah",
-      "vars": ["25%", "3"]
+      "vars": [
+        "25%",
+        "3"
+      ]
     },
     {
       "Name": "Ana's Aim-Assist",
@@ -3987,7 +4764,10 @@
         }
       ],
       "Hero": "Pharah",
-      "vars": ["15%", "3"]
+      "vars": [
+        "15%",
+        "3"
+      ]
     },
     {
       "Name": "Nightcreeper",
@@ -4004,7 +4784,12 @@
         }
       ],
       "Hero": "Reaper",
-      "vars": ["", "", "", "3"]
+      "vars": [
+        "",
+        "",
+        "",
+        "3"
+      ]
     },
     {
       "Name": "Spectral Slugs",
@@ -4032,7 +4817,11 @@
         }
       ],
       "Hero": "Reaper",
-      "vars": ["", "", "80%"]
+      "vars": [
+        "",
+        "",
+        "80%"
+      ]
     },
     {
       "Name": "Crowd Control",
@@ -4044,7 +4833,9 @@
         }
       ],
       "Hero": "Reaper",
-      "vars": ["5%"]
+      "vars": [
+        "5%"
+      ]
     },
     {
       "Name": "Crimson Cloak",
@@ -4061,7 +4852,9 @@
         }
       ],
       "Hero": "Reaper",
-      "vars": ["5%"]
+      "vars": [
+        "5%"
+      ]
     },
     {
       "Name": "Wreath Of Ruin",
@@ -4094,7 +4887,11 @@
         }
       ],
       "Hero": "Reaper",
-      "vars": ["", "25", "75"]
+      "vars": [
+        "",
+        "25",
+        "75"
+      ]
     },
     {
       "Name": "Neverfrost",
@@ -4122,7 +4919,10 @@
         }
       ],
       "Hero": "Reaper",
-      "vars": ["", "20%"]
+      "vars": [
+        "",
+        "20%"
+      ]
     },
     {
       "Name": "Dauntless Draught",
@@ -4155,7 +4955,10 @@
         }
       ],
       "Hero": "Reaper",
-      "vars": ["", "20%"]
+      "vars": [
+        "",
+        "20%"
+      ]
     },
     {
       "Name": "Espresso Shots",
@@ -4172,7 +4975,9 @@
         }
       ],
       "Hero": "Sojourn",
-      "vars": ["2"]
+      "vars": [
+        "2"
+      ]
     },
     {
       "Name": "Rocket-Powered Javelin",
@@ -4189,7 +4994,9 @@
         }
       ],
       "Hero": "Sojourn",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "Shah-Mat Strategem",
@@ -4206,7 +5013,12 @@
         }
       ],
       "Hero": "Sojourn",
-      "vars": ["", "", "50%", "5"]
+      "vars": [
+        "",
+        "",
+        "50%",
+        "5"
+      ]
     },
     {
       "Name": "Murphy's Motor Module",
@@ -4229,7 +5041,10 @@
         }
       ],
       "Hero": "Sojourn",
-      "vars": ["", "10%"]
+      "vars": [
+        "",
+        "10%"
+      ]
     },
     {
       "Name": "CAF Calibrator",
@@ -4299,7 +5114,9 @@
         }
       ],
       "Hero": "Soldier: 76",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Battery Pack",
@@ -4337,7 +5154,11 @@
         }
       ],
       "Hero": "Soldier: 76",
-      "vars": ["", "", "200%"]
+      "vars": [
+        "",
+        "",
+        "200%"
+      ]
     },
     {
       "Name": "Endgame Equalizer",
@@ -4354,7 +5175,9 @@
         }
       ],
       "Hero": "Soldier: 76",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Rapid Response Radius",
@@ -4371,7 +5194,9 @@
         }
       ],
       "Hero": "Soldier: 76",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Compression Fatigues",
@@ -4404,7 +5229,12 @@
         }
       ],
       "Hero": "Soldier: 76",
-      "vars": ["5%", "25%", "", "5"]
+      "vars": [
+        "5%",
+        "25%",
+        "",
+        "5"
+      ]
     },
     {
       "Name": "Rivet Refresher",
@@ -4421,7 +5251,11 @@
         }
       ],
       "Hero": "Torbjörn",
-      "vars": ["", "", "25%"]
+      "vars": [
+        "",
+        "",
+        "25%"
+      ]
     },
     {
       "Name": "Speedish Feetfalls",
@@ -4438,7 +5272,11 @@
         }
       ],
       "Hero": "Torbjörn",
-      "vars": ["", "", "15%"]
+      "vars": [
+        "",
+        "",
+        "15%"
+      ]
     },
     {
       "Name": "Ingrid's Ingenuity",
@@ -4455,7 +5293,10 @@
         }
       ],
       "Hero": "Torbjörn",
-      "vars": ["2%", "20%"]
+      "vars": [
+        "2%",
+        "20%"
+      ]
     },
     {
       "Name": "Skjutsnabbt System",
@@ -4494,7 +5335,10 @@
         }
       ],
       "Hero": "Torbjörn",
-      "vars": ["", "20%"]
+      "vars": [
+        "",
+        "20%"
+      ]
     },
     {
       "Name": "Reclaimer's Rig",
@@ -4511,7 +5355,13 @@
         }
       ],
       "Hero": "Torbjörn",
-      "vars": ["", "", "1", "25", "3"]
+      "vars": [
+        "",
+        "",
+        "1",
+        "25",
+        "3"
+      ]
     },
     {
       "Name": "Arturretficial Intelligence",
@@ -4560,7 +5410,9 @@
         }
       ],
       "Hero": "Torbjörn",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "Ironblood Injectors",
@@ -4572,7 +5424,11 @@
         }
       ],
       "Hero": "Torbjörn",
-      "vars": ["", "5%", "30%"]
+      "vars": [
+        "",
+        "5%",
+        "30%"
+      ]
     },
     {
       "Name": "Pulse Detector",
@@ -4589,7 +5445,11 @@
         }
       ],
       "Hero": "Tracer",
-      "vars": ["", "", "1"]
+      "vars": [
+        "",
+        "",
+        "1"
+      ]
     },
     {
       "Name": "Underworld Quickloader",
@@ -4606,7 +5466,12 @@
         }
       ],
       "Hero": "Tracer",
-      "vars": ["", "", "1%", "30"]
+      "vars": [
+        "",
+        "",
+        "1%",
+        "30"
+      ]
     },
     {
       "Name": "Drag Reducers",
@@ -4639,7 +5504,11 @@
         }
       ],
       "Hero": "Tracer",
-      "vars": ["30%", "30%", "2"]
+      "vars": [
+        "30%",
+        "30%",
+        "2"
+      ]
     },
     {
       "Name": "Iggy's Ignition",
@@ -4667,7 +5536,10 @@
         }
       ],
       "Hero": "Tracer",
-      "vars": ["50", "5"]
+      "vars": [
+        "50",
+        "5"
+      ]
     },
     {
       "Name": "Custom Kicks",
@@ -4679,7 +5551,11 @@
         }
       ],
       "Hero": "Tracer",
-      "vars": ["6", "10%", "1"]
+      "vars": [
+        "6",
+        "10%",
+        "1"
+      ]
     },
     {
       "Name": "Oxton Overdrive",
@@ -4691,7 +5567,9 @@
         }
       ],
       "Hero": "Tracer",
-      "vars": ["2"]
+      "vars": [
+        "2"
+      ]
     },
     {
       "Name": "Slipstream Salve",
@@ -4703,7 +5581,9 @@
         }
       ],
       "Hero": "Tracer",
-      "vars": ["70%"]
+      "vars": [
+        "70%"
+      ]
     },
     {
       "Name": "Potent Projectiles",
@@ -4715,7 +5595,9 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Quick Scope",
@@ -4732,7 +5614,9 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Tactical Rifle",
@@ -4760,7 +5644,9 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Target Tracker",
@@ -4772,7 +5658,10 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["5%", "25%"]
+      "vars": [
+        "5%",
+        "25%"
+      ]
     },
     {
       "Name": "Sleep Regimen",
@@ -4784,7 +5673,10 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["10", "50"]
+      "vars": [
+        "10",
+        "50"
+      ]
     },
     {
       "Name": "Cluster Core",
@@ -4796,7 +5688,9 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["1"]
+      "vars": [
+        "1"
+      ]
     },
     {
       "Name": "Lethal Dose",
@@ -4808,7 +5702,10 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["100", "60"]
+      "vars": [
+        "100",
+        "60"
+      ]
     },
     {
       "Name": "Grenadius Pin",
@@ -4836,7 +5733,10 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["", "3"]
+      "vars": [
+        "",
+        "3"
+      ]
     },
     {
       "Name": "I.V. Drip",
@@ -4848,7 +5748,9 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["150"]
+      "vars": [
+        "150"
+      ]
     },
     {
       "Name": "Perfected Formula",
@@ -4876,7 +5778,9 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["60"]
+      "vars": [
+        "60"
+      ]
     },
     {
       "Name": "Time Out",
@@ -4888,7 +5792,9 @@
         }
       ],
       "Hero": "Ana",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Omni-Boots",
@@ -4926,7 +5832,9 @@
         }
       ],
       "Hero": "Brigitte",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Chain Extender",
@@ -4959,7 +5867,9 @@
         }
       ],
       "Hero": "Brigitte",
-      "vars": ["2%"]
+      "vars": [
+        "2%"
+      ]
     },
     {
       "Name": "Mitzi's Medicine",
@@ -4976,7 +5886,9 @@
         }
       ],
       "Hero": "Brigitte",
-      "vars": ["75"]
+      "vars": [
+        "75"
+      ]
     },
     {
       "Name": "Squire's Satchel",
@@ -4988,7 +5900,9 @@
         }
       ],
       "Hero": "Brigitte",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Valkyrian Core",
@@ -5000,7 +5914,10 @@
         }
       ],
       "Hero": "Brigitte",
-      "vars": ["", "50%"]
+      "vars": [
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Dragons' Incinerator",
@@ -5017,7 +5934,9 @@
         }
       ],
       "Hero": "Brigitte",
-      "vars": ["5%"]
+      "vars": [
+        "5%"
+      ]
     },
     {
       "Name": "Hardlight Weave",
@@ -5029,7 +5948,9 @@
         }
       ],
       "Hero": "Brigitte",
-      "vars": ["150%"]
+      "vars": [
+        "150%"
+      ]
     },
     {
       "Name": "Nullifier Neuroworks",
@@ -5041,7 +5962,9 @@
         }
       ],
       "Hero": "Brigitte",
-      "vars": ["0.5"]
+      "vars": [
+        "0.5"
+      ]
     },
     {
       "Name": "Vantage Shot",
@@ -5053,7 +5976,9 @@
         }
       ],
       "Hero": "Juno",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Gravitational Push",
@@ -5065,7 +5990,9 @@
         }
       ],
       "Hero": "Juno",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Pulse Spike",
@@ -5082,7 +6009,10 @@
         }
       ],
       "Hero": "Juno",
-      "vars": ["25%", "4"]
+      "vars": [
+        "25%",
+        "4"
+      ]
     },
     {
       "Name": "Long Range Blaster",
@@ -5094,7 +6024,10 @@
         }
       ],
       "Hero": "Juno",
-      "vars": ["15%", "12"]
+      "vars": [
+        "15%",
+        "12"
+      ]
     },
     {
       "Name": "Lux Loop",
@@ -5115,7 +6048,9 @@
     {
       "Name": "PulStar Destroyers",
       "Hero": "Juno",
-      "vars": ["35"]
+      "vars": [
+        "35"
+      ]
     },
     {
       "Name": "Red Promise Regulator",
@@ -5143,7 +6078,9 @@
         }
       ],
       "Hero": "Juno",
-      "vars": ["25"]
+      "vars": [
+        "25"
+      ]
     },
     {
       "Name": "Lock-On Shield",
@@ -5155,7 +6092,9 @@
         }
       ],
       "Hero": "Juno",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Sunburst Serum",
@@ -5167,7 +6106,9 @@
         }
       ],
       "Hero": "Juno",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Boosted Rockets",
@@ -5179,7 +6120,9 @@
         }
       ],
       "Hero": "Juno",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Asa's Armaments",
@@ -5191,7 +6134,9 @@
         }
       ],
       "Hero": "Kiriko",
-      "vars": ["1"]
+      "vars": [
+        "1"
+      ]
     },
     {
       "Name": "Farsight Focus Sash",
@@ -5203,7 +6148,10 @@
         }
       ],
       "Hero": "Kiriko",
-      "vars": ["200%", "5"]
+      "vars": [
+        "200%",
+        "5"
+      ]
     },
     {
       "Name": "Teamwork Toolkit",
@@ -5215,7 +6163,10 @@
         }
       ],
       "Hero": "Kiriko",
-      "vars": ["10%", "3"]
+      "vars": [
+        "10%",
+        "3"
+      ]
     },
     {
       "Name": "Ryōta's Reloader",
@@ -5227,7 +6178,10 @@
         }
       ],
       "Hero": "Kiriko",
-      "vars": ["", "100%"]
+      "vars": [
+        "",
+        "100%"
+      ]
     },
     {
       "Name": "Spirits' Guidance",
@@ -5264,7 +6218,10 @@
     {
       "Name": "Cyclist Gloves",
       "Hero": "Kiriko",
-      "vars": ["20%", "3"]
+      "vars": [
+        "20%",
+        "3"
+      ]
     },
     {
       "Name": "Donut Delivery",
@@ -5276,7 +6233,11 @@
         }
       ],
       "Hero": "Kiriko",
-      "vars": ["80", "", "2"]
+      "vars": [
+        "80",
+        "",
+        "2"
+      ]
     },
     {
       "Name": "Our Bikes",
@@ -5293,7 +6254,9 @@
         }
       ],
       "Hero": "Kiriko",
-      "vars": ["80"]
+      "vars": [
+        "80"
+      ]
     },
     {
       "Name": "Talisman of Velocity",
@@ -5305,7 +6268,11 @@
         }
       ],
       "Hero": "Kiriko",
-      "vars": ["4", "25%", "25%"]
+      "vars": [
+        "4",
+        "25%",
+        "25%"
+      ]
     },
     {
       "Name": "Kitsune Kicks",
@@ -5328,7 +6295,10 @@
         }
       ],
       "Hero": "Kiriko",
-      "vars": ["100", "4"]
+      "vars": [
+        "100",
+        "4"
+      ]
     },
     {
       "Name": "Talisman of Life",
@@ -5340,7 +6310,10 @@
         }
       ],
       "Hero": "Kiriko",
-      "vars": ["80", "5"]
+      "vars": [
+        "80",
+        "5"
+      ]
     },
     {
       "Name": "B-Side Bop",
@@ -5357,7 +6330,9 @@
         }
       ],
       "Hero": "Lúcio",
-      "vars": ["200%"]
+      "vars": [
+        "200%"
+      ]
     },
     {
       "Name": "Riff Repeater",
@@ -5369,7 +6344,10 @@
         }
       ],
       "Hero": "Lúcio",
-      "vars": ["", "3"]
+      "vars": [
+        "",
+        "3"
+      ]
     },
     {
       "Name": "LoFly Beats",
@@ -5397,7 +6375,10 @@
         }
       ],
       "Hero": "Lúcio",
-      "vars": ["", "5"]
+      "vars": [
+        "",
+        "5"
+      ]
     },
     {
       "Name": "#1 Single",
@@ -5409,7 +6390,10 @@
         }
       ],
       "Hero": "Lúcio",
-      "vars": ["", "2"]
+      "vars": [
+        "",
+        "2"
+      ]
     },
     {
       "Name": "Airwaves",
@@ -5426,7 +6410,11 @@
         }
       ],
       "Hero": "Lúcio",
-      "vars": ["", "", "50%"]
+      "vars": [
+        "",
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "All-Out Auditiva",
@@ -5454,7 +6442,10 @@
         }
       ],
       "Hero": "Lúcio",
-      "vars": ["", "2"]
+      "vars": [
+        "",
+        "2"
+      ]
     },
     {
       "Name": "Hip Hop",
@@ -5475,7 +6466,10 @@
     {
       "Name": "Mid-Air Mobilizer",
       "Hero": "Mercy",
-      "vars": ["10%", "5%"]
+      "vars": [
+        "10%",
+        "5%"
+      ]
     },
     {
       "Name": "Glass Extra Full",
@@ -5492,7 +6486,9 @@
         }
       ],
       "Hero": "Mercy",
-      "vars": ["25"]
+      "vars": [
+        "25"
+      ]
     },
     {
       "Name": "Caduceus EX",
@@ -5525,7 +6521,11 @@
         }
       ],
       "Hero": "Mercy",
-      "vars": ["", "", "10%"]
+      "vars": [
+        "",
+        "",
+        "10%"
+      ]
     },
     {
       "Name": "Long Distance Wings",
@@ -5558,7 +6558,10 @@
         }
       ],
       "Hero": "Mercy",
-      "vars": ["", "25%"]
+      "vars": [
+        "",
+        "25%"
+      ]
     },
     {
       "Name": "Resurrection Rangefinder",
@@ -5602,7 +6605,12 @@
         }
       ],
       "Hero": "Mercy",
-      "vars": ["", "10%", "", "60%"]
+      "vars": [
+        "",
+        "10%",
+        "",
+        "60%"
+      ]
     },
     {
       "Name": "Angeleisure Wear",
@@ -5614,7 +6622,10 @@
         }
       ],
       "Hero": "Mercy",
-      "vars": ["", "3%"]
+      "vars": [
+        "",
+        "3%"
+      ]
     },
     {
       "Name": "Chain Evoker",
@@ -5647,7 +6658,9 @@
         }
       ],
       "Hero": "Moira",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "High Capacity Tubing",
@@ -5707,7 +6720,10 @@
         }
       ],
       "Hero": "Moira",
-      "vars": ["", "50%"]
+      "vars": [
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Levitation Shawl",
@@ -5735,7 +6751,9 @@
         }
       ],
       "Hero": "Moira",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Extendrils",
@@ -5763,7 +6781,9 @@
         }
       ],
       "Hero": "Moira",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "Oscillation Orb",
@@ -5791,7 +6811,10 @@
         }
       ],
       "Hero": "Wuyang",
-      "vars": ["3", "5%"]
+      "vars": [
+        "3",
+        "5%"
+      ]
     },
     {
       "Name": "Oceanic Ointment",
@@ -5803,7 +6826,10 @@
         }
       ],
       "Hero": "Wuyang",
-      "vars": ["50%", "100"]
+      "vars": [
+        "50%",
+        "100"
+      ]
     },
     {
       "Name": "Aquajet Amplifier",
@@ -5836,7 +6862,9 @@
         }
       ],
       "Hero": "Wuyang",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Water College Hat",
@@ -5853,7 +6881,10 @@
         }
       ],
       "Hero": "Wuyang",
-      "vars": ["10", "30"]
+      "vars": [
+        "10",
+        "30"
+      ]
     },
     {
       "Name": "Wuxing Waveriders",
@@ -5886,7 +6917,9 @@
         }
       ],
       "Hero": "Wuyang",
-      "vars": ["5"]
+      "vars": [
+        "5"
+      ]
     },
     {
       "Name": "Reservoir Refresher",
@@ -5903,7 +6936,9 @@
         }
       ],
       "Hero": "Wuyang",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Hydrocache",
@@ -5936,7 +6971,10 @@
         }
       ],
       "Hero": "Wuyang",
-      "vars": ["2%", "10%"]
+      "vars": [
+        "2%",
+        "10%"
+      ]
     },
     {
       "Name": "Torrential Transistor",
@@ -5948,7 +6986,12 @@
         }
       ],
       "Hero": "Wuyang",
-      "vars": ["12", "50", "", "15%"]
+      "vars": [
+        "12",
+        "50",
+        "",
+        "15%"
+      ]
     },
     {
       "Name": "Waterfall Wetsuit",
@@ -5965,7 +7008,10 @@
         }
       ],
       "Hero": "Wuyang",
-      "vars": ["20", "80"]
+      "vars": [
+        "20",
+        "80"
+      ]
     },
     {
       "Name": "Haste Subroutine",
@@ -5977,7 +7023,10 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["100%", "3"]
+      "vars": [
+        "100%",
+        "3"
+      ]
     },
     {
       "Name": "Orb of Perception",
@@ -5986,14 +7035,10 @@
           "key": "WeaponPower",
           "label": "Weapon Power",
           "amount": "15%"
-        },
-        {
-          "key": "AbilityPower",
-          "label": "Ability Power",
-          "amount": "15%"
         }
       ],
-      "Hero": "Zenyatta"
+      "Hero": "Zenyatta",
+      "vars": []
     },
     {
       "Name": "Genji's Galvanic Gloves",
@@ -6010,7 +7055,9 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Breezeborne Blessing",
@@ -6022,7 +7069,9 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Satya's Solution",
@@ -6039,7 +7088,9 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["1"]
+      "vars": [
+        "1"
+      ]
     },
     {
       "Name": "Friendship Bracelet",
@@ -6051,7 +7102,9 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Mondatta's Mantra",
@@ -6079,7 +7132,9 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Hiking Hoverboots",
@@ -6091,7 +7146,9 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["3"]
+      "vars": [
+        "3"
+      ]
     },
     {
       "Name": "Keepsake of Chaos",
@@ -6103,7 +7160,10 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["5", "50"]
+      "vars": [
+        "5",
+        "50"
+      ]
     },
     {
       "Name": "Transference Protocol",
@@ -6115,7 +7175,9 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["3%"]
+      "vars": [
+        "3%"
+      ]
     },
     {
       "Name": "Golden Monk",
@@ -6127,7 +7189,10 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["50", "5%"]
+      "vars": [
+        "50",
+        "5%"
+      ]
     },
     {
       "Name": "Meditation Mat",
@@ -6139,7 +7204,10 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["80", "6"]
+      "vars": [
+        "80",
+        "6"
+      ]
     },
     {
       "Name": "Teacher's Totem",
@@ -6151,1710 +7219,3170 @@
         }
       ],
       "Hero": "Zenyatta",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Focused Fusion",
       "Hero": "D.Va",
-      "vars": ["20", "50%"]
+      "vars": [
+        "20",
+        "50%"
+      ]
     },
     {
       "Name": "Legendary Loadout",
       "Hero": "D.Va",
-      "vars": ["325%", "100%", "6"]
+      "vars": [
+        "325%",
+        "100%",
+        "6"
+      ]
     },
     {
       "Name": "Overstocked",
       "Hero": "D.Va",
-      "vars": ["1"]
+      "vars": [
+        "1"
+      ]
     },
     {
       "Name": "Countermeasures",
       "Hero": "D.Va",
-      "vars": ["2", "150"]
+      "vars": [
+        "2",
+        "150"
+      ]
     },
     {
       "Name": "Facetanking",
       "Hero": "D.Va",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "Ultrawide Matrix",
       "Hero": "D.Va",
-      "vars": ["50%", "25%"]
+      "vars": [
+        "50%",
+        "25%"
+      ]
     },
     {
       "Name": "Ignition Burst",
       "Hero": "D.Va",
-      "vars": ["80"]
+      "vars": [
+        "60",
+        "3.0"
+      ]
     },
     {
       "Name": "MEKA Punch",
       "Hero": "D.Va",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Stat Boost",
       "Hero": "D.Va",
-      "vars": ["125%"]
+      "vars": [
+        "125%"
+      ]
     },
     {
       "Name": "Tokki Slam",
       "Hero": "D.Va",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Express Detonation",
       "Hero": "D.Va",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Party Protector",
       "Hero": "D.Va",
-      "vars": ["250", "8"]
+      "vars": [
+        "250",
+        "8"
+      ]
     },
     {
       "Name": "Jab Cross",
       "Hero": "Doomfist",
-      "vars": ["75%", "1", "3"]
+      "vars": [
+        "75%",
+        "1",
+        "3"
+      ]
     },
     {
       "Name": "Rising Uppercut",
       "Hero": "Doomfist",
-      "vars": ["10", "12"]
+      "vars": [
+        "10",
+        "12"
+      ]
     },
     {
       "Name": "The Bestest Defense",
       "Hero": "Doomfist",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Aftershock",
       "Hero": "Doomfist",
-      "vars": ["1.5", "60%"]
+      "vars": [
+        "1.5",
+        "60%"
+      ]
     },
     {
       "Name": "Seismic Rally",
       "Hero": "Doomfist",
-      "vars": ["", "", "3", "3%"]
+      "vars": [
+        "",
+        "",
+        "3",
+        "3%"
+      ]
     },
     {
       "Name": "Slam Wham",
       "Hero": "Doomfist",
-      "vars": ["2%", "6%"]
+      "vars": [
+        "2%",
+        "6%"
+      ]
     },
     {
       "Name": "Boomfist",
       "Hero": "Doomfist",
-      "vars": ["5%", "0.5"]
+      "vars": [
+        "5%",
+        "0.5"
+      ]
     },
     {
       "Name": "Jetforce Jab",
       "Hero": "Doomfist",
-      "vars": ["20%", "3"]
+      "vars": [
+        "20%",
+        "3"
+      ]
     },
     {
       "Name": "Overpowered",
       "Hero": "Doomfist",
-      "vars": ["25%", "50%", "", "150%"]
+      "vars": [
+        "25%",
+        "50%",
+        "",
+        "150%"
+      ]
     },
     {
       "Name": "Asteroid Smash",
       "Hero": "Doomfist",
-      "vars": ["150", "12"]
+      "vars": [
+        "150",
+        "12"
+      ]
     },
     {
       "Name": "Helping Hand",
       "Hero": "Doomfist",
-      "vars": ["8%", "", "", "25%"]
+      "vars": [
+        "8%",
+        "",
+        "",
+        "25%"
+      ]
     },
     {
       "Name": "Block Party",
       "Hero": "Doomfist",
-      "vars": ["15%", "8", "5%"]
+      "vars": [
+        "15%",
+        "8",
+        "5%"
+      ]
     },
     {
       "Name": "Barbed Shot",
       "Hero": "Hazard",
-      "vars": ["2", "10"]
+      "vars": [
+        "2",
+        "10"
+      ]
     },
     {
       "Name": "Bonerot",
       "Hero": "Hazard",
-      "vars": ["20", "25%"]
+      "vars": [
+        "20",
+        "25%"
+      ]
     },
     {
       "Name": "Hit Me Again",
       "Hero": "Hazard",
-      "vars": ["0.1", "90%"]
+      "vars": [
+        "0.1",
+        "90%"
+      ]
     },
     {
       "Name": "Bunny Hop",
       "Hero": "Hazard",
-      "vars": ["2"]
+      "vars": [
+        "2"
+      ]
     },
     {
       "Name": "Slasher",
       "Hero": "Hazard",
-      "vars": ["80", "25%", "10"]
+      "vars": [
+        "80",
+        "25%",
+        "10"
+      ]
     },
     {
       "Name": "Twin Fang",
       "Hero": "Hazard",
-      "vars": ["75%"]
+      "vars": [
+        "75%"
+      ]
     },
     {
       "Name": "Woof Woof!",
       "Hero": "Hazard",
-      "vars": ["15%", "30%"]
+      "vars": [
+        "15%",
+        "30%"
+      ]
     },
     {
       "Name": "Fortress",
       "Hero": "Hazard",
-      "vars": ["35%", "25"]
+      "vars": [
+        "35%",
+        "25"
+      ]
     },
     {
       "Name": "Juiced",
       "Hero": "Hazard",
-      "vars": ["100", "12", "2"]
+      "vars": [
+        "100",
+        "12",
+        "2"
+      ]
     },
     {
       "Name": "Off The Wall",
       "Hero": "Hazard",
-      "vars": ["60", "8", "1.5"]
+      "vars": [
+        "60",
+        "8",
+        "1.5"
+      ]
     },
     {
       "Name": "Bringin' the Pain",
       "Hero": "Hazard",
-      "vars": ["20%", "25%", "10"]
+      "vars": [
+        "20%",
+        "25%",
+        "10"
+      ]
     },
     {
       "Name": "Thrill of Battle",
       "Hero": "Junker Queen",
-      "vars": ["100%", "12"]
+      "vars": [
+        "100%",
+        "12"
+      ]
     },
     {
       "Name": "Royal Bullets",
       "Hero": "Junker Queen",
-      "vars": ["40", "2"]
+      "vars": [
+        "40",
+        "2"
+      ]
     },
     {
       "Name": "Twist The Knife",
       "Hero": "Junker Queen",
-      "vars": ["2"]
+      "vars": [
+        "2"
+      ]
     },
     {
       "Name": "Let's Go Win",
       "Hero": "Junker Queen",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Merciless Magnetism",
       "Hero": "Junker Queen",
-      "vars": ["25"]
+      "vars": [
+        "25"
+      ]
     },
     {
       "Name": "Reckoner's Roar",
       "Hero": "Junker Queen",
-      "vars": ["30", "3", "10"]
+      "vars": [
+        "30",
+        "3",
+        "10"
+      ]
     },
     {
       "Name": "Chop Chop",
       "Hero": "Junker Queen",
-      "vars": ["1"]
+      "vars": [
+        "1"
+      ]
     },
     {
       "Name": "Bloodcrazed",
       "Hero": "Junker Queen",
-      "vars": ["15%", "45%"]
+      "vars": [
+        "15%",
+        "45%"
+      ]
     },
     {
       "Name": "Bow Down",
       "Hero": "Junker Queen",
-      "vars": ["1.5"]
+      "vars": [
+        "1.5"
+      ]
     },
     {
       "Name": "Blade Parade",
       "Hero": "Junker Queen",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Cut 'Em, Gracie!",
       "Hero": "Junker Queen",
-      "vars": ["2", "35%", "1"]
+      "vars": [
+        "2",
+        "35%",
+        "1"
+      ]
     },
     {
       "Name": "Advanced Throwbotics",
       "Hero": "Orisa",
-      "vars": ["75%"]
+      "vars": [
+        "75%"
+      ]
     },
     {
       "Name": "Hot Rotate-O",
       "Hero": "Orisa",
-      "vars": ["35%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Spynstem Update",
       "Hero": "Orisa",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Factory Reset",
       "Hero": "Orisa",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Hooves of Steel",
       "Hero": "Orisa",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Restortify",
       "Hero": "Orisa",
-      "vars": ["8%"]
+      "vars": [
+        "8%"
+      ]
     },
     {
       "Name": "Ride With Me",
       "Hero": "Orisa",
-      "vars": ["10%", "30%"]
+      "vars": [
+        "10%",
+        "30%"
+      ]
     },
     {
       "Name": "Lassoed",
       "Hero": "Orisa",
-      "vars": ["4"]
+      "vars": [
+        "4"
+      ]
     },
     {
       "Name": "Centripetal Charge",
       "Hero": "Orisa",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Scorched Earth",
       "Hero": "Orisa",
-      "vars": ["25%", "4", "6"]
+      "vars": [
+        "25%",
+        "4",
+        "6"
+      ]
     },
     {
       "Name": "Shield Divergence",
       "Hero": "Orisa",
-      "vars": ["600"]
+      "vars": [
+        "600"
+      ]
     },
     {
       "Name": "Amplification Barrier",
       "Hero": "Reinhardt",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Barrier Reconstruction",
       "Hero": "Reinhardt",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Infusion Generator",
       "Hero": "Reinhardt",
-      "vars": ["250%"]
+      "vars": [
+        "250%"
+      ]
     },
     {
       "Name": "To Me, My Friends!",
       "Hero": "Reinhardt",
-      "vars": ["5%", "5"]
+      "vars": [
+        "5%",
+        "5"
+      ]
     },
     {
       "Name": "Shield Stampede",
       "Hero": "Reinhardt",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Vanguard",
       "Hero": "Reinhardt",
-      "vars": ["10%", "3", "20%"]
+      "vars": [
+        "10%",
+        "3",
+        "20%"
+      ]
     },
     {
       "Name": "Vroom Boom Boom",
       "Hero": "Reinhardt",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "Blazing Blitz",
       "Hero": "Reinhardt",
-      "vars": ["4"]
+      "vars": [
+        "25%",
+        "5"
+      ]
     },
     {
       "Name": "Impact Burst",
       "Hero": "Reinhardt",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "Magma Strike",
       "Hero": "Reinhardt",
-      "vars": ["50%"]
+      "vars": [
+        "2",
+        "50%"
+      ]
     },
     {
       "Name": "Feeling The Burn",
       "Hero": "Reinhardt",
-      "vars": ["", "30%", "2"]
+      "vars": [
+        "",
+        "30%",
+        "2"
+      ]
     },
     {
       "Name": "Smashing!",
       "Hero": "Reinhardt",
-      "vars": ["1%", "3%", "2", "10"]
+      "vars": [
+        "1%",
+        "3%",
+        "2",
+        "10"
+      ]
     },
     {
       "Name": "Zero Gravity",
       "Hero": "Sigma",
-      "vars": ["1.5", "10%"]
+      "vars": [
+        "1.5",
+        "10%"
+      ]
     },
     {
       "Name": "Hyperloop",
       "Hero": "Sigma",
-      "vars": ["0.8"]
+      "vars": [
+        "0.8"
+      ]
     },
     {
       "Name": "Trinisphere",
       "Hero": "Sigma",
-      "vars": ["", "50%"]
+      "vars": [
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Symphonic Syzygy",
       "Hero": "Sigma",
-      "vars": ["100", "10%", "4", "4"]
+      "vars": [
+        "100",
+        "10%",
+        "4",
+        "4"
+      ]
     },
     {
       "Name": "Orbital Barrier",
       "Hero": "Sigma",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Philharmonic Fortitude",
       "Hero": "Sigma",
-      "vars": ["50%", "25%"]
+      "vars": [
+        "50%",
+        "25%"
+      ]
     },
     {
       "Name": "Mass Driver",
       "Hero": "Sigma",
-      "vars": ["300%", "20%"]
+      "vars": [
+        "300%",
+        "20%",
+        "100"
+      ]
     },
     {
       "Name": "Singularity",
       "Hero": "Sigma",
-      "vars": ["75%"]
+      "vars": [
+        "75%",
+        "25%"
+      ]
     },
     {
       "Name": "Maestro",
       "Hero": "Sigma",
-      "vars": ["50%", "35%", "50%"]
+      "vars": [
+        "50%",
+        "35%",
+        "50%"
+      ]
     },
     {
       "Name": "Apogee Alignment",
       "Hero": "Sigma",
-      "vars": ["2"]
+      "vars": [
+        "2",
+        "50%"
+      ]
     },
     {
       "Name": "Astrophysical",
       "Hero": "Sigma",
-      "vars": ["1", "10"]
+      "vars": [
+        "1",
+        "10"
+      ]
     },
     {
       "Name": "Circuit Breaker",
       "Hero": "Winston",
-      "vars": ["2%", "15%", "100"]
+      "vars": [
+        "2%",
+        "15%",
+        "100"
+      ]
     },
     {
       "Name": "Electro Cluster",
       "Hero": "Winston",
-      "vars": ["2%", "20%"]
+      "vars": [
+        "2%",
+        "20%"
+      ]
     },
     {
       "Name": "Lightning Rod",
       "Hero": "Winston",
-      "vars": ["50%", "6"]
+      "vars": [
+        "50%",
+        "6"
+      ]
     },
     {
       "Name": "Volatile Volt",
       "Hero": "Winston",
-      "vars": ["175%"]
+      "vars": [
+        "175%"
+      ]
     },
     {
       "Name": "Lunar Leap",
       "Hero": "Winston",
-      "vars": ["2%", "5%", "100"]
+      "vars": [
+        "2%",
+        "5%",
+        "100"
+      ]
     },
     {
       "Name": "Moon Landing",
       "Hero": "Winston",
-      "vars": ["7%"]
+      "vars": [
+        "7%"
+      ]
     },
     {
       "Name": "Primal Punch",
       "Hero": "Winston",
-      "vars": ["25", "3%"]
+      "vars": [
+        "25",
+        "3%"
+      ]
     },
     {
       "Name": "Pocket Projector",
       "Hero": "Winston",
-      "vars": ["5%"]
+      "vars": [
+        "5%"
+      ]
     },
     {
       "Name": "Surge Protector",
       "Hero": "Winston",
-      "vars": ["25", "100"]
+      "vars": [
+        "25",
+        "100"
+      ]
     },
     {
       "Name": "Tesla Field",
       "Hero": "Winston",
-      "vars": ["40"]
+      "vars": [
+        "40"
+      ]
     },
     {
       "Name": "Primal Slam",
       "Hero": "Winston",
-      "vars": ["", "50%"]
+      "vars": [
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Thick Skin",
       "Hero": "Winston",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "No Limits",
       "Hero": "Zarya",
-      "vars": ["125", "150%"]
+      "vars": [
+        "125",
+        "150%"
+      ]
     },
     {
       "Name": "Particle Accelerator",
       "Hero": "Zarya",
-      "vars": ["15%", "", "5"]
+      "vars": [
+        "15%",
+        "",
+        "5"
+      ]
     },
     {
       "Name": "Piercing Beam",
       "Hero": "Zarya",
-      "vars": ["80"]
+      "vars": [
+        "80"
+      ]
     },
     {
       "Name": "Pre-Workout",
       "Hero": "Zarya",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Barrier Benefits",
       "Hero": "Zarya",
-      "vars": ["100%", "2"]
+      "vars": [
+        "100%",
+        "2"
+      ]
     },
     {
       "Name": "Containment Shield",
       "Hero": "Zarya",
-      "vars": ["20%", "5%"]
+      "vars": [
+        "20%",
+        "5%"
+      ]
     },
     {
       "Name": "Fission Field",
       "Hero": "Zarya",
-      "vars": ["1", "25%", "10", "20%"]
+      "vars": [
+        "1",
+        "25%",
+        "10",
+        "20%"
+      ]
     },
     {
       "Name": "Here To Spot You",
       "Hero": "Zarya",
-      "vars": ["20%", "3"]
+      "vars": [
+        "20%",
+        "3"
+      ]
     },
     {
       "Name": "Lifelift",
       "Hero": "Zarya",
-      "vars": ["50%", "50%"]
+      "vars": [
+        "50%",
+        "50%"
+      ]
     },
     {
       "Name": "Major Flex",
       "Hero": "Zarya",
-      "vars": ["", "25", "5"]
+      "vars": [
+        "",
+        "25",
+        "5"
+      ]
     },
     {
       "Name": "Volskaya Vortex",
       "Hero": "Zarya",
-      "vars": ["", "2", "", "", "", "", "80"]
+      "vars": [
+        "",
+        "2",
+        "",
+        "",
+        "",
+        "",
+        "80"
+      ]
     },
     {
       "Name": "Graviton Anomaly",
       "Hero": "Zarya",
-      "vars": ["25%", "50%", "30"]
+      "vars": [
+        "25%",
+        "50%",
+        "30"
+      ]
     },
     {
       "Name": "Head Honcho",
       "Hero": "Ashe",
-      "vars": ["5%", "15%"],
+      "vars": [
+        "5%",
+        "15%"
+      ],
       "Icon": "Headhunter"
     },
     {
       "Name": "Incendiary Rounds",
       "Hero": "Ashe",
-      "vars": ["30"]
+      "vars": [
+        "30"
+      ]
     },
     {
       "Name": "My Business, My Rules",
       "Hero": "Ashe",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Reload Therapy",
       "Hero": "Ashe",
-      "vars": ["10%"]
+      "vars": [
+        "5%"
+      ]
     },
     {
       "Name": "Calamity",
       "Hero": "Ashe",
-      "vars": ["2", "3", "40"]
+      "vars": [
+        "20%",
+        "40",
+        "3"
+      ]
     },
     {
       "Name": "Incendiary Blast",
       "Hero": "Ashe",
-      "vars": ["100", "", "75"]
+      "vars": [
+        "100",
+        "",
+        "75"
+      ]
     },
     {
       "Name": "Early Detonation",
       "Hero": "Ashe",
-      "vars": ["3", "5"]
+      "vars": [
+        "3",
+        "5"
+      ]
     },
     {
       "Name": "Molten Munitions",
       "Hero": "Ashe",
-      "vars": ["80"]
+      "vars": [
+        "80"
+      ]
     },
     {
       "Name": "Out with a Bang",
       "Hero": "Ashe",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "B.O.B. Jr.",
       "Hero": "Ashe",
-      "vars": ["20%", "", "", "50%"]
+      "vars": [
+        "20%",
+        "",
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Partners in Crime",
       "Hero": "Ashe",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Bang Bang",
       "Hero": "Cassidy",
-      "vars": ["", "0.5", "2"]
+      "vars": [
+        "",
+        "0.5",
+        "2"
+      ]
     },
     {
       "Name": "Buck Wild",
       "Hero": "Cassidy",
-      "vars": ["1%", "5", "15", "10%"]
+      "vars": [
+        "1%",
+        "5",
+        "15",
+        "10%"
+      ]
     },
     {
       "Name": "Dead Man Walkin'",
       "Hero": "Cassidy",
-      "vars": ["30%", "50%"]
+      "vars": [
+        "30%",
+        "50%"
+      ]
     },
     {
       "Name": "Full House",
       "Hero": "Cassidy",
-      "vars": ["25%", "2"]
+      "vars": [
+        "25%",
+        "2"
+      ]
     },
     {
       "Name": "Quick Draw",
       "Hero": "Cassidy",
-      "vars": ["15"]
+      "vars": [
+        "15"
+      ]
     },
     {
       "Name": "Think Flasht",
       "Hero": "Cassidy",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Barrel Roll",
       "Hero": "Cassidy",
-      "vars": ["65", "50%"]
+      "vars": [
+        "65",
+        "50%"
+      ]
     },
     {
       "Name": "Just Roll With It",
       "Hero": "Cassidy",
-      "vars": ["25%", "3", "25%"]
+      "vars": [
+        "25%",
+        "3",
+        "25%"
+      ]
     },
     {
       "Name": "Easy Rider",
       "Hero": "Cassidy",
-      "vars": ["100", "25", "20%"]
+      "vars": [
+        "100",
+        "25",
+        "20%"
+      ]
     },
     {
       "Name": "It's Twelve O'Clock Somewhere...",
       "Hero": "Cassidy",
-      "vars": ["25%", "33%"]
+      "vars": [
+        "25%",
+        "33%"
+      ]
     },
     {
       "Name": "Hot Potato",
       "Hero": "Cassidy",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Deep Pockets",
       "Hero": "Freja",
-      "vars": ["40%"]
+      "vars": [
+        "40%"
+      ]
     },
     {
       "Name": "Forager",
       "Hero": "Freja",
-      "vars": ["8%", "2"]
+      "vars": [
+        "8%",
+        "2"
+      ]
     },
     {
       "Name": "Peak Performance",
       "Hero": "Freja",
-      "vars": ["80%", "20%"]
+      "vars": [
+        "80%",
+        "20%"
+      ]
     },
     {
       "Name": "Redux",
       "Hero": "Freja",
-      "vars": ["5%", "1"]
+      "vars": [
+        "5%",
+        "1"
+      ]
     },
     {
       "Name": "Volley à Deux",
       "Hero": "Freja",
-      "vars": ["3", "2", "33%"]
+      "vars": [
+        "3",
+        "2",
+        "33%"
+      ]
     },
     {
       "Name": "Lille Fælde",
       "Hero": "Freja",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "So Cooked",
       "Hero": "Freja",
-      "vars": ["3", "30%"]
+      "vars": [
+        "3",
+        "30%"
+      ]
     },
     {
       "Name": "Mighty Gust",
       "Hero": "Freja",
-      "vars": ["40"]
+      "vars": [
+        "40"
+      ]
     },
     {
       "Name": "Cyclone",
       "Hero": "Freja",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Seekerpoint",
       "Hero": "Freja",
-      "vars": ["3", "66%"]
+      "vars": [
+        "3",
+        "66%"
+      ]
     },
     {
       "Name": "Seismic Shot",
       "Hero": "Freja",
-      "vars": ["", "50%"]
+      "vars": [
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Thread The Needle",
       "Hero": "Freja",
-      "vars": ["66%"]
+      "vars": [
+        "66%"
+      ]
     },
     {
       "Name": "Cybernetic Speed",
       "Hero": "Genji",
-      "vars": ["2%", "3", "15"]
+      "vars": [
+        "2%",
+        "3",
+        "15"
+      ]
     },
     {
       "Name": "Hashimoto's Bane",
       "Hero": "Genji",
-      "vars": ["2", "50%"]
+      "vars": [
+        "2",
+        "50%"
+      ]
     },
     {
       "Name": "Sacred Shuriken",
       "Hero": "Genji",
-      "vars": ["2"]
+      "vars": [
+        "50%",
+        "2"
+      ]
     },
     {
       "Name": "Hanamura Healing",
       "Hero": "Genji",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Laceration",
       "Hero": "Genji",
-      "vars": ["35%", "3"]
+      "vars": [
+        "35%",
+        "3"
+      ]
     },
     {
       "Name": "Wyrm's Maw",
       "Hero": "Genji",
-      "vars": ["4", "10%", "5"]
+      "vars": [
+        "4",
+        "10%",
+        "5"
+      ]
     },
     {
       "Name": "Deflect-o-Bot",
       "Hero": "Genji",
-      "vars": ["50%", "1.5"]
+      "vars": [
+        "50%",
+        "1.5"
+      ]
     },
     {
       "Name": "Forged Under Fire",
       "Hero": "Genji",
-      "vars": ["125%"]
+      "vars": [
+        "125%"
+      ]
     },
     {
       "Name": "Spirit of Sojiro",
       "Hero": "Genji",
-      "vars": ["1"]
+      "vars": [
+        "1"
+      ]
     },
     {
       "Name": "Hidden Blade",
       "Hero": "Genji",
-      "vars": ["60%", "15"]
+      "vars": [
+        "60%",
+        "15"
+      ]
     },
     {
       "Name": "Dragon's Breath",
       "Hero": "Genji",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Bango!",
       "Hero": "Junkrat",
-      "vars": ["20%", "2"]
+      "vars": [
+        "20%",
+        "2"
+      ]
     },
     {
       "Name": "Big Bang",
       "Hero": "Junkrat",
-      "vars": ["33%"]
+      "vars": [
+        "33%"
+      ]
     },
     {
       "Name": "Bingo!",
       "Hero": "Junkrat",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Frags For Days",
       "Hero": "Junkrat",
-      "vars": ["25%", "66%"]
+      "vars": [
+        "25%",
+        "66%"
+      ]
     },
     {
       "Name": "Soot Shaker",
       "Hero": "Junkrat",
-      "vars": ["15%", "1.5", "20%"]
+      "vars": [
+        "15%",
+        "1.5",
+        "20%"
+      ]
     },
     {
       "Name": "Double Trouble",
       "Hero": "Junkrat",
-      "vars": ["1"]
+      "vars": [
+        "1"
+      ]
     },
     {
       "Name": "Trap II, Esquire",
       "Hero": "Junkrat",
-      "vars": ["", "", "", "", "", "5"]
+      "vars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "5"
+      ]
     },
     {
       "Name": "Hop Boom",
       "Hero": "Junkrat",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Gachabomb",
       "Hero": "Junkrat",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Rainin' Lead",
       "Hero": "Junkrat",
-      "vars": ["25%", "0.25"]
+      "vars": [
+        "25%",
+        "0.25"
+      ]
     },
     {
       "Name": "Rip Roll",
       "Hero": "Junkrat",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Slapnel",
       "Hero": "Junkrat",
-      "vars": ["100%", "", "", "6"]
+      "vars": [
+        "100%",
+        "",
+        "",
+        "6"
+      ]
     },
     {
       "Name": "Extendothermics",
       "Hero": "Mei",
-      "vars": ["6"]
+      "vars": [
+        "6"
+      ]
     },
     {
       "Name": "Frost Armor",
       "Hero": "Mei",
-      "vars": ["5%", "100"]
+      "vars": [
+        "5%",
+        "100"
+      ]
     },
     {
       "Name": "Permafrost",
       "Hero": "Mei",
-      "vars": ["15%", "50%", "30%"]
+      "vars": [
+        "15%",
+        "50%",
+        "30%"
+      ]
     },
     {
       "Name": "Slowball",
       "Hero": "Mei",
-      "vars": ["15%", "1", "", "", "", "30%"]
+      "vars": [
+        "15%",
+        "1",
+        "",
+        "",
+        "",
+        "30%"
+      ]
     },
     {
       "Name": "Coulder",
       "Hero": "Mei",
-      "vars": ["20"]
+      "vars": [
+        "20"
+      ]
     },
     {
       "Name": "Frost Nova",
       "Hero": "Mei",
-      "vars": ["60"]
+      "vars": [
+        "60"
+      ]
     },
     {
       "Name": "Blizznado",
       "Hero": "Mei",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Cold Blaster",
       "Hero": "Mei",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Speed Kills",
       "Hero": "Pharah",
-      "vars": ["5%", "3%", "3", "6"]
+      "vars": [
+        "5%",
+        "3%",
+        "3",
+        "6"
+      ]
     },
     {
       "Name": "Evasive Maneuvers",
       "Hero": "Pharah",
-      "vars": ["1.50"]
+      "vars": [
+        "1.50"
+      ]
     },
     {
       "Name": "Extra Charge",
       "Hero": "Pharah",
-      "vars": ["1"]
+      "vars": [
+        "1"
+      ]
     },
     {
       "Name": "Launch Vector",
       "Hero": "Pharah",
-      "vars": ["3"]
+      "vars": [
+        "3"
+      ]
     },
     {
       "Name": "Blitz Barrage",
       "Hero": "Pharah",
-      "vars": ["40%", "75%"]
+      "vars": [
+        "40%",
+        "75%"
+      ]
     },
     {
       "Name": "Carpet Bomb",
       "Hero": "Pharah",
-      "vars": ["40%", "50%"]
+      "vars": [
+        "40%",
+        "50%"
+      ]
     },
     {
       "Name": "Recursion Battery",
       "Hero": "Pharah",
-      "vars": ["", "", "", "25%"]
+      "vars": [
+        "",
+        "",
+        "",
+        "25%"
+      ]
     },
     {
       "Name": "Cyclic Salvo",
       "Hero": "Pharah",
-      "vars": ["10", "1"]
+      "vars": [
+        "10",
+        "1"
+      ]
     },
     {
       "Name": "Fuel Depot",
       "Hero": "Pharah",
-      "vars": ["2", "25"]
+      "vars": [
+        "2",
+        "25"
+      ]
     },
     {
       "Name": "Triple Volley",
       "Hero": "Pharah",
-      "vars": ["3", "40%"]
+      "vars": [
+        "3",
+        "40%"
+      ]
     },
     {
       "Name": "Fuel Conversion",
       "Hero": "Pharah",
-      "vars": ["50%", "65"]
+      "vars": [
+        "50%",
+        "65"
+      ]
     },
     {
       "Name": "Death Step",
       "Hero": "Reaper",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Strangle Step",
       "Hero": "Reaper",
-      "vars": ["15%", "", "3"]
+      "vars": [
+        "15%",
+        "",
+        "3"
+      ]
     },
     {
       "Name": "Ghosted",
       "Hero": "Reaper",
-      "vars": ["30%", "3"]
+      "vars": [
+        "30%",
+        "3"
+      ]
     },
     {
       "Name": "Wraith Renewal",
       "Hero": "Reaper",
-      "vars": ["7%", "50%"]
+      "vars": [
+        "7%",
+        "50%"
+      ]
     },
     {
       "Name": "Backstabber",
       "Hero": "Reaper",
-      "vars": ["50%", "3"]
+      "vars": [
+        "50%",
+        "3"
+      ]
     },
     {
       "Name": "Harvest Fest",
       "Hero": "Reaper",
-      "vars": ["10%", "25%", "25%", "25%", "3"]
+      "vars": [
+        "10%",
+        "25%",
+        "25%",
+        "25%",
+        "3"
+      ]
     },
     {
       "Name": "Revolving Ruin",
       "Hero": "Reaper",
-      "vars": ["7", "4%", "10", "1"]
+      "vars": [
+        "7",
+        "4%",
+        "10",
+        "1"
+      ]
     },
     {
       "Name": "Shared Siphon",
       "Hero": "Reaper",
-      "vars": ["10", "30%"]
+      "vars": [
+        "10",
+        "30%"
+      ]
     },
     {
       "Name": "Shrouded Shrapnel",
       "Hero": "Reaper",
-      "vars": ["25%", "50%"]
+      "vars": [
+        "25%",
+        "50%"
+      ]
     },
     {
       "Name": "Spirited To Slay",
       "Hero": "Reaper",
-      "vars": ["50%", "100%"]
+      "vars": [
+        "50%",
+        "100%"
+      ]
     },
     {
       "Name": "Vampiric Touch",
       "Hero": "Reaper",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Fine-Tuned Thrusters",
       "Hero": "Sojourn",
-      "vars": ["100%", "35%"]
+      "vars": [
+        "100%",
+        "35%"
+      ]
     },
     {
       "Name": "Lock and Load",
       "Hero": "Sojourn",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Zoom Zoom Zoom",
       "Hero": "Sojourn",
-      "vars": ["35%", "100%"]
+      "vars": [
+        "35%",
+        "100%"
+      ]
     },
     {
       "Name": "Commotion Cycle",
       "Hero": "Sojourn",
-      "vars": ["", "35%"]
+      "vars": [
+        "",
+        "35%"
+      ]
     },
     {
       "Name": "Experimental Tech",
       "Hero": "Sojourn",
-      "vars": ["25%", "50%"]
+      "vars": [
+        "25%",
+        "50%"
+      ]
     },
     {
       "Name": "Hard Stuck",
       "Hero": "Sojourn",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Conductor Chase",
       "Hero": "Sojourn",
-      "vars": ["25%", "75%"]
+      "vars": [
+        "25%",
+        "75%"
+      ]
     },
     {
       "Name": "Overcharge",
       "Hero": "Sojourn",
-      "vars": ["150"]
+      "vars": [
+        "150"
+      ]
     },
     {
       "Name": "Reverberation Rounds",
       "Hero": "Sojourn",
-      "vars": ["25%", "5", "3"]
+      "vars": [
+        "25%",
+        "5",
+        "3"
+      ]
     },
     {
       "Name": "Aftershock",
       "Hero": "Sojourn",
-      "vars": ["75%"],
+      "vars": [
+        "75%"
+      ],
       "Icon": "data/Talents/Aftershock_Sojourn.webp"
     },
     {
       "Name": "Peripheral Pulse",
       "Hero": "Soldier: 76",
-      "vars": ["", "", "50%"]
+      "vars": [
+        "",
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Super Visor",
       "Hero": "Soldier: 76",
-      "vars": ["0.5"]
+      "vars": [
+        "0.5"
+      ]
     },
     {
       "Name": "Back Off",
       "Hero": "Soldier: 76",
-      "vars": ["", "", "", "100%"]
+      "vars": [
+        "",
+        "",
+        "",
+        "100%"
+      ]
     },
     {
       "Name": "Biotic Bullseye",
       "Hero": "Soldier: 76",
-      "vars": ["0.5", "10%", "", "5"]
+      "vars": [
+        "0.5",
+        "10%",
+        "",
+        "5"
+      ]
     },
     {
       "Name": "Frontliners",
       "Hero": "Soldier: 76",
-      "vars": ["25%", "3"]
+      "vars": [
+        "25%",
+        "3"
+      ]
     },
     {
       "Name": "On Me!",
       "Hero": "Soldier: 76",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Track and Field",
       "Hero": "Soldier: 76",
-      "vars": ["", "", "150%"]
+      "vars": [
+        "",
+        "",
+        "150%"
+      ]
     },
     {
       "Name": "Chaingun",
       "Hero": "Soldier: 76",
-      "vars": ["0.4%", "100"]
+      "vars": [
+        "0.4%",
+        "100"
+      ]
     },
     {
       "Name": "Cratered",
       "Hero": "Soldier: 76",
-      "vars": ["40%", "15%"]
+      "vars": [
+        "40%",
+        "15%"
+      ]
     },
     {
       "Name": "Double Helix",
       "Hero": "Soldier: 76",
-      "vars": ["70%"]
+      "vars": [
+        "70%"
+      ]
     },
     {
       "Name": "Hunker Down",
       "Hero": "Soldier: 76",
-      "vars": ["", "50%"]
+      "vars": [
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Man On The Run",
       "Hero": "Soldier: 76",
-      "vars": ["10%", "", "10"]
+      "vars": [
+        "10%",
+        "",
+        "10"
+      ]
     },
     {
       "Name": "Magmini",
       "Hero": "Torbjörn",
-      "vars": ["2", "66%"]
+      "vars": [
+        "2",
+        "66%"
+      ]
     },
     {
       "Name": "Swedish Sauna",
       "Hero": "Torbjörn",
-      "vars": ["50%", "1"]
+      "vars": [
+        "50%",
+        "1"
+      ]
     },
     {
       "Name": "Come Get Yer Armor",
       "Hero": "Torbjörn",
-      "vars": ["20%", "2"]
+      "vars": [
+        "20%",
+        "2"
+      ]
     },
     {
       "Name": "Dwarlord",
       "Hero": "Torbjörn",
-      "vars": ["5", "50%", "10%"]
+      "vars": [
+        "5",
+        "50%",
+        "10%"
+      ]
     },
     {
       "Name": "Let Off Some Steam",
       "Hero": "Torbjörn",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Blacksmith",
       "Hero": "Torbjörn",
-      "vars": ["66%"]
+      "vars": [
+        "66%"
+      ]
     },
     {
       "Name": "Forged In Fire",
       "Hero": "Torbjörn",
-      "vars": ["10%", "3"]
+      "vars": [
+        "10%",
+        "3"
+      ]
     },
     {
       "Name": "Clocked",
       "Hero": "Torbjörn",
-      "vars": ["8", "25%", "15%"]
+      "vars": [
+        "8",
+        "25%",
+        "15%"
+      ]
     },
     {
       "Name": "Riveting",
       "Hero": "Torbjörn",
-      "vars": ["5", "10%"]
+      "vars": [
+        "5",
+        "10%"
+      ]
     },
     {
       "Name": "Positive Reinforcement",
       "Hero": "Torbjörn",
-      "vars": ["", "200", "50", "3", "5", "10"]
+      "vars": [
+        "",
+        "200",
+        "50",
+        "3",
+        "5",
+        "10"
+      ]
     },
     {
       "Name": "Turriplets",
       "Hero": "Torbjörn",
-      "vars": ["", "", "", "", "50%", "", "66%", "15"]
+      "vars": [
+        "",
+        "",
+        "",
+        "",
+        "50%",
+        "",
+        "66%",
+        "15"
+      ]
     },
     {
       "Name": "Flash Fist",
       "Hero": "Tracer",
-      "vars": ["1", "10"]
+      "vars": [
+        "1",
+        "10"
+      ]
     },
     {
       "Name": "Get Stuffed!",
       "Hero": "Tracer",
-      "vars": ["5%"]
+      "vars": [
+        "5%"
+      ]
     },
     {
       "Name": "Blink of an Eye",
       "Hero": "Tracer",
-      "vars": ["0.04"]
+      "vars": [
+        "0.04"
+      ]
     },
     {
       "Name": "Quantum Clip",
       "Hero": "Tracer",
-      "vars": ["10%", "", "25%"]
+      "vars": [
+        "10%",
+        "",
+        "25%"
+      ]
     },
     {
       "Name": "T.RACER",
       "Hero": "Tracer",
-      "vars": ["3", "10%", "1"]
+      "vars": [
+        "3",
+        "10%",
+        "1"
+      ]
     },
     {
       "Name": "Alternate Ending",
       "Hero": "Tracer",
-      "vars": ["6", "100%", "3"]
+      "vars": [
+        "6",
+        "100%",
+        "3"
+      ]
     },
     {
       "Name": "Auto Recall",
       "Hero": "Tracer",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Bullet Time",
       "Hero": "Tracer",
-      "vars": ["25%", "95%", "6", "", "3"]
+      "vars": [
+        "25%",
+        "95%",
+        "6",
+        "",
+        "3"
+      ]
     },
     {
       "Name": "Temportal",
       "Hero": "Tracer",
-      "vars": ["3"]
+      "vars": [
+        "3"
+      ]
     },
     {
       "Name": "Foresight",
       "Hero": "Tracer",
-      "vars": ["4", "", "10", "2"]
+      "vars": [
+        "4",
+        "",
+        "10",
+        "2"
+      ]
     },
     {
       "Name": "Timelapse",
       "Hero": "Tracer",
-      "vars": ["2", "1", "2"]
+      "vars": [
+        "2",
+        "1",
+        "2"
+      ]
     },
     {
       "Name": "Impulsive",
       "Hero": "Tracer",
-      "vars": ["60%"]
+      "vars": [
+        "60%"
+      ]
     },
     {
       "Name": "Artsy Dartsy",
       "Hero": "Ana",
-      "vars": ["300%"]
+      "vars": [
+        "300%"
+      ]
     },
     {
       "Name": "No Scope Needed",
       "Hero": "Ana",
-      "vars": ["", "10%", "2", "", "3"]
+      "vars": [
+        "",
+        "10%",
+        "2",
+        "",
+        "3"
+      ]
     },
     {
       "Name": "Comfy Cloud",
       "Hero": "Ana",
-      "vars": ["3", "50%"]
+      "vars": [
+        "3",
+        "50%"
+      ]
     },
     {
       "Name": "Dreamy",
       "Hero": "Ana",
-      "vars": ["80%", "4"]
+      "vars": [
+        "80%",
+        "4"
+      ]
     },
     {
       "Name": "Fountain of Soothe",
       "Hero": "Ana",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Home Remedy",
       "Hero": "Ana",
-      "vars": ["200%"]
+      "vars": [
+        "200%"
+      ]
     },
     {
       "Name": "NanoNade",
       "Hero": "Ana",
-      "vars": ["1.5", "25%"]
+      "vars": [
+        "1.5",
+        "25%"
+      ]
     },
     {
       "Name": "Venomous",
       "Hero": "Ana",
-      "vars": ["60", "2"]
+      "vars": [
+        "60",
+        "2"
+      ]
     },
     {
       "Name": "Falconer",
       "Hero": "Ana",
-      "vars": ["30%", "25%"]
+      "vars": [
+        "30%",
+        "25%"
+      ]
     },
     {
       "Name": "My Turn",
       "Hero": "Ana",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Our Turn",
       "Hero": "Ana",
-      "vars": ["25%"]
+      "vars": [
+        "25%"
+      ]
     },
     {
       "Name": "Burst Aid",
       "Hero": "Brigitte",
-      "vars": ["25%", "10%", "3", "10"]
+      "vars": [
+        "25%",
+        "10%",
+        "3",
+        "10"
+      ]
     },
     {
       "Name": "Righteous Cleave",
       "Hero": "Brigitte",
-      "vars": ["125%", "10"]
+      "vars": [
+        "125%",
+        "10"
+      ]
     },
     {
       "Name": "Whirlwhip",
       "Hero": "Brigitte",
-      "vars": ["25%", "5"]
+      "vars": [
+        "25%",
+        "5"
+      ]
     },
     {
       "Name": "Optimizer",
       "Hero": "Brigitte",
-      "vars": ["10%", "5%"]
+      "vars": [
+        "10%",
+        "5%"
+      ]
     },
     {
       "Name": "Packstacker",
       "Hero": "Brigitte",
-      "vars": ["1", "50%"]
+      "vars": [
+        "1",
+        "50%"
+      ]
     },
     {
       "Name": "God Ray",
       "Hero": "Brigitte",
-      "vars": ["4%", "10"]
+      "vars": [
+        "4%",
+        "10"
+      ]
     },
     {
       "Name": "Maces to Faces",
       "Hero": "Brigitte",
-      "vars": ["1", "1"]
+      "vars": [
+        "1",
+        "1"
+      ]
     },
     {
       "Name": "Mender Bender",
       "Hero": "Brigitte",
-      "vars": ["33%"]
+      "vars": [
+        "33%"
+      ]
     },
     {
       "Name": "Sköldkastning",
       "Hero": "Brigitte",
-      "vars": ["", "40%"]
+      "vars": [
+        "",
+        "40%"
+      ]
     },
     {
       "Name": "Aura Farming",
       "Hero": "Brigitte",
-      "vars": ["5%", "5"]
+      "vars": [
+        "5%",
+        "5"
+      ]
     },
     {
       "Name": "Consecrated Ground",
       "Hero": "Brigitte",
-      "vars": ["1.5", "25%", "25%"]
+      "vars": [
+        "1.5",
+        "25%",
+        "25%"
+      ]
     },
     {
       "Name": "Lindholm Wall",
       "Hero": "Brigitte",
-      "vars": ["60%", "100%"]
+      "vars": [
+        "60%",
+        "100%"
+      ]
     },
     {
       "Name": "MediMaster",
       "Hero": "Juno",
-      "vars": ["", "0.2"]
+      "vars": [
+        "",
+        "0.2"
+      ]
     },
     {
       "Name": "Stinger",
       "Hero": "Juno",
-      "vars": ["10", "1"]
+      "vars": [
+        "10",
+        "1"
+      ]
     },
     {
       "Name": "Cosmic Coolant",
       "Hero": "Juno",
-      "vars": ["0.5"]
+      "vars": [
+        "0.5"
+      ]
     },
     {
       "Name": "Medicinal Missiles",
       "Hero": "Juno",
-      "vars": ["3", "30", "50%"]
+      "vars": [
+        "3",
+        "30",
+        "50%"
+      ]
     },
     {
       "Name": "Pulsar Plus",
       "Hero": "Juno",
-      "vars": ["1"]
+      "vars": [
+        "1"
+      ]
     },
     {
       "Name": "Blink Boosts",
       "Hero": "Juno",
-      "vars": ["2", "75%", "40%"]
+      "vars": [
+        "2",
+        "75%",
+        "40%"
+      ]
     },
     {
       "Name": "Torpedo Glide",
       "Hero": "Juno",
-      "vars": ["50", "1"]
+      "vars": [
+        "50",
+        "1"
+      ]
     },
     {
       "Name": "Black Hole",
       "Hero": "Juno",
-      "vars": ["35%", "2"]
+      "vars": [
+        "35%",
+        "2"
+      ]
     },
     {
       "Name": "Hyper Healer",
       "Hero": "Juno",
-      "vars": ["85"]
+      "vars": [
+        "85"
+      ]
     },
     {
       "Name": "Rally Ring",
       "Hero": "Juno",
-      "vars": ["1.50"]
+      "vars": [
+        "1.50"
+      ]
     },
     {
       "Name": "Orbital Alignment",
       "Hero": "Juno",
-      "vars": ["35%", "25%"]
+      "vars": [
+        "35%",
+        "25%"
+      ]
     },
     {
       "Name": "Stellar Focus",
       "Hero": "Juno",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Foxy Fireworks",
       "Hero": "Kiriko",
-      "vars": ["3", "20"]
+      "vars": [
+        "3",
+        "20"
+      ]
     },
     {
       "Name": "Keen Kunai",
       "Hero": "Kiriko",
-      "vars": ["15%", "3"]
+      "vars": [
+        "15%",
+        "3"
+      ]
     },
     {
       "Name": "Triple Threat",
       "Hero": "Kiriko",
-      "vars": ["2", "", "4", "", "50%"]
+      "vars": [
+        "2",
+        "",
+        "4",
+        "",
+        "50%"
+      ]
     },
     {
       "Name": "Leaf On The Wind",
       "Hero": "Kiriko",
-      "vars": ["2", "30%"]
+      "vars": [
+        "2",
+        "30%"
+      ]
     },
     {
       "Name": "Self-Care",
       "Hero": "Kiriko",
-      "vars": ["3%"]
+      "vars": [
+        "3%"
+      ]
     },
     {
       "Name": "Supported Shooting",
       "Hero": "Kiriko",
-      "vars": ["20%", "3"]
+      "vars": [
+        "20%",
+        "3"
+      ]
     },
     {
       "Name": "Clone Conjuration",
       "Hero": "Kiriko",
-      "vars": ["4", "65%"]
+      "vars": [
+        "4",
+        "65%"
+      ]
     },
     {
       "Name": "Fleet Foot",
       "Hero": "Kiriko",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Cleansing Charge",
       "Hero": "Kiriko",
-      "vars": ["5%"]
+      "vars": [
+        "5%"
+      ]
     },
     {
       "Name": "Crossing Guard",
       "Hero": "Kiriko",
-      "vars": ["50%", "2"]
+      "vars": [
+        "50%",
+        "2"
+      ]
     },
     {
       "Name": "Spirit Veil",
       "Hero": "Kiriko",
-      "vars": ["4"],
+      "vars": [
+        "4"
+      ],
       "Icon": "data/Talents/Spirit_Veil.webp"
     },
     {
       "Name": "Fast Forward",
       "Hero": "Lúcio",
-      "vars": ["30%", "50%"]
+      "vars": [
+        "30%",
+        "50%"
+      ]
     },
     {
       "Name": "Signature Shift",
       "Hero": "Lúcio",
-      "vars": ["6", "80%"]
+      "vars": [
+        "10%",
+        "6",
+        "80%"
+      ]
     },
     {
       "Name": "Sonic Boom",
       "Hero": "Lúcio",
-      "vars": ["30%"]
+      "vars": [
+        "30%"
+      ]
     },
     {
       "Name": "Mixtape",
       "Hero": "Lúcio",
-      "vars": ["75%"]
+      "vars": [
+        "75%"
+      ]
     },
     {
       "Name": "Megaphone",
       "Hero": "Lúcio",
-      "vars": ["15%", "150%"]
+      "vars": [
+        "15%",
+        "150%"
+      ]
     },
     {
       "Name": "Radio Edit",
       "Hero": "Lúcio",
-      "vars": ["75%"]
+      "vars": [
+        "75%"
+      ]
     },
     {
       "Name": "Vivace",
       "Hero": "Lúcio",
-      "vars": ["3%", "1.5%", "10", "5"]
+      "vars": [
+        "3%",
+        "1.5%",
+        "10",
+        "5"
+      ]
     },
     {
       "Name": "Wallvibing",
       "Hero": "Lúcio",
-      "vars": ["4%", "40%"]
+      "vars": [
+        "4%",
+        "40%"
+      ]
     },
     {
       "Name": "Crowd Pleaser",
       "Hero": "Lúcio",
-      "vars": ["33%"]
+      "vars": [
+        "33%"
+      ]
     },
     {
       "Name": "Let's Bounce",
       "Hero": "Lúcio",
-      "vars": ["25%", "50%"]
+      "vars": [
+        "25%",
+        "50%"
+      ]
     },
     {
       "Name": "Reverb",
       "Hero": "Lúcio",
-      "vars": ["2", "75%"]
+      "vars": [
+        "2",
+        "75%"
+      ]
     },
     {
       "Name": "Beat Drop",
       "Hero": "Lúcio",
-      "vars": ["20%", "", "", "", "", "", "250"]
+      "vars": [
+        "20%",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "250"
+      ]
     },
     {
       "Name": "Distortion",
       "Hero": "Mercy",
-      "vars": ["20%"]
+      "vars": [
+        "20%"
+      ]
     },
     {
       "Name": "Protective Beam",
       "Hero": "Mercy",
-      "vars": ["10%", "80%", "1"]
+      "vars": [
+        "10%",
+        "80%",
+        "1"
+      ]
     },
     {
       "Name": "Serenity",
       "Hero": "Mercy",
-      "vars": ["10%"]
+      "vars": [
+        "10%"
+      ]
     },
     {
       "Name": "Supply Surge",
       "Hero": "Mercy",
-      "vars": ["50%", "20%", "2", "10", "3"]
+      "vars": [
+        "50%",
+        "20%",
+        "2",
+        "10",
+        "3"
+      ]
     },
     {
       "Name": "Threads of Fate",
       "Hero": "Mercy",
-      "vars": ["3", "35%"]
+      "vars": [
+        "3",
+        "35%"
+      ]
     },
     {
       "Name": "Battle Medic",
       "Hero": "Mercy",
-      "vars": ["1", "3%", "10"]
+      "vars": [
+        "20%",
+        "20%",
+        "15"
+      ]
     },
     {
       "Name": "Tethered Tourniquet",
       "Hero": "Mercy",
-      "vars": ["", "", "", "", "100%", "10"]
+      "vars": [
+        "",
+        "",
+        "",
+        "",
+        "100%",
+        "10"
+      ]
     },
     {
       "Name": "Equivalent Exchange",
       "Hero": "Mercy",
-      "vars": ["3", "33%"]
+      "vars": [
+        "3",
+        "33%",
+        "1000"
+      ]
     },
     {
       "Name": "First Responder",
       "Hero": "Mercy",
-      "vars": ["250", "6"]
+      "vars": [
+        "250",
+        "6"
+      ]
     },
     {
       "Name": "Renaissance",
       "Hero": "Mercy",
-      "vars": ["5"]
+      "vars": [
+        "5"
+      ]
     },
     {
       "Name": "The Whambulance",
       "Hero": "Mercy",
-      "vars": ["4", "1"]
+      "vars": [
+        "4",
+        "1"
+      ]
     },
     {
       "Name": "Triage Unit",
       "Hero": "Mercy",
-      "vars": ["50%", "25%", "3"]
+      "vars": [
+        "50%",
+        "25%",
+        "3"
+      ]
     },
     {
       "Name": "Chain Grasp",
       "Hero": "Moira",
-      "vars": ["2", "3", "10"]
+      "vars": [
+        "2",
+        "3",
+        "10"
+      ]
     },
     {
       "Name": "Deconstruction",
       "Hero": "Moira",
-      "vars": ["50", "20%", "6"]
+      "vars": [
+        "50",
+        "20%",
+        "6"
+      ]
     },
     {
       "Name": "Empowering You",
       "Hero": "Moira",
-      "vars": ["15%"]
+      "vars": [
+        "15%"
+      ]
     },
     {
       "Name": "Ethereal Excision",
       "Hero": "Moira",
-      "vars": ["30%", "30%", "100%"]
+      "vars": [
+        "30%",
+        "30%",
+        "100%"
+      ]
     },
     {
       "Name": "Optimal Overflow",
       "Hero": "Moira",
-      "vars": ["50", "75%"]
+      "vars": [
+        "50",
+        "75%"
+      ]
     },
     {
       "Name": "Precarious Potency",
       "Hero": "Moira",
-      "vars": ["5", "25%"]
+      "vars": [
+        "5",
+        "25%"
+      ]
     },
     {
       "Name": "Cross-Orbal",
       "Hero": "Moira",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Multiball",
       "Hero": "Moira",
-      "vars": ["", "", "2", "", "85%"]
+      "vars": [
+        "",
+        "",
+        "2",
+        "",
+        "85%"
+      ]
     },
     {
       "Name": "Phantasm",
       "Hero": "Moira",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Scientific Deathod",
       "Hero": "Moira",
-      "vars": ["15%", "5%"]
+      "vars": [
+        "15%",
+        "5%"
+      ]
     },
     {
       "Name": "Voidhoppers",
       "Hero": "Moira",
-      "vars": ["8", "0.3", "20%"]
+      "vars": [
+        "8",
+        "0.3",
+        "20%"
+      ]
     },
     {
       "Name": "Destruction's Divide",
       "Hero": "Moira",
-      "vars": ["30%", "", "25%"]
+      "vars": [
+        "30%",
+        "",
+        "25%"
+      ]
     },
     {
       "Name": "Paindrops",
       "Hero": "Wuyang",
-      "vars": ["40%", "8"]
+      "vars": [
+        "40%",
+        "8"
+      ]
     },
     {
       "Name": "Undertow",
       "Hero": "Wuyang",
-      "vars": ["5%", "1.0"]
+      "vars": [
+        "5%",
+        "1.0"
+      ]
     },
     {
       "Name": "Wave Lance",
       "Hero": "Wuyang",
-      "vars": ["100%"]
+      "vars": [
+        "100%"
+      ]
     },
     {
       "Name": "Flow State",
       "Hero": "Wuyang",
-      "vars": ["50", "2"]
+      "vars": [
+        "50",
+        "2"
+      ]
     },
     {
       "Name": "Shore Up",
       "Hero": "Wuyang",
-      "vars": ["75%"]
+      "vars": [
+        "75%"
+      ]
     },
     {
       "Name": "Tidekeeper",
       "Hero": "Wuyang",
-      "vars": ["1.5"]
+      "vars": [
+        "1.5"
+      ]
     },
     {
       "Name": "Puddle Stomp",
       "Hero": "Wuyang",
-      "vars": ["6", "65"]
+      "vars": [
+        "6",
+        "65"
+      ]
     },
     {
       "Name": "Splish Slash",
       "Hero": "Wuyang",
-      "vars": ["60", "15", "50%"]
+      "vars": [
+        "60",
+        "15",
+        "50%"
+      ]
     },
     {
       "Name": "Ebb and Flow",
       "Hero": "Wuyang",
-      "vars": ["50%"]
+      "vars": [
+        "50%"
+      ]
     },
     {
       "Name": "Storm Surge",
       "Hero": "Wuyang",
-      "vars": ["6"]
+      "vars": [
+        "6"
+      ]
     },
     {
       "Name": "Tidal Save",
       "Hero": "Wuyang",
-      "vars": ["100%", "4"]
+      "vars": [
+        "100%",
+        "4"
+      ]
     },
     {
       "Name": "Flying Kick",
       "Hero": "Zenyatta",
-      "vars": ["5", "", "", "40"]
+      "vars": [
+        "5",
+        "",
+        "",
+        "40"
+      ]
     },
     {
       "Name": "It's Orbin' Time",
       "Hero": "Zenyatta",
-      "vars": ["3"]
+      "vars": [
+        "3"
+      ]
     },
     {
       "Name": "Seeking Salvation",
       "Hero": "Zenyatta",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Soul Control",
       "Hero": "Zenyatta",
-      "vars": ["65%"]
+      "vars": [
+        "65%"
+      ]
     },
     {
       "Name": "Discord Fever",
       "Hero": "Zenyatta",
-      "vars": ["50", "5"]
+      "vars": [
+        "50",
+        "5"
+      ]
     },
     {
       "Name": "Discord Inferno",
       "Hero": "Zenyatta",
-      "vars": ["50"]
+      "vars": [
+        "50"
+      ]
     },
     {
       "Name": "Dual Harmony",
       "Hero": "Zenyatta",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Enlightenment",
       "Hero": "Zenyatta",
-      "vars": ["35%"]
+      "vars": [
+        "35%"
+      ]
     },
     {
       "Name": "Gotta Have Faith",
       "Hero": "Zenyatta",
-      "vars": ["10"]
+      "vars": [
+        "10"
+      ]
     },
     {
       "Name": "Inner Peace",
       "Hero": "Zenyatta",
-      "vars": ["75%"]
+      "vars": [
+        "75%"
+      ]
     },
     {
       "Name": "Instant Karma",
       "Hero": "Zenyatta",
-      "vars": ["50%", "2"]
+      "vars": [
+        "50%",
+        "2"
+      ]
+    },
+    {
+      "Name": "Aero-Dynam-ite",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": [
+        "30%",
+        "15%",
+        "3"
+      ]
+    },
+    {
+      "Name": "Incendiary Blastpaper",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Ashe",
+      "vars": [
+        "75"
+      ]
+    },
+    {
+      "Name": "Controlled Boom",
+      "Stats": [],
+      "Hero": "Ashe",
+      "vars": [
+        "0.5",
+        "1"
+      ]
+    },
+    {
+      "Name": "Fire at My Fingertips",
+      "Stats": [],
+      "Hero": "Ashe",
+      "vars": [
+        "1"
+      ]
+    },
+    {
+      "Name": "PinB.O.B.",
+      "Stats": [],
+      "Hero": "Ashe",
+      "vars": [
+        "2"
+      ]
+    },
+    {
+      "Name": "Slow Burn",
+      "Stats": [],
+      "Hero": "Ashe",
+      "vars": [
+        "20%",
+        "3"
+      ]
+    },
+    {
+      "Name": "What in Tarnation!?",
+      "Stats": [],
+      "Hero": "Ashe",
+      "vars": [
+        "2.50",
+        "20%"
+      ]
+    },
+    {
+      "Name": "Snowboot ",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Mei",
+      "vars": [
+        "35%"
+      ]
+    },
+    {
+      "Name": "Antonio's Lesson",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "50%"
+      ]
+    },
+    {
+      "Name": "Braced Blade",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "1",
+        "50"
+      ]
+    },
+    {
+      "Name": "Chargeguard",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "2%"
+      ]
+    },
+    {
+      "Name": "Chimera Cross",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "15%",
+        "5"
+      ]
+    },
+    {
+      "Name": "Colosseo Coin",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "200"
+      ]
+    },
+    {
+      "Name": "Crater Creator",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "10"
+        },
+        {
+          "key": "WeaponPower",
+          "label": "Weapon Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "30"
+      ]
+    },
+    {
+      "Name": "Duelist's Draught",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "MoveSpeed",
+          "label": "Move Speed",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "15%",
+        "6"
+      ]
+    },
+    {
+      "Name": "Marzia's Mastery",
+      "Stats": [
+        {
+          "key": "WeaponLifesteal",
+          "label": "Weapon Lifesteal",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "15%"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "150%",
+        "2"
+      ]
+    },
+    {
+      "Name": "Onslaught Amplifier",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "25"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "5%"
+      ]
+    },
+    {
+      "Name": "Ricochet Razor",
+      "Stats": [
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        },
+        {
+          "key": "AbilityLifesteal",
+          "label": "Ability Lifesteal",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "1"
+      ]
+    },
+    {
+      "Name": "Scaled Steel",
+      "Stats": [
+        {
+          "key": "AttackSpeed",
+          "label": "Attack Speed",
+          "amount": "10%"
+        },
+        {
+          "key": "Star",
+          "label": "<fg#ffffffff>[Palatine Fang]</fg> swing range",
+          "amount": "25%"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": []
+    },
+    {
+      "Name": "Talon Trinket",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "10"
+        },
+        {
+          "key": "CooldownReduction",
+          "label": "Cooldown Reduction",
+          "amount": "5%"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "1.0"
+      ]
+    },
+    {
+      "Name": "Vicious Vow",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "50"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "25",
+        "50"
+      ]
+    },
+    {
+      "Name": "Warrior's Shout",
+      "Stats": [
+        {
+          "key": "health",
+          "label": "Health",
+          "amount": "25"
+        },
+        {
+          "key": "AbilityPower",
+          "label": "Ability Power",
+          "amount": "10%"
+        }
+      ],
+      "Hero": "Vendetta",
+      "vars": [
+        "10%",
+        "9"
+      ]
+    },
+    {
+      "Name": "Cataclisma",
+      "Stats": [],
+      "Hero": "Vendetta",
+      "vars": [
+        "20",
+        "4"
+      ]
+    },
+    {
+      "Name": "Continuum",
+      "Stats": [],
+      "Hero": "Vendetta",
+      "vars": [
+        "15%",
+        "90"
+      ]
+    },
+    {
+      "Name": "Defiance Core",
+      "Stats": [],
+      "Hero": "Vendetta",
+      "vars": [
+        "75%",
+        "0.7"
+      ]
+    },
+    {
+      "Name": "Double Dash",
+      "Stats": [],
+      "Hero": "Vendetta",
+      "vars": [
+        "3",
+        "50%"
+      ]
+    },
+    {
+      "Name": "Exalted Empress",
+      "Stats": [],
+      "Hero": "Vendetta",
+      "vars": [
+        "30%",
+        "100"
+      ]
+    },
+    {
+      "Name": "Furious Friction",
+      "Stats": [],
+      "Hero": "Vendetta",
+      "vars": [
+        "50%"
+      ]
+    },
+    {
+      "Name": "Overloaded Strike",
+      "Stats": [],
+      "Hero": "Vendetta",
+      "vars": [
+        "25%"
+      ]
+    },
+    {
+      "Name": "Rising Rampage",
+      "Stats": [],
+      "Hero": "Vendetta",
+      "vars": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "Name": "Skycut",
+      "Stats": [],
+      "Hero": "Vendetta",
+      "vars": [
+        "50%"
+      ]
+    },
+    {
+      "Name": "Up and Over",
+      "Stats": [],
+      "Hero": "Vendetta",
+      "vars": [
+        "35%",
+        "10"
+      ]
+    },
+    {
+      "Name": "Spirit Veil ",
+      "Stats": [],
+      "Hero": "Kiriko",
+      "vars": [
+        "4"
+      ]
     }
   ]
 }
