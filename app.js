@@ -930,7 +930,7 @@
 
       const icon = document.createElement("span");
       icon.className = "icon";
-      icon.innerHTML = imgIcon(ICONS["cooldown"], "Cooldown");
+      icon.innerHTML = imgIcon(ICONS["Cooldown"], "Cooldown");
 
       const val = document.createElement("span");
       val.textContent = String(item.cooldown).toUpperCase
